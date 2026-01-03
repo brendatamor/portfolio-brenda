@@ -19,10 +19,25 @@ body {
 }
 
 /* NAVBAR CUSTOMIZADA */
+/* Estado inicial da Navbar (Transparente) */
 .custom-navbar {
     padding: 25px 0;
-    z-index: 1050; /* Valor alto para ficar acima do quadrado do banner */
+    transition: all 0.4s ease; /* Transição suave para quando a cor mudar */
     background-color: transparent;
+}
+
+/* Estado da Navbar quando o usuário rolar a página */
+.custom-navbar.navbar-scrolled {
+    padding: 15px 0; /* Diminui um pouco a altura para ficar mais elegante */
+    background-color: rgba(230, 230, 230, 0.9); /* O cinza do seu banner com transparência */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Uma sombra bem sutil */
+}
+
+/* Garante que os links continuem pretos e visíveis */
+.navbar-scrolled .nav-link, 
+.navbar-scrolled .navbar-brand {
+    color: #1a1a1a !important;
 }
 
 .navbar-brand {
@@ -121,6 +136,111 @@ body {
     background-color: #1a1a1a;
     color: #d9d9d9;
     transform: translateY(-2px);
+}
+
+/* SEÇÃO DE PROJETOS */
+.projects-section {
+    background-color: #0a0a0a; /* Fundo preto conforme o design */
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+/* Decoração de fundo */
+.projects-decor {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    opacity: 0.6;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.since-text {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.section-desc {
+    color: #a0a0a0;
+    max-width: 450px;
+}
+
+/* Botão "Todos os projetos" */
+.all-projects-btn {
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    color: white;
+    border-color: #444;
+}
+
+.all-projects-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* CARD DE PROJETO */
+.project-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-img-wrapper {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 4 / 3; /* Mantém a proporção do card */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Logo pequena abaixo do projeto */
+.project-logo-box {
+    width: 50px;
+    height: 50px;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project-logo-box img {
+    width: 70%;
+}
+
+.project-tags {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.placeholder-logo {
+    color: #333;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 
 /* RESPONSIVIDADE PARA O TÍTULO */

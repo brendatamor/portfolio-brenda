@@ -13,6 +13,8 @@
     
     <!-- Seu CSS Personalizado -->
     <link rel="stylesheet" href="css/style.css">
+
+ 
 </head>
 <body>
 
@@ -63,8 +65,65 @@
         </div>
     </header>
 
+    <!-- SEÇÃO TRABALHOS EM DESTAQUE -->
+<section id="projects" class="projects-section py-5">
+    <!-- Imagem de fundo decorativa desta seção -->
+    <div class="projects-decor">
+        <img src="images/bg_projects.png" alt="decor">
+    </div>
+
+    <div class="container position-relative" style="z-index: 2;">
+        <!-- Cabeçalho da Seção -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <p class="since-text">Since 2022 ———</p>
+                <h2 class="section-title">TRABALHOS EM <br> <span>DESTAQUE</span></h2>
+                <p class="section-desc mt-3">
+                    Abaixo meus projetos em destaque. Para visualizar todos os meus projetos, clique acima em Projects.
+                </p>
+                <a href="#" class="btn btn-outline-light all-projects-btn mt-4">Todos os projetos</a>
+            </div>
+        </div>
+
+        <!-- Grade de Projetos -->
+        <div class="row g-4">
+            <!-- Projeto 1 -->
+            <div class="col-md-6">
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <!-- Imagem principal do projeto -->
+                        <img src="images/projeto1.png" class="img-fluid project-main-img" alt="Projeto Eleveit">
+                    </div>
+                    <div class="project-footer d-flex align-items-center mt-3">
+                        <div class="project-logo-box me-3">
+                            <img src="images/logo_projeto1.png" alt="Logo">
+                        </div>
+                        <p class="project-tags mb-0">Product design, branding, website</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 (Você pode duplicar este bloco para mais projetos) -->
+            <div class="col-md-6">
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/projeto2.png" class="img-fluid project-main-img" alt="Projeto 2">
+                    </div>
+                    <div class="project-footer d-flex align-items-center mt-3">
+                        <div class="project-logo-box me-3">
+                            <!-- Logo genérica caso não tenha ainda -->
+                            <div class="placeholder-logo">Logo</div> 
+                        </div>
+                        <p class="project-tags mb-0">UI/UX Design, Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
