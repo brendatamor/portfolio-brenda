@@ -1,0 +1,156 @@
+:root {
+    --bg-gray: #e6e6e6;
+    --text-black: #1a1a1a;
+    --btn-gray: #d9d9d9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body {
+    background-color: var(--text-black); /* Cor do restante do site */
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* NAVBAR CUSTOMIZADA */
+.custom-navbar {
+    padding: 25px 0;
+    z-index: 1050; /* Valor alto para ficar acima do quadrado do banner */
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    color: var(--text-black) !important;
+}
+
+.nav-link {
+    color: var(--text-black) !important;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.nav-link:hover {
+    color: #555 !important;
+}
+
+.contact-btn {
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* HERO SECTION */
+.hero-section {
+    min-height: 100vh;
+    width: 100%;
+    /* background-size: cover garante que preencha tudo sem sobrar preto */
+    background-image: url('/images/Frame\ 8.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Título Principal - Reduzido para ficar mais elegante */
+.main-title {
+    font-size: clamp(2.7rem, 5.5vw, 4.5rem); /* Diminuído o máximo e o mínimo */
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -3px;
+    color: var(--text-black);
+    margin: 15px 0 35px 0;
+}
+
+/* Subtítulo - Menor e com mais espaçamento entre letras */
+.subtitle {
+    font-size: 0.75rem; /* Reduzido de 0.9rem */
+    letter-spacing: 2px;
+    color: #666;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Base para todos os botões (Contato e Hero) */
+.contact-btn, .custom-btn {
+    border-radius: 8px; /* Cantos levemente arredondados, não totalmente quadrados */
+    border: 1px solid #1a1a1a;
+    padding: 10px 22px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+/* Botão de Contato (Navbar) */
+.contact-btn {
+    background-color: transparent;
+   
+}
+
+.contact-btn:hover{
+  background-color: #1a1a1a;
+    color: #d9d9d9;
+    transform: translateY(-2px);
+
+}
+
+
+/* Botões do Hero (Fale comigo / Projetos) */
+.custom-btn {
+    background-color: #dbdbdb; /* Cor cinza suave do Figma */
+    color: var(--text-black);
+   
+}
+
+.custom-btn:hover {
+    background-color: #1a1a1a;
+    color: #d9d9d9;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVIDADE PARA O TÍTULO */
+@media (max-width: 991px) {
+    /* Dá um fundo levemente opaco ao menu aberto para leitura */
+    .navbar-collapse {
+        background-color: rgba(230, 230, 230, 0.95); 
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+        letter-spacing: -1px;
+    }
+
+    /* Botões menores no celular */
+    .hero-btns {
+        flex-direction: row; /* Mantém lado a lado se couber ou use column */
+        flex-wrap: wrap;
+    }
+
+    .custom-btn {
+        padding: 8px 15px;
+        font-size: 0.75rem;
+        width: 50%; /* Opcional: faz botões ocuparem largura total no mobile */
+        justify-content: center;
+    }
+}
