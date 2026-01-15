@@ -31,17 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
-<div class="dropdown me-3">
-    <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-        <!-- Ícone de Tradução (SVG ou FontAwesome) -->
-        <span id="current-lang" class="bi bi-translate"> Language</span>
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
-        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
-        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
-        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
-    </ul>
-</div></span></li>
+                        <div class="dropdown me-3">
+                            <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                <!-- Ícone de Tradução (SVG ou FontAwesome) -->
+                                <span id="current-lang" class="bi bi-translate">Idioma</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
+                            </ul>
+                        </div>
+                    </span>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
@@ -166,6 +168,112 @@
     </div>
     
 </section>
+
+
+<!-- SEÇÃO SERVIÇOS -->
+<section id="services" class="services-section py-5">
+    <!-- Imagem de fundo decorativa -->
+    <div class="services-decor">
+        <img src="images/frame_servicos.png" alt="decor">
+    </div>
+
+    <div class="container position-relative" style="z-index: 2;">
+        <!-- Cabeçalho da Seção -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <p class="subtitle-small text-uppercase mb-2">Em que posso ajudar</p>
+                <h2 class="section-title-large mb-3">SERVIÇOS</h2>
+                <p class="section-description">
+                    Soluções digitais para produtos que precisam sair do papel, evoluir e escalar — sem depender de times grandes.
+                </p>
+            </div>
+        </div>
+
+        <!-- Grade de Cards (2x2) -->
+        <div class="row g-4">
+            <!-- Card 1: UX & Product Design -->
+            <div class="col-lg-6">
+                <div class="service-card">
+                    <h3>UX & PRODUCT DESIGN</h3>
+                    <p>Atuo em todo o ciclo do produto, desde a descoberta do problema até a validação da solução, garantindo decisões orientadas ao usuário e aos objetivos do negócio.</p>
+                    
+                    <div class="service-list-wrapper">
+                        <h6>Inclui:</h6>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check-circle-fill"></i> UX Research e discovery</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Mapeamento de jornadas (onboarding, ativação e retenção)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Arquitetura da informação</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Fluxos de usuário</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Wireframes e protótipos (baixa → alta fidelidade)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Testes de usabilidade e validação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: UI & Visual Design -->
+            <div class="col-lg-6">
+                <div class="service-card">
+                    <h3>UI & Visual Design</h3>
+                    <p>Crio interfaces funcionais, acessíveis e visualmente consistentes, focadas em usabilidade, clareza e escalabilidade. Trabalho com design systems para garantir eficiência no desenvolvimento e evolução contínua do produto.</p>
+                    
+                    <div class="service-list-wrapper">
+                        <h6>Inclui:</h6>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check-circle-fill"></i> UI Design para produtos digitais</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Design system (criação ou evolução)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Componentização visual</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Design responsivo</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Acessibilidade aplicada ao produto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Front-end & No-Code -->
+            <div class="col-lg-6">
+                <div class="service-card">
+                    <h3>Front-end & No-Code Development</h3>
+                    <p>Implemento interfaces com fidelidade ao design, unindo código e no-code para entregar soluções funcionais, performáticas e prontas para uso real.</p>
+                    
+                    <div class="service-list-wrapper">
+                        <h6>Inclui:</h6>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check-circle-fill"></i> HTML, CSS, JavaScript, SCSS e Bootstrap</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Implementação de interfaces responsivas</li>
+                            <li><i class="bi bi-check-circle-fill"></i> FlutterFlow (apps e web apps)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Integrações via API (GET / POST)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Ajustes finos entre design e desenvolvimento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Websites & MVPs -->
+            <div class="col-lg-6">
+                <div class="service-card">
+                    <h3>Websites & MVPs</h3>
+                    <p>Desenvolvo websites e MVPs rápidos para validar ideias, comunicar propostas de valor e acelerar lançamentos. Soluções pensadas para startups, produtos digitais e projetos em estágio inicial.</p>
+                    
+                    <div class="service-list-wrapper">
+                        <h6>Inclui:</h6>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check-circle-fill"></i> Websites em Webflow</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Prototipação e MVPs funcionais</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Landing pages para validação</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Estruturação de conteúdo e UX</li>
+                            <li><i class="bi bi-check-circle-fill"></i> SEO técnico essencial e performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

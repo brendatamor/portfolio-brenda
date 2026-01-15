@@ -293,6 +293,106 @@ body {
     }
 }
 
+
+/* SEÇÃO SERVIÇOS */
+.services-section {
+    background-color: #0a0a0a;
+    color: #fff;
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.services-decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%; /* Ajuste o tamanho conforme necessário */
+    opacity: 0.7;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.subtitle-small {
+    font-size: 0.8rem;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.section-title-large {
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.section-description {
+    color: #aaa;
+    max-width: 500px;
+    font-size: 1.1rem;
+}
+
+/* CARDS DE SERVIÇO */
+.service-card {
+    background-color: #141414; /* Cinza bem escuro, levemente mais claro que o fundo */
+    padding: 40px;
+    border-radius: 12px;
+    height: 100%;
+    transition: transform 0.3s ease, border 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #333; /* Destaque sutil ao passar o mouse */
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.service-card p {
+    color: #999;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* LISTA DE ITENS */
+.service-list-wrapper h6 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-list li {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.service-list li i {
+    color: #fff; /* Cor do check */
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+
+
+
+
 @media (max-width: 768px) {
     .main-title {
         font-size: 2.5rem;
