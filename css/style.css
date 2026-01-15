@@ -64,6 +64,44 @@ body {
     gap: 10px;
 }
 
+/* Estilo do botão do seletor */
+.lang-btn {
+    color: #1a1a1a !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0;
+}
+
+.lang-btn:hover {
+    color: #555 !important;
+    background-color: transparent;
+}
+.lang-btn::after {
+    display: none; /* Remove a setinha padrão do Bootstrap se preferir */
+}
+
+/* Estilo do menu suspenso */
+.lang-dropdown {
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.lang-dropdown .dropdown-item {
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 8px 15px;
+}
+
+.lang-dropdown .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
 /* HERO SECTION */
 .hero-section {
     min-height: 100vh;

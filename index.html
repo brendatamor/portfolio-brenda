@@ -14,6 +14,8 @@
     <!-- Seu CSS Personalizado -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Link para Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
  
 </head>
 <body>
@@ -28,7 +30,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item me-4"><span class="lang-text">BR</span></li>
+                    <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
+<div class="dropdown me-3">
+    <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        <!-- Ícone de Tradução (SVG ou FontAwesome) -->
+        <span id="current-lang" class="bi bi-translate"> Language</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
+        <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
+    </ul>
+</div></span></li>
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
@@ -79,7 +92,7 @@
                 <p class="since-text">Since 2022 ———</p>
                 <h2 class="section-title">TRABALHOS EM <br> <span>DESTAQUE</span></h2>
                 <p class="section-desc mt-3">
-                    Abaixo meus projetos em destaque. Para visualizar todos os meus projetos, clique acima em Projects.
+                    Abaixo meus projetos em destaque. Para visualizar todos os meus projetos, clique abaixo em <strong>Todos os projetos</strong>.
                 </p>
                 <a href="#" class="btn btn-outline-light all-projects-btn mt-4">Todos os projetos</a>
             </div>
