@@ -34,7 +34,7 @@
                         <div class="dropdown me-3">
                             <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                                 <!-- Ícone de Tradução (SVG ou FontAwesome) -->
-                                <span id="current-lang" class="bi bi-translate">Idioma</span>
+                                <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
@@ -336,6 +336,52 @@
         </div>
     </div>
 </section>
+
+
+<!---SEÇÃO FOOTER-->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row py-5 gy-4">
+            <!-- Sessão Explorar -->
+            <div class="col-md-4 footer-col">
+                <h5 class="footer-title">Explorar</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </div>
+
+            <!-- Sessão Contato -->
+            <div class="col-md-4 footer-col border-start-custom">
+                <h5 class="footer-title">Contato</h5>
+                <ul class="footer-links">
+                    <li>
+                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
+                            Let's talk
+                        </a>
+                    </li>
+                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
+                </ul>
+            </div>
+
+            <!-- Sessão Conectar -->
+            <div class="col-md-4 footer-col border-start-custom">
+                <h5 class="footer-title text-md-end">Conectar</h5>
+                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Linha do Copyright -->
+        <div class="footer-bottom border-top-custom py-4 text-center">
+            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
+        </div>
+    </div>
+</footer>
 
 
 
