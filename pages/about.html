@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Brenda Tavares</title>
+    <!-- Reaproveite os mesmos links do Bootstrap e CSS da Home -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="about-page text-white">
+
+      <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tamor</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
+                        <div class="dropdown me-3">
+                            <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                <!-- Ícone de Tradução (SVG ou FontAwesome) -->
+                                <span id="current-lang" class="bi bi-translate">PT</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
+                                <li ><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
+                            </ul>
+                        </div>
+                    </span>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">About me</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-outline-dark contact-btn" href="#">Contato <span>▶</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO ABOUT -->
+    <section class="about-hero py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-start">
+                <!-- Esquerda: Nome e Foto -->
+                <div class="col-lg-5">
+                    <p class="subtitle-small mb-0">CALL ME</p>
+                    <h1 class="display-4 fw-bold mb-4">BRENDA</h1>
+                    <div class="photo-placeholder">
+                        <!-- Coloque sua foto aqui -->
+                        <img src="images/sua-foto.jpg" alt="Brenda Tavares" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Direita: Texto Bio -->
+                <div class="col-lg-7 pt-lg-5 mt-lg-5">
+                    <div class="bio-text">
+                        <p>Hi, I'm Nik, an award-winning Designer...</p> 
+                        <p>Raised in a creative family...</p>
+                        <p>Minha filosofia de design se baseia...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. COMPROMISSO / VALORES -->
+    <section class="values-section py-5">
+        <div class="container border-top-custom pt-5">
+            <h2 class="mb-5 section-title-medium">Compromisso destemido é o <br> fundamento do meu trabalho.</h2>
+            
+            <div class="row g-5">
+                <div class="col-md-6 value-item">
+                    <h5>Empatia em <strong>primeiro lugar</strong></h5>
+                    <p>Quando o produto digital ressoa com a essência de uma empresa...</p>
+                </div>
+                <div class="col-md-6 value-item">
+                    <h5>Nossas identidades são diversas, mas nossa visão é <strong>compartilhada</strong></h5>
+                    <p>Unidos por valores comuns, nossa equipe está atenta...</p>
+                </div>
+                <div class="col-md-6 value-item">
+                    <h5>Debriefing. Aprimoramento. Escala. <strong>Expansão</strong></h5>
+                    <p>Vamos ser sinceros: a comunicação é fundamental...</p>
+                </div>
+                <div class="col-md-6 value-item">
+                    <h5>Não nos limitamos a projetar. <strong>Abrimos caminhos</strong></h5>
+                    <p>Reformulamos desafios, remodelamos ideias...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. FORMULÁRIO DE CONTATO -->
+    <section class="contact-form-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3 class="mb-4">Estou ansiosa para construir um mundo digital coeso... <br> <strong>Deixe seus dados abaixo e veja sua visão ganhar forma.</strong></h3>
+                    <p class="mb-5">Se preferir enviar um e-mail: <br> <a href="mailto:brendatamorux@gmail.com" class="text-white fw-bold">brendatamorux@gmail.com</a></p>
+
+                    <!-- FORMULÁRIO (Usando Formspree para envio) -->
+                    <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST" class="custom-form">
+                        <div class="mb-4">
+                            <label>Seu nome</label>
+                            <input type="text" name="name" placeholder="Nome completo" class="form-control-custom" required>
+                        </div>
+                        <div class="mb-4">
+                            <label>Seu email</label>
+                            <input type="email" name="email" placeholder="Seu endereço de email" class="form-control-custom" required>
+                        </div>
+                        <div class="mb-4">
+                            <label>Sua proposta</label>
+                            <textarea name="message" placeholder="Quais são os objetivos, requisitos..." class="form-control-custom" rows="3"></textarea>
+                        </div>
+
+                        <!-- Seleção de Serviços (Checkbox estilizado como botões) -->
+                        <div class="mb-5">
+                            <label class="d-block mb-3">Serviços</label>
+                            <div class="d-flex gap-2 flex-wrap">
+                                <input type="checkbox" class="btn-check" id="btncheck1" name="service" value="Product Design">
+                                <label class="btn btn-outline-light rounded-pill" for="btncheck1">Product design</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck2" name="service" value="Website">
+                                <label class="btn btn-outline-light rounded-pill" for="btncheck2">Website</label>
+
+                                <input type="checkbox" class="btn-check" id="btncheck3" name="service" value="SEO">
+                                <label class="btn btn-outline-light rounded-pill" for="btncheck3">SEO</label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-light px-5 py-2">Enviar ▶</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Reaproveite o Footer da Home -->
+     <!---SEÇÃO FOOTER-->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row py-5 gy-4">
+            <!-- Sessão Explorar -->
+            <div class="col-md-4 footer-col">
+                <h5 class="footer-title">Explorar</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </div>
+
+            <!-- Sessão Contato -->
+            <div class="col-md-4 footer-col border-start-custom">
+                <h5 class="footer-title">Contato</h5>
+                <ul class="footer-links">
+                    <li>
+                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
+                            Let's talk
+                        </a>
+                    </li>
+                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
+                </ul>
+            </div>
+
+            <!-- Sessão Conectar -->
+            <div class="col-md-4 footer-col border-start-custom">
+                <h5 class="footer-title text-md-end">Conectar</h5>
+                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Linha do Copyright -->
+        <div class="footer-bottom border-top-custom py-4 text-center">
+            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
