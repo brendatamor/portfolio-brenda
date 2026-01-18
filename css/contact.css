@@ -5,6 +5,15 @@
     --accent-gray: #656565;
 }
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif !important;
+}
+
 body {
     background-color: var(--bg-contact);
     color: var(--text-main);
@@ -758,6 +767,11 @@ body {
 .btn-light:hover {
     background-color: #979797 !important;
     transform: scale(1.02);
+}
+
+/* Força especificamente em elementos que costumam "teimar" */
+input, button, textarea, select, .btn {
+    font-family: 'Inter', sans-serif !important;
 }
 
 

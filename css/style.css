@@ -614,6 +614,27 @@ body {
     font-size: 0.95rem;
 }
 
+/* Cor do texto da Bio (Sessão 1) para não cansar a vista */
+.bio-text p {
+    color: #a0a0a0; /* O cinza suave que você pediu */
+    font-size: 1.05rem;
+    line-height: 1.7; /* Aumenta o espaçamento entre linhas para melhor leitura */
+}
+
+/* Mantém os destaques em negrito com contraste alto */
+.bio-text strong {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Ajuste do subtítulo "CALL ME" */
+.subtitle-small {
+    color: #888;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 /* Formulário Customizado (Inputs com apenas borda inferior) */
 .form-control-custom {
     background: transparent;
