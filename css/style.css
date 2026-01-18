@@ -270,7 +270,11 @@ body {
 }
 
 .project-logo-box img {
-    width: 70%;
+    width: 100%;
+    height: 100%;
+    /* 'cover' faz a logo preencher tudo (bom se ela tiver fundo próprio) 
+       'contain' mantém a logo inteira sem cortar (bom se for ícone transparente) */
+    object-fit: cover; 
 }
 
 .project-tags {
@@ -579,15 +583,23 @@ body {
 }
 
 /*About me - styles*/
-/* Placeholder da Foto */
 .photo-placeholder {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background-color: #1a1a1a; /* Fundo cinza enquanto não tem foto */
+    background-color: #1a1a1a; /* Cor do fundo da moldura */
     border: 1px solid #333;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 35px; /* ESSE É O SEGREDO: Cria o espaço interno (moldura) */
+    overflow: hidden;
+}
+
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a foto preencher o espaço interno sem deformar */
+    border-radius: 4px; /* Opcional: um leve arredondamento na foto interna */
 }
 
 /* Tipografia dos Valores */
@@ -627,8 +639,65 @@ body {
 }
 
 
+/* --- 1 & 2. COR DA PÁGINA E DO NAVBAR --- */
+
+.about-page {
+    background-color: #0a0a0a !important; /* Cor exata da sua Home escura */
+}
+
+/* Forçamos os textos do Navbar a ficarem claros nesta página específica */
+.about-page .custom-navbar .nav-link, 
+.about-page .custom-navbar .navbar-brand,
+.about-page .custom-navbar .lang-btn {
+    color: #696969 !important;
+}
+
+/* Ajuste do botão de contato no topo (borda clara) */
+.about-page .custom-navbar .contact-btn {
+    border-color: #696969 !important;
+    color: #979797 !important;
+}
+
+.about-page .custom-navbar .contact-btn .nav-link:hover {
+    background-color: #696969 !important;
+    color: #f0f0f0 !important;
+}
+
+.nav-link:hover {
+    color: #aaa !important;
+}
+
+/* Hover específico para a página About */
+.about-page .custom-navbar .nav-link:hover {
+    color: #ffffff !important; /* Branco puro no hover */
+    transition: 0.3s ease;
+}
+
+/* Ajuste no botão de contato da navbar no hover */
+.about-page .custom-navbar .contact-btn:hover {
+    background-color: #696969 !important;
+    border-color: #696969 !important;
+    color: #ffffff !important;
+}
 
 
+/* Background da Seção de Valores (Seção 2) */
+.values-section {
+    background-image: url('/images/bg2_about.png'); /* Use o nome da sua imagem */
+    background-repeat: no-repeat;
+    background-position: left center; /* Posiciona na esquerda conforme o estilo */
+    background-size: contain;
+    position: relative;
+}
+
+/* Background da Seção de Formulário (Seção 3) */
+.contact-form-section {
+    background-image: url('/images/bg3_about.png'); /* Use o nome da sua imagem */
+    background-repeat: no-repeat;
+    background-position: right bottom; /* Posiciona as bolas no canto inferior direito */
+    background-size: contain;
+    position: relative;
+}
 
 
 /* Responsividade: No mobile as linhas verticais somem */
