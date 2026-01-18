@@ -134,19 +134,30 @@
 
                         <!-- Seleção de Serviços (Checkbox estilizado como botões) -->
                         <div class="mb-5">
-                            <label class="d-block mb-3">Serviços</label>
-                            <div class="d-flex gap-2 flex-wrap">
-                                <input type="checkbox" class="btn-check" id="btncheck1" name="service" value="Product Design">
-                                <label class="btn btn-outline-light rounded-pill" for="btncheck1">Product design</label>
+    <label class="d-block mb-3">Serviços de interesse</label>
+    <div class="d-flex gap-2 flex-wrap">
+        <!-- Essenciais -->
+        <input type="checkbox" class="btn-check" id="btn_uxui" name="service" value="UI/UX Design">
+        <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_uxui">UI/UX Design</label>
 
-                                <input type="checkbox" class="btn-check" id="btncheck2" name="service" value="Website">
-                                <label class="btn btn-outline-light rounded-pill" for="btncheck2">Website</label>
+        <input type="checkbox" class="btn-check" id="btn_pd" name="service" value="Product Design">
+        <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_pd">Product Design</label>
 
-                                <input type="checkbox" class="btn-check" id="btncheck3" name="service" value="SEO">
-                                <label class="btn btn-outline-light rounded-pill" for="btncheck3">SEO</label>
-                                
-                            </div>
-                        </div>
+        <!-- Desenvolvimento -->
+        <input type="checkbox" class="btn-check" id="btn_web" name="service" value="Website/Development">
+        <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_web">Website & Dev</label>
+
+        <!-- Estratégia -->
+        <input type="checkbox" class="btn-check" id="btn_branding" name="service" value="Branding">
+        <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_branding">Branding</label>
+
+        <input type="checkbox" class="btn-check" id="btn_research" name="service" value="UX Research">
+        <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_research">UX Research</label>
+
+        <input type="checkbox" class="btn-check" id="btn_seo" name="service" value="SEO/Marketing">
+        <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_seo">SEO</label>
+    </div>
+</div>
 
                         <button type="submit" class="btn btn-light px-5 py-2">Enviar ▶</button>
                     </form>
