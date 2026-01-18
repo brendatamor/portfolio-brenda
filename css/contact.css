@@ -1,19 +1,13 @@
 :root {
-    --bg-gray: #e6e6e6;
-    --text-black: #1a1a1a;
-    --btn-gray: #d9d9d9;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    
+    --bg-contact: #161616;    /* Cor de fundo da página */
+    --text-main: #D7D7D7;     /* Cor dos textos e botões */
+    --nav-text: #EFE8DC;      /* Cor dos links do menu */
+    --accent-gray: #656565;
 }
 
 body {
-    background-color: var(--text-black); /* Cor do restante do site */
+    background-color: var(--bg-contact);
+    color: var(--text-main);
     min-height: 100vh;
     width: 100%;
 }
@@ -28,16 +22,20 @@ body {
 
 /* Estado da Navbar quando o usuário rolar a página */
 .custom-navbar.navbar-scrolled {
-    padding: 15px 0; /* Diminui um pouco a altura para ficar mais elegante */
-    background-color: rgba(230, 230, 230, 0.9); /* O cinza do seu banner com transparência */
-    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Uma sombra bem sutil */
+    padding: 12px 0; /* Um pouco mais fina para ser discreta */
+    background-color: rgba(10, 10, 10, 0.8); /* Preto translúcido */
+    backdrop-filter: blur(15px); /* Aumentamos o desfoque para um efeito premium */
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Linha finíssima para separação */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra mais profunda */
 }
 
 /* Garante que os links continuem pretos e visíveis */
 .navbar-scrolled .nav-link, 
-.navbar-scrolled .navbar-brand {
-    color: #1a1a1a !important;
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .lang-btn,
+.navbar-scrolled .bi-translate {
+    color: #EFE8DC !important; /* Aquele bege claro que você gostou */
 }
 
 .navbar-brand {
@@ -53,7 +51,6 @@ body {
 }
 .nav-link:hover {
     color: #555 !important;
-    transform: translateY(-1px);
 }
 
 .contact-btn {
@@ -693,11 +690,74 @@ body {
 
 /* Background da Seção de Formulário (Seção 3) */
 .contact-form-section {
-    background-image: url('/images/bg3_about.png'); /* Use o nome da sua imagem */
+    background-image: url('/images/bg_s11_about.png'); /* Use o nome da sua imagem */
     background-repeat: no-repeat;
     background-position: right bottom; /* Posiciona as bolas no canto inferior direito */
     background-size: contain;
     position: relative;
+}
+
+/* Links da Navbar */
+.custom-navbar .nav-link, 
+.custom-navbar .navbar-brand,
+.custom-navbar .lang-btn {
+    color: var(--nav-text) !important;
+    transition: 0.3s ease;
+}
+
+/* Efeito de Hover no Menu */
+.custom-navbar .nav-link:hover,
+.custom-navbar .lang-btn:hover {
+    color: #ffffff !important;
+    transform: translateY(-1px);
+}
+
+/* Botão de Contato na Navbar (estilo outlined) */
+.custom-navbar .contact-btn {
+    border-color: var(--nav-text) !important;
+    color: var(--nav-text) !important;
+}
+
+.custom-navbar .contact-btn:hover {
+    background-color: var(--nav-text);
+    color: var(--bg-contact) !important;
+}
+
+/* Estilo dos Títulos e Labels do Formulário */
+.contact-form-section h3 {
+    color: #ffffff;
+}
+
+.custom-form label {
+    color: #A0A0A0; /* Um pouco mais discreto para as labels */
+    font-size: 0.75rem;
+}
+
+/* Botões de Serviço (Chips) */
+.chip-btn {
+    color: var(--text-main) !important;
+    border-color: #444 !important;
+    transition: 0.3s;
+}
+
+.btn-check:checked + .chip-btn {
+    background-color: var(--text-main) !important;
+    color: #000000 !important;
+    border-color: var(--text-main) !important;
+}
+
+/* Botão Enviar */
+.btn-light {
+    background-color: var(--text-main) !important;
+    border: none;
+    color: #1a1a1a !important;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn-light:hover {
+    background-color: #979797 !important;
+    transform: scale(1.02);
 }
 
 
