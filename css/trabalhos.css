@@ -1,0 +1,118 @@
+/* Configurações Gerais */
+.work-page {
+    background-color: #222222;
+    color: #EFE8DC;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header com BG */
+.work-header {
+    height: 40vh;
+    background-image: url('../images/bg_header_work.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fw-black { font-weight: 900; }
+
+/* Grid de Projetos */
+.work-img-wrapper {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.work-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Logos e Tags */
+.work-logo-box {
+    width: 45px;
+    height: 45px;
+    background-color: #333;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.work-logo-box img { width: 100%; height: 100%; object-fit: cover; }
+
+.small-tag {
+    font-size: 0.7rem;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Seção CTA (Fundo Claro conforme protótipo) */
+.cta-section {
+    background-color: #E6E6E6; /* Tom claro do seu design */
+    color: #1a1a1a;
+    background-image: url('../images/bg_cta_work.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 100px 0;
+}
+
+.cta-section h2 {
+    letter-spacing: -2px;
+}
+
+/* --- ESTILIZAÇÃO DA NAVBAR PARA A PÁGINA DE TRABALHOS --- */
+
+/* 1. Estado Inicial (Transparente no topo) */
+.custom-navbar {
+    padding: 25px 0;
+    transition: all 0.4s ease-in-out;
+    background-color: transparent;
+}
+
+/* Garante que os links sejam brancos/claros para contrastar com o fundo #222222 */
+.custom-navbar .nav-link, 
+.custom-navbar .navbar-brand,
+.custom-navbar .lang-btn,
+.custom-navbar .bi-translate {
+    color: #6b6b6b!important; /* Bege claro do seu padrão */
+}
+
+/* 2. Estado ao Scroll (Fundo Escuro com Desfoque) */
+.custom-navbar.navbar-scrolled {
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.85); /* Um pouco mais escuro que o fundo da página */
+    backdrop-filter: blur(15px); /* Efeito de vidro */
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Linha divisória quase invisível */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Ajuste do Botão de Contato na Navbar desta página */
+.custom-navbar .contact-btn {
+    border-color: #6b6b6b !important;
+    color: #6b6b6b!important;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.custom-navbar .contact-btn:hover {
+    background-color:#dfdede !important;
+    color: #414040 !important;
+}
+
+/* Hover nos links do menu */
+.custom-navbar .nav-link:hover {
+    color: #bbb9b9 !important;
+    opacity: 0.8;
+}
