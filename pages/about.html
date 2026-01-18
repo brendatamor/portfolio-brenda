@@ -116,7 +116,9 @@
                     <p class="mb-5">Se preferir enviar um e-mail: <br> <a href="mailto:brendatamorux@gmail.com" class="text-white fw-bold">brendatamorux@gmail.com</a></p>
 
                     <!-- FORMULÁRIO (Usando Formspree para envio) -->
-                    <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST" class="custom-form">
+                    <form action="https://formspree.io/f/xlggjely" method="POST" class="custom-form">
+                        <!-- Adicione isso logo abaixo da tag <form> -->
+                        <input type="hidden" name="_next" value="https://brendatamor.github.io/portfolio-brenda/thanks.html">
                         <div class="mb-4">
                             <label>Seu nome</label>
                             <input type="text" name="name" placeholder="Nome completo" class="form-control-custom" required>
@@ -142,11 +144,13 @@
 
                                 <input type="checkbox" class="btn-check" id="btncheck3" name="service" value="SEO">
                                 <label class="btn btn-outline-light rounded-pill" for="btncheck3">SEO</label>
+                                
                             </div>
                         </div>
 
                         <button type="submit" class="btn btn-light px-5 py-2">Enviar ▶</button>
                     </form>
+                    <input type="hidden" name="_next" value="https://brendatamor.github.io/portfolio-brenda/thanks.html">   
                 </div>
             </div>
         </div>
