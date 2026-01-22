@@ -3,27 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brenda Tamor | Product Designer</title>
-    
-    <!-- Bootstrap 5 CSS -->
+    <title>Eleveit | Case Study - Brenda Tavares</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Google Fonts: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
-    <!-- Seu CSS Personalizado -->
-    <link rel="stylesheet" href="/css/trabalhos.css">
-
-    <!-- Link para Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
- 
+    <link rel="stylesheet" href="/css/projeto_selecionado.css"> <!-- Novo CSS -->
 </head>
-<body>
+<body class="project-page">
 
-<!-- NAVBAR -->
+   <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tamor</a>
+            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tavares</a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -45,7 +35,7 @@
                     </span>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/trabalhos.html">Projects</a></li>
+                     <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/about.html">About me</a></li>
                     <li class="nav-item ms-lg-3">
                         <a class="btn btn-outline-dark contact-btn" href="contact.html">Contato <span></span></a>
@@ -54,96 +44,76 @@
             </div>
         </div>
     </nav>
-    
+    <br><br>
 
- <!-- HEADER DA PÁGINA -->
-    <header class="work-header">
+    <!-- SECTION 1: HERO BANNER -->
+     <br>
+            <!-- HEADER DO PROJETO (Banner expandido e limpo) -->
+        <header class="project-hero" style="background-image: url('../images/bg_eleveit/bg_eleveit.png');">
+            <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+                <!-- Opcional: Se a imagem já tiver a logo, deixe vazio. Se não, mantenha a img abaixo -->
+                <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
+            </div>
+        </header>
 
-        <div class="container h-100 d-flex align-items-end pb-5">
-            <h1 class="display-2 fw-black text-uppercase">Meu Trabalho</h1>
-        </div>
-    </header>
-
-    <!-- GRID DE PROJETOS -->
-    <section class="projects-grid-section py-5">
-        <div class="container">
-            <!-- Linha 1: Dois Cards (562x550 e 845x550) -->
-            <div class="row g-4 mb-5">
-                <div class="col-lg-5"> <!-- Card Menor -->
-                    <div class="project-card">
-                        <div class="work-img-wrapper" style="height: 550px;">
-                            <img src="/images/mockup_eleveit_atual.png" alt="Projeto">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3"><img src="/images/logo_eleveit.png" alt=""></div>
-                            <div>
-                                <h5 class="mb-0">NOME DO PROJETO</h5>
-                                <p class="mb-0 small-tag">UX/UI • WEBSITE</p>
-                            </div>
-                        </div>
-                    </div>
+    <!-- SECTION 2: SOBRE O PROJETO -->
+    <section class="py-5 bg-dark-project">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-12 mb-5">
+                    <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
+                    <h1 class="section-label">SOBRE O <br> PROJETO</h1>
+                    <p class="project-description">A eleveit transforma a trajetória de jovens, conectando-os a um plano de desenvolvimento...</p>
                 </div>
-                <div class="col-lg-7"> <!-- Card Maior -->
-                    <div class="project-card">
-                        <div class="work-img-wrapper" style="height: 550px;">
-                            <img src="/images/mockup_AJDC.png" alt="Projeto">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3"><img src="/images/logo_AJDC.png" alt=""></div>
-                            <div>
-                                <h5 class="mb-0">NOME DO PROJETO</h5>
-                                <p class="mb-0 small-tag">BRANDING • PRODUCT DESIGN</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Grid de Info -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="info-title">Cliente</h6>
+                    <p class="info-text">Eleveit <br> Fortaleza, CE - BRA</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h6 class="info-title">Serviços</h6>
+                    <p class="info-text">Design de UX/UI <br> Desenvolvimento <br> SEO</p>
+                </div>
+                <div class="col-md-6">
+                    <h6 class="info-title">O Desafio</h6>
+                    <p class="info-text">O desafio era costurar um caminho simples para um público diverso...</p>
                 </div>
             </div>
-
-            <!-- Linha 2: Três Cards Iguais (458x550) -->
-            <div class="row g-4">
-                <div class="col-lg-4">
-                    <div class="project-card">
-                        <div class="work-img-wrapper" style="height: 550px;">
-                            <img src="/images/mockup_jd_digital2.png" alt="Projeto">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3"><img src="/images/Frame 26.png" alt=""></div>
-                            <div><h5 class="mb-0">JD DIGITAL</h5><p class="mb-0 small-tag">WEBSITE</p></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="project-card">
-                        <div class="work-img-wrapper" style="height: 550px;">
-                            <img src="/images/mockup_ponte.png" alt="Projeto">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3"><img src="/images/logo_ponte.png" alt=""></div>
-                            <div><h5 class="mb-0">PONTE DE ENCONTRO</h5><p class="mb-0 small-tag">BRANDING</p></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="project-card">
-                        <div class="work-img-wrapper" style="height: 550px;">
-                            <img src="/images/mockup_piickan.png" alt="Projeto">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3"><img src="/images/logo_piickan.png" alt=""></div>
-                            <div><h5 class="mb-0">PII CKAN</h5><p class="mb-0 small-tag">PRODUCT DESIGN</p></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     </section>
 
-    <!-- SECTION CTA (PRECISA DE AJUDA?) -->
-    <section class="cta-section">
-        <div class="container text-center py-5">
-            <h2 class="display-4 fw-bold">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
-            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2">Entre em contato</a>
+    <!-- SECTION 3: IMPACTO (Métricas) -->
+    <section class="py-5 bg-black">
+        <div class="container">
+            <h2 class="section-label">IMPACTO</h2>
+            <div class="row g-4 mt-3">
+                <div class="col-md-4">
+                    <div class="metric-card">
+                        <h3>+45%</h3>
+                        <p>Inscrições nos cursos após o lançamento.</p>
+                    </div>
+                </div>
+                <!-- Adicione as outras métricas aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: GALERIA DE IMAGENS (Processo, Wireframes, UI) -->
+    <section class="project-gallery">
+        <div class="container-fluid p-0">
+            <!-- Aqui você insere as imagens verticais longas que você já tem no Figma -->
+            <img src="../images/eleveit/estrutura_projeto.png" class="img-fluid w-100" alt="Estrutura">
+            <img src="../images/eleveit/wireframes.png" class="img-fluid w-100" alt="Wireframes">
+            <img src="../images/eleveit/ui_design.png" class="img-fluid w-100" alt="UI Design">
+            <img src="../images/eleveit/high_fidelity.png" class="img-fluid w-100" alt="Telas Finais">
+        </div>
+    </section>
+
+    <!-- SECTION 5: CTA FINAL -->
+    <section class="py-5 bg-white text-dark text-center">
+        <div class="container py-5">
+            <h2 class="display-5 fw-bold">PRECISA DE AJUDA COM UM <br> <strong>PROJETO DE DESIGN?</strong></h2>
+            <a href="contact.html" class="btn btn-dark mt-4 px-5 py-3">Entre em contato</a>
         </div>
     </section>
 
@@ -193,10 +163,13 @@
 </footer>
 
 
-
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scripts.js"></script>
+
+
+
+
+    
 </body>
 </html>
