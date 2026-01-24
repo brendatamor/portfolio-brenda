@@ -280,10 +280,10 @@ html, body {
     margin-bottom: 5px;
 }
 
-/* Ajuste de linha vertical entre colunas da Sessão 2 */
+/* Ajuste de linha vertical entre colunas da Sessão 2 
 .border-start-custom {
     border-left: 1px solid #c5bfb4;
-}
+} */
 
 /* RESPONSIVIDADE */
 @media (max-width: 991px) {
