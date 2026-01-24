@@ -280,6 +280,48 @@ html, body {
     margin-bottom: 5px;
 }
 
+/* Container opcional para dar uma leve sombra ou borda se as imagens forem muito claras */
+.img-frame {
+    border-radius: 8px; /* Arredondamento sutil igual ao Figma */
+    overflow: hidden;
+    /* Se as telas tiverem fundo branco e o site for bege, 
+       uma sombra bem leve ajuda a separar: */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
+    transition: transform 0.3s ease;
+}
+
+.img-frame:hover {
+    transform: translateY(-5px); /* Efeito de flutuação ao passar o mouse */
+}
+
+
+/* --- ESTILO DOS MOCKUPS --- */
+.mockup-item {
+    border-radius: 15px; /* Cantos arredondados elegantes */
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    width: 100%;
+    background-color: #fff; /* Fundo branco caso a imagem tenha transparência */
+}
+
+.mockup-item:hover {
+    transform: translateY(-10px); /* Efeito de flutuação */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Garante que na Linha 2 (Mockup Central) ele ocupe todo o espaço sem margens laterais extras */
+.col-12 .mockup-item {
+    object-fit: cover;
+    max-height: 600px; /* Ajuste a altura máxima conforme o seu design */
+}
+
+/* Responsividade: No mobile, vamos adicionar um pouco mais de espaço entre os cards */
+@media (max-width: 768px) {
+    .mockup-item {
+        margin-bottom: 20px;
+    }
+}
+
 /* Ajuste de linha vertical entre colunas da Sessão 2 
 .border-start-custom {
     border-left: 1px solid #c5bfb4;
