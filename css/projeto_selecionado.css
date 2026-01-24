@@ -117,3 +117,183 @@ html, body {
     background-color: #000;
     border-top: 1px solid #222;
 }
+
+/* --- ESTILO DA SEÇÃO SOBRE O PROJETO --- */
+
+.about-project-section {
+    background-color: #EFE8DC; /* Cor bege do fundo */
+    color: #1a1a1a;
+}
+
+/* Background Decorativo Absolute */
+.about-project-decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+/* Título Principal da Seção */
+.section-label-main {
+    font-size: 4rem;
+    font-weight: 300; /* Estilo mais fino igual ao protótipo */
+    line-height: 0.9;
+    letter-spacing: -2px;
+    color: #333;
+}
+
+.text-green {
+    color: #00C443; /* Verde Eleveit */
+    font-weight: bold;
+}
+
+.project-intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    max-width: 90%;
+}
+
+/* Títulos das Sub-seções */
+.info-title-bold {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #404040;
+}
+
+.info-text-dark {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Links e Listas */
+.info-link {
+    color: #1a1a1a;
+    text-decoration: underline;
+    font-size: 0.85rem;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.info-list li::before {
+    content: "■ ";
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+
+/* DIVISORES (LINHAS) */
+.divider-horizontal {
+    border: 0;
+    border-top: 1px solid #c5bfb4;
+    opacity: 1;
+}
+
+
+/* Ajuste do Navbar Scrolled para esta página clara */
+.about-project-section ~ .custom-navbar.navbar-scrolled {
+    background-color: rgba(239, 232, 220, 0.95) !important; /* Bege translúcido */
+}
+
+
+/* --- FUNDO BEGE PARA SESSÕES 2 E 3 --- */
+.about-project-section, .impact-section {
+    background-color: #EFE8DC !important;
+    color: #1a1a1a;
+    position: relative;
+    width: 100%;
+}
+
+/* --- BACKGROUNDS DECORATIVOS --- */
+/* --- BACKGROUNDS DECORATIVOS (Bolas) --- */
+.about-project-decor-1 {
+    position: absolute;
+    top: 50px;
+    left: 15%; /* Ajuste para não ficar em cima do texto */
+    z-index: 1;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.about-project-decor-1 img, .about-project-decor-2 img, .impact-decor img {
+    max-width: 600px; /* Controla o tamanho das bolas de fundo */
+}
+
+.about-project-decor-2 {
+    position: absolute;
+    bottom: 200px;
+    right: -150px; /* Faz a bola "sair" da tela, mas o overflow:hidden vai cortá-la */
+    z-index: 1;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.impact-decor {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: 1;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* --- ESTILO IMPACTO (MÉTRICAS) --- */
+.impact-title {
+    font-size: 5rem;
+    font-weight: 300;
+    letter-spacing: -2px;
+    color: #333;
+}
+
+.impact-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+}
+
+.metric-name {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.metric-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+.metric-desc strong {
+    color: #1a1a1a;
+    display: block; /* Faz o número ficar em cima do texto se desejar, ou mantenha inline */
+    margin-bottom: 5px;
+}
+
+/* Ajuste de linha vertical entre colunas da Sessão 2 */
+.border-start-custom {
+    border-left: 1px solid #c5bfb4;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 991px) {
+    .border-start-custom {
+        border-left: none;
+        border-top: 1px solid #c5bfb4;
+        padding-top: 40px;
+        padding-left: 0 !important;
+    }
+    .section-label-main {
+        font-size: 2.5rem;
+    }
+}
