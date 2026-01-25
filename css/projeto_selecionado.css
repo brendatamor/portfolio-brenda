@@ -162,11 +162,11 @@ html, body {
     transform: translateY(-3px);
 }
 
-/* Linhas Customizadas (Separadores) */
+/* Linhas Customizadas (Separadores)
 .border-start-custom {
     border-left: 1px solid #333;
     padding-left: 40px;
-}
+} */
 
 .border-top-custom {
     border-top: 1px solid #333;
@@ -288,12 +288,12 @@ html, body {
     vertical-align: middle;
 }
 
-/* DIVISORES (LINHAS) */
+/* DIVISORES (LINHAS)
 .divider-horizontal {
     border: 0;
     border-top: 1px solid #c5bfb4;
     opacity: 1;
-}
+} */
 
 
 /* Ajuste do Navbar Scrolled para esta página clara */
