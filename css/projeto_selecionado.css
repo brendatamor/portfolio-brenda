@@ -17,6 +17,11 @@ html, body {
     transition: all 0.4s ease;
     background-color: transparent;
 }
+.logo_brenda{
+    width: 35px;
+    height: auto;
+}
+
 
 /* Links sempre claros nesta página */
 .custom-navbar .nav-link, 

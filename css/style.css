@@ -26,6 +26,11 @@ body {
     background-color: transparent;
 }
 
+.logo_brenda{
+    width: 35px;
+    height: auto;
+}
+
 /* Estado da Navbar quando o usuário rolar a página */
 .custom-navbar.navbar-scrolled {
     padding: 15px 0; /* Diminui um pouco a altura para ficar mais elegante */

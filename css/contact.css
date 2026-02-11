@@ -573,6 +573,11 @@ body {
     opacity: 1;
     transform: translateY(-3px);
 }
+.logo_brenda{
+    width: 35px;
+    height: auto;
+}
+
 
 /* Linhas Customizadas (Separadores) */
 .border-start-custom {
