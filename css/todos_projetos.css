@@ -91,7 +91,7 @@ html, body {
 .custom-navbar {
     padding: 25px 0;
     transition: all 0.4s ease-in-out;
-    background-color: transparent;
+    background-color: rgb(20, 20, 20);
 }
 
 /* Garante que os links sejam brancos/claros para contrastar com o fundo #222222 */
@@ -99,7 +99,7 @@ html, body {
 .custom-navbar .navbar-brand,
 .custom-navbar .lang-btn,
 .custom-navbar .bi-translate {
-    color: #6b6b6b!important; /* Bege claro do seu padrão */
+    color: #a5a5a5!important; /* Bege claro do seu padrão */
 }
 
 /* 2. Estado ao Scroll (Fundo Escuro com Desfoque) */
@@ -114,8 +114,8 @@ html, body {
 
 /* Ajuste do Botão de Contato na Navbar desta página */
 .custom-navbar .contact-btn {
-    border-color: #6b6b6b !important;
-    color: #6b6b6b!important;
+    border-color: #a8a8a8 !important;
+    color: #a8a8a8!important;
     border-radius: 8px;
     transition: 0.3s;
 }
