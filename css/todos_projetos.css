@@ -30,23 +30,40 @@ html, body {
 
 .fw-black { font-weight: 900; }
 
+/* ... (Seu CSS anterior continua igual até chegar no Grid de Projetos) ... */
+
 /* Grid de Projetos */
 .work-img-wrapper {
     width: 100%;
+    /* Altura fixa para manter o padrão de card igual a home */
+    height: 500px; 
     background-color: #1a1a1a;
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
 }
 
 .work-img-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Isso garante que a imagem preencha o card sem esticar */
+    object-position: center; /* Centraliza a imagem */
     transition: 0.5s ease;
+}
+
+.project-card {
+    margin-bottom: 20px; /* Espaço extra se empilhar no mobile */
+    cursor: pointer;
 }
 
 .project-card:hover img {
     transform: scale(1.05);
+}
+
+/* Garante que o texto do título seja branco ou da cor do tema */
+.project-card h5 {
+    color: #EFE8DC; /* Sua cor de texto padrão */
+    font-weight: 700;
 }
 
 /* Logos e Tags */
@@ -59,6 +76,20 @@ html, body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    flex-shrink: 0; /* Impede que o logo amasse */
+}
+
+.work-logo-box img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .work-img-wrapper {
+        height: 350px; /* Menor em tablets/celulares para não ocupar a tela toda */
+    }
 }
 
 .work-logo-box img { width: 100%; height: 100%; object-fit: cover; }
