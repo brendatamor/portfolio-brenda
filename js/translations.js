@@ -56,7 +56,50 @@ const translations = {
         'footer_contact': 'Contato',
         'footer_connect': 'Conectar',
         'footer_copy_email': 'Copiar e-mail',
-        'footer_rights': '© Brenda Tavares - Todos os direitos reservados'
+        'footer_rights': '© Brenda Tavares - Todos os direitos reservados',
+
+        // --- PÁGINA DE CONTATO ---
+        'contact_headline': 'Estou ansiosa para construir um mundo digital coeso...',
+        'contact_subheadline': 'Deixe seus dados abaixo e veja sua visão ganhar forma.',
+        'contact_email_intro': 'Se preferir enviar um e-mail:',
+        
+        // Formulário Labels (Títulos)
+        'form_label_name': 'Seu nome',
+        'form_label_email': 'Seu email',
+        'form_label_prop': 'Sua proposta',
+        'form_label_services': 'Serviços de interesse',
+        
+        // Formulário Placeholders (Texto dentro da caixa)
+        'form_ph_name': 'Nome completo',
+        'form_ph_email': 'Seu endereço de email',
+        'form_ph_message': 'Quais são os objetivos, requisitos...',
+        
+        // Botão
+        'btn_send': 'Enviar'
+    },
+
+    'en': {
+        // ... (Mantenha tudo o que já existe do Index) ...
+
+        // --- CONTACT PAGE ---
+        'contact_headline': 'I look forward to building a cohesive digital world...',
+        'contact_subheadline': 'Leave your details below and see your vision take shape.',
+        'contact_email_intro': 'If you prefer to send an email:',
+        
+        // Form Labels
+        'form_label_name': 'Your name',
+        'form_label_email': 'Your email',
+        'form_label_prop': 'Your proposal',
+        'form_label_services': 'Services of interest',
+        
+        // Form Placeholders
+        'form_ph_name': 'Full name',
+        'form_ph_email': 'Your email address',
+        'form_ph_message': 'What are the goals, requirements...',
+        
+        // Button
+        'btn_send': 'Send'
+        
     },
 
     'en': {
@@ -136,7 +179,26 @@ const translations = {
         'footer_contact': 'Contact',
         'footer_connect': 'Connect',
         'footer_copy_email': 'Copy email',
-        'footer_rights': '© Brenda Tavares - All rights reserved'
+        'footer_rights': '© Brenda Tavares - All rights reserved',
+
+        // --- CONTACT PAGE ---
+        'contact_headline': 'I look forward to building a cohesive digital world...',
+        'contact_subheadline': 'Leave your details below and see your vision take shape.',
+        'contact_email_intro': 'If you prefer to send an email:',
+        
+        // Form Labels
+        'form_label_name': 'Your name',
+        'form_label_email': 'Your email',
+        'form_label_prop': 'Your proposal',
+        'form_label_services': 'Services of interest',
+        
+        // Form Placeholders
+        'form_ph_name': 'Full name',
+        'form_ph_email': 'Your email address',
+        'form_ph_message': 'What are the goals, requirements...',
+        
+        // Button
+        'btn_send': 'Send'
     },
 
     'es': {
@@ -217,7 +279,26 @@ const translations = {
         'footer_contact': 'Contacto',
         'footer_connect': 'Conectar',
         'footer_copy_email': 'Copiar correo',
-        'footer_rights': '© Brenda Tavares - Todos los derechos reservados'
+        'footer_rights': '© Brenda Tavares - Todos los derechos reservados',
+
+        // --- PÁGINA DE CONTACTO ---
+        'contact_headline': 'Estoy ansiosa por construir un mundo digital cohesivo...',
+        'contact_subheadline': 'Deja tus datos a continuación y ve cómo tu visión toma forma.',
+        'contact_email_intro': 'Si prefieres enviar un correo:',
+        
+        // Form Labels
+        'form_label_name': 'Tu nombre',
+        'form_label_email': 'Tu correo',
+        'form_label_prop': 'Tu propuesta',
+        'form_label_services': 'Servicios de interés',
+        
+        // Form Placeholders
+        'form_ph_name': 'Nombre completo',
+        'form_ph_email': 'Tu dirección de correo',
+        'form_ph_message': 'Cuáles son los objetivos, requisitos...',
+        
+        // Button
+        'btn_send': 'Enviar'
     }
 };
 
