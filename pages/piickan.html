@@ -6,7 +6,7 @@
     <title>PII CKAN | Case Study - Brenda Tavares</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/css/projeto_selecionado.css"> <!-- Novo CSS -->
+    <link rel="stylesheet" href="/css/projeto_selecionado.css">
     <link rel="shortcut icon" href="../images/brenda_branco.png" type="image/x-icon">
 </head>
 <body class="project-page">
@@ -14,32 +14,33 @@
    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
+            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
+                    <li class="nav-item me-4"><span class="lang-text">
                         <div class="dropdown me-3">
                             <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <!-- Ícone de Tradução (SVG ou FontAwesome) -->
                                 <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
-                                <li ><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
                             </ul>
                         </div>
                     </span>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                     <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/about.html">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/index.html" data-i18n="menu_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/about.html" data-i18n="menu_about">About me</a></li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-outline-dark contact-btn" href="contact.html">Contato <span></span></a>
+                        <a class="btn btn-outline-dark contact-btn" href="contact.html">
+                            <span data-i18n="menu_contact">Contato</span> <span></span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -48,384 +49,311 @@
     <br><br>
 
     <!-- SECTION 1: HERO BANNER -->
-     <br>
-            <!-- HEADER DO PROJETO (Banner expandido e limpo) -->
-        <header class="project-hero" style="background-image: url('../images/piickan_images/mockup\ principal\ pii\ ckan.png');">
-            <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
-                <!-- Opcional: Se a imagem já tiver a logo, deixe vazio. Se não, mantenha a img abaixo -->
-                <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
-            </div>
-        </header>
+    <br>
+    <header class="project-hero" style="background-image: url('../images/piickan_images/mockup\ principal\ pii\ ckan.png');">
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+            <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
+        </div>
+    </header>
 
     <!-- SECTION 2: SOBRE O PROJETO -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Sobre o <br> Projeto</h2>
-                <p class="project-intro-text mb-4">
-                    O <span class="text-dark">PII CKAN</span>  é uma solução de governança e privacidade de dados desenvolvida em parceria com a Citinova para o ecossistema de Dados Abertos de Fortaleza. A ferramenta atua como um scanner inteligente que automatiza a detecção de informações pessoalmente identificáveis (PII) em datasets massivos. O projeto foi <strong>vencedor do 1º lugar no Prêmio Fortaleza no Controle</strong> (categoria Transparência), sendo reconhecido por sua eficácia em garantir que a transparência pública caminhe lado a lado com a proteção à privacidade dos cidadãos.
-                </p>
-            </div>
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <div class="row">
-            <!-- COLUNA ESQUERDA -->
-            <div class="col-lg-4 pe-lg-5">
-                <div class="detail-item mb-5">
-                    <h6 class="info-title-bold">Cliente</h6>
-                    <p class="info-text-dark">CITINOVA, Maurício Bezerra (Autor do projeto) <br> Fortaleza, CE - BRA</p>
-                </div>
-                <div class="detail-item mb-5">
-                    <h6 class="info-title-bold">Serviços</h6>
-                    <ul class="info-list">
-                        <li>Requirements Engineering</li>
-                        <li>UX/UI Design</li>
-                        <li>Front-end Development</li>
-                        <li>QA & Security Testing</li>
-                    </ul>
-                </div>
-                <div class="detail-item">
-                    <h6 class="info-title-bold">Meu papel</h6>
-                    <p class="info-text-dark">Product Designer & Front-end Developer</p>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="pii_hero_title">Sobre o <br> Projeto</h2>
+                    <p class="project-intro-text mb-4" data-i18n="pii_intro">
+                        O <span class="text-dark">PII CKAN</span> é uma solução...
+                    </p>
                 </div>
             </div>
 
-            <!-- COLUNA DIREITA -->
-            <div class="col-lg-8 border-start-custom ps-lg-5 position-relative">
-                <!-- SEGUNDO BACKGROUND (Perto do Sistema de Projeto) -->
-                <div class="about-project-decor-2">
-                    <img src="../images/bg_página_projeto (1).png" alt="">
+            <div class="row">
+                <!-- COLUNA ESQUERDA -->
+                <div class="col-lg-4 pe-lg-5">
+                    <div class="detail-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="project_label_client">Cliente</h6>
+                        <p class="info-text-dark" data-i18n="pii_client_value">CITINOVA... <br> Fortaleza, CE - BRA</p>
+                    </div>
+                    <div class="detail-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="project_label_services">Serviços</h6>
+                        <ul class="info-list" data-i18n="pii_services_list">
+                            <li>Requirements Engineering</li>
+                            <li>UX/UI Design</li>
+                            <li>Front-end Development</li>
+                            <li>QA & Security Testing</li>
+                        </ul>
+                    </div>
+                    <div class="detail-item">
+                        <h6 class="info-title-bold" data-i18n="project_label_role">Meu papel</h6>
+                        <p class="info-text-dark" data-i18n="pii_role_value">Product Designer & Front-end Developer</p>
+                    </div>
                 </div>
 
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">O desafio</h6>
-                    <p class="info-text-dark">Com a implementação da LGPD, servidores públicos enfrentaram um dilema crítico: como manter portais de dados brutos sem expor indevidamente CPFs, telefones e endereços? O desafio era técnico e operacional, pois a revisão manual de milhões de registros era humanamente impossível. Minha missão foi ajudar a conceber uma ferramenta que auditasse arquivos em diversos formatos (CSV, PDF, XLSX) e entregasse um diagnóstico preciso para mitigar riscos jurídicos e éticos antes da publicação. </p>
-                    <hr>
-                </div>
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">Principais entregáveis</h6>
-                    <p class="info-text-dark">Foi entregue uma solução técnica robusta composta por: Modelagem de Processos para varredura de arquivos, Engine de busca baseada em Expressões Regulares (Regex), Interface de Relatório Diagnóstico (Reporting UI) e documentação técnica completa para o ecossistema Open Source. A ferramenta permite que o administrador identifique instantaneamente em qual arquivo e linha os dados sensíveis estão localizados, acelerando o ciclo de auditoria em mais de 100%. Além disso, UX/UI bem definidos de acordo com o usuário final, design system bem elaborado, reduzindo fricções e curvas de aprendizado.</p>
-                    <hr>
-                </div>
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">Design de sites (UX/UI)</h6>
-                    <p class="info-text-dark">O design de interface do PII CKAN foi focado em visualização de dados e clareza técnica. Projetar relatórios para ferramentas de linha de comando (CLI) exige uma hierarquia rigorosa para que o usuário não se sinta sobrecarregado. Utilizei uma estética limpa e funcional, focada em sinalizar estados de alerta e segurança. A arquitetura de informação foi desenhada para facilitar a triagem de incidentes, garantindo que mesmo usuários com perfil administrativo pudessem interpretar os resultados técnicos da varredura, independente do seu grau de senioridade com dados e relacionados.
- </p>
-                    <hr>
-                </div>
-                <div class="narrative-item">
-                    <h6 class="info-title-bold">Desenvolvimento</h6>
-                    <p class="info-text-dark">Fui responsável pelo desenvolvimento do front-end da primeira versão da aplicação, focando na fidelidade visual e performance de leitura. Transformei os dados brutos processados pelo motor em Python em uma interface de relatório amigável. Atuei diretamente no levantamento de requisitos técnicos junto aos especialistas de dados, garantindo que o front-end consumisse corretamente as informações do sistema e oferecesse uma experiência de diagnóstico resiliente e escalável para o ambiente CKAN. </p>
-                    <hr>
+                <!-- COLUNA DIREITA -->
+                <div class="col-lg-8 border-start-custom ps-lg-5 position-relative">
+                    <div class="about-project-decor-2">
+                        <img src="../images/bg_página_projeto (1).png" alt="">
+                    </div>
+
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="pii_challenge_title">O desafio</h6>
+                        <p class="info-text-dark" data-i18n="pii_challenge_text">Com a implementação da LGPD...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="pii_deliverables_title">Principais entregáveis</h6>
+                        <p class="info-text-dark" data-i18n="pii_deliverables_text">Foi entregue uma solução...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="pii_uxui_title">Design de sites (UX/UI)</h6>
+                        <p class="info-text-dark" data-i18n="pii_uxui_text">O design de interface do PII CKAN...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item">
+                        <h6 class="info-title-bold" data-i18n="pii_dev_title">Desenvolvimento</h6>
+                        <p class="info-text-dark" data-i18n="pii_dev_text">Fui responsável pelo desenvolvimento...</p>
+                        <hr>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- SECTION 3: IMPACTO (MÉTRICAS) -->
-<section class="impact-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Background do Impacto -->
-    <div class="impact-decor">
-        <img src="../images/bg_página_projeto (2).png" alt=" bg">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <h2 class="impact-title mb-4">IMPACTO & APRENDIZADOS</h2>
-        <!-- <p class="impact-subtitle mb-5">Tanto o lançamento inicial quanto as versões subsequentes produziram ótimos resultados...</p> -->
-        
-        <div class="row g-5">
-            <!-- Coluna 1 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">Segurança e Privacidade <br> (LGPD)</h4>
-                    <p class="metric-desc"><strong>Risco de Exposição Mitigado.</strong> A ferramenta garantiu uma camada de proteção proativa, impedindo que dados sensíveis (PII) fossem publicados inadvertidamente. O impacto direto foi a blindagem jurídica e ética do município, assegurando que a transparência pública não comprometa o direito à privacidade dos cidadãos conforme a LGPD.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Eficiência de Auditoria</h4>
-                    <p class="metric-desc"><strong>Otimização do Ciclo de Publicação. </strong> Antes do PII CKAN, a revisão de datasets massivos era um processo manual e passível de falhas humanas. A automação permitiu que volumes massivos de dados fossem escaneados em minutos, devolvendo tempo valioso aos servidores e acelerando a atualização do portal Dados Abertos.</p>
-                </div>
-            </div>
-            <!-- Coluna 2 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">Qualidade dos <br>Dados Abertos
-</h4>
-                    <p class="metric-desc"><strong>Padronização de Transparência.</strong> O uso da ferramenta elevou o nível de maturidade dos dados enviados pelas secretarias. Ao fornecer um relatório claro de erros, o sistema educou os servidores sobre as melhores práticas de tratamento de dados, resultando em um portal de Dados Abertos muito mais íntegro e confiável para a população.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Reconhecimento Técnico <br> (O Prêmio)</h4>
-                    <p class="metric-desc"><strong>Selo de Excelência em Inovação. </strong> A conquista do 1º lugar no Prêmio Fortaleza no Controle serve como a métrica máxima de validação. O projeto foi auditado e premiado por uma comissão de especialistas da USP e UFC, comprovando sua eficácia técnica e seu valor inestimável para a administração pública.</p>
-                </div>
-            </div>
-            <!-- Coluna 3 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">A ponte entre Código e LGPD.</h4>
-                    <p class="metric-desc"><strong>Reduzir a fricção para os colaboradores.</strong> Este projeto me permitiu entender como traduzir leis complexas (como a LGPD) em lógica de programação (Regex e Python). Foi meu maior exercício de transpor requisitos jurídicos para uma interface técnica simplificada.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Colaboração em Projetos Open Source.</h4>
-                    <p class="metric-desc"><strong>Boa documentação é essencial.</strong> Participar de um projeto de código aberto para o governo me ensinou sobre a importância de criar interfaces escaláveis e documentações claras, permitindo que outros órgãos repliquem a solução com facilidade.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
- <!-- SECTION 4: O usuário -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">O usuário</h2>
-                <p class="project-intro-text mb-4">
-                    O design do PII CKAN nasceu do diagnóstico de um "gargalo" invisível: <strong>a revisão de dados pessoais em arquivos brutos (CSV, PDF, XLSX).</strong> Apresentamos o Ricardo, um gestor de dados pragmático que vê sua produtividade limitada por processos lentos e burocráticos. O mapeamento de sua jornada revelou a necessidade crítica de um "filtro de segurança" proativo. O foco do projeto foi <strong>transformar o medo do erro humano em uma experiência de auditoria rápida, intuitiva e tecnicamente robusta</strong>, devolvendo tempo e segurança institucional ao usuário.
-                </p>
-                <!-- <p class="project-intro-text mb-4">
-                    Esses processos permitiram consolidar padrões de comportamento e necessidades que culminaram na definição de nossa persona principal: o Péricles. Ele representa o perfil acadêmico-analítico que busca clareza e um roteiro linear para ingressar no mercado profissional. Abaixo, detalho como essa jornada de descoberta moldou as diretrizes do produto.
-                </p> -->
-            <img src="../images/piickan_images/Step 7.1_ M6_ Problemas & ideação (3).png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
+    <!-- SECTION 3: IMPACTO (MÉTRICAS) -->
+    <section class="impact-section py-5 position-relative" style="overflow: hidden;">
+        <div class="impact-decor">
+            <img src="../images/bg_página_projeto (2).png" alt=" bg">
         </div>
 
-        
-</section>
-
-<!-- SECTION 5: estrutura do projeto -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Estrutura do <br> projeto</h2>
-                <p class="project-intro-text mb-4">
-                    Para transformar uma ferramenta de script (Python) em uma plataforma intuitiva, projetei uma estrutura baseada na visibilidade de processos e auditoria. O objetivo foi garantir que o gestor de dados tenha controle total sobre as varreduras de segurança, desde a configuração dos parâmetros até o veredito final do relatório.
-                </p>
-                
-            <img src="../images/piickan_images/sitemap_pii_ckan.png" class="img-fluid w-100" alt="Estrutura">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <h2 class="impact-title mb-4" data-i18n="pii_impact_title">IMPACTO & APRENDIZADOS</h2>
             
-
-                
+            <div class="row g-5">
+                <!-- Coluna 1 -->
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="pii_metric_1_title">Segurança e Privacidade <br> (LGPD)</h4>
+                        <p class="metric-desc" data-i18n="pii_metric_1_desc"><strong>Risco de Exposição Mitigado.</strong> A ferramenta...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="pii_metric_2_title">Eficiência de Auditoria</h4>
+                        <p class="metric-desc" data-i18n="pii_metric_2_desc"><strong>Otimização do Ciclo de Publicação.</strong> Antes...</p>
+                    </div>
+                </div>
+                <!-- Coluna 2 -->
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="pii_metric_3_title">Qualidade dos <br>Dados Abertos</h4>
+                        <p class="metric-desc" data-i18n="pii_metric_3_desc"><strong>Padronização de Transparência.</strong> O uso...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="pii_metric_4_title">Reconhecimento Técnico <br> (O Prêmio)</h4>
+                        <p class="metric-desc" data-i18n="pii_metric_4_desc"><strong>Selo de Excelência em Inovação.</strong> A conquista...</p>
+                    </div>
+                </div>
+                <!-- Coluna 3 -->
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="pii_metric_5_title">A ponte entre Código e LGPD.</h4>
+                        <p class="metric-desc" data-i18n="pii_metric_5_desc"><strong>Reduzir a fricção para os colaboradores.</strong> Este projeto...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="pii_metric_6_title">Colaboração em Projetos Open Source.</h4>
+                        <p class="metric-desc" data-i18n="pii_metric_6_desc"><strong>Boa documentação é essencial.</strong> Participar...</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        
-</section>
-
-
-<!-- SECTION 6: WIREFRAMES de baixa fidelidade-->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">WIREFRAMES</h2>
-                <p class="project-intro-text mb-4">
-                    Para o PII CKAN, utilizei wireframes de média fidelidade para validar a hierarquia de navegação antes da implementação. O foco foi criar um <strong>workflow de auditoria de ponta a ponta</strong>. Projetei fluxos onde o usuário pudesse configurar uma varredura massiva em poucos cliques, selecionando padrões específicos da LGPD (como CPF e endereços). A inclusão de um <strong>Histórico de Relatórios (Tasks)</strong> permite que o gestor tenha uma visão retrospectiva da conformidade de dados, transformando uma tarefa técnica exaustiva em um processo de gestão ágil, seguro e escalável.
-                </p>
-                
-            <img src="../images/piickan_images/wirefame - baixa fidelidade.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
+    <!-- SECTION 4: O usuário -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        
-</section>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="pii_user_title">O usuário</h2>
+                    <p class="project-intro-text mb-4" data-i18n="pii_user_text">
+                        O design do PII CKAN nasceu...
+                    </p>
+                    <img src="../images/piickan_images/Step 7.1_ M6_ Problemas & ideação (3).png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- SECTION 5: estrutura do projeto -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
 
-<!-- SECTION 7: Design de interface do usuário -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="pii_structure_title">Estrutura do <br> projeto</h2>
+                    <p class="project-intro-text mb-4" data-i18n="pii_structure_text">
+                        Para transformar uma ferramenta de script...
+                    </p>
+                    <img src="../images/piickan_images/sitemap_pii_ckan.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Design de interface <br> do usuário</h2>
-                <p class="project-intro-text mb-4">
-                    O desafio visual do PII CKAN foi transformar um processo de auditoria técnica em uma experiência intuitiva e segura. Para isso, desenvolvi um Design System focado em semântica visual, onde cada cor desempenha um papel crítico na tomada de decisão do gestor.
-                </p>
-                <p class="project-intro-text mb-4">
-                    <ul class="project-intro-text mb-4">
-                        <li class="project-intro-text mb-4"> <strong>Paleta de Cores Funcional: </strong> Utilizei o <strong>Teal (#0C87B3) </strong>como cor primária para transmitir tecnologia e estabilidade. O uso do <strong>Vermelho (#FF0000)</strong> e do <strong>Verde (#057E03)</strong> é estritamente funcional, sinalizando instantaneamente arquivos com vazamento de dados (Alerta) ou conjuntos de dados em conformidade (Seguro).</li>
-                         <li class="project-intro-text mb-4"> <strong>Tipografia Sistêmica (Inter): </strong> A escolha da família Inter foi estratégica. Por ser uma fonte desenhada especificamente para interfaces de computador, ela garante uma legibilidade excepcional em tabelas densas, logs técnicos e relatórios complexos, reduzindo a fadiga visual do usuário.</li>
-                          <li class="project-intro-text mb-4"> <strong>Componentização Modular: </strong>  Desenvolvi botões e cards com estados claros (Solid e Outline), permitindo um <strong>handoff ágil e escalável.</strong> Essa estrutura modular garante que o sistema possa crescer com novas funcionalidades sem perder a consistência visual ou técnica.</li>
+    <!-- SECTION 6: WIREFRAMES de baixa fidelidade-->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="pii_wireframe_low_title">WIREFRAMES</h2>
+                    <p class="project-intro-text mb-4" data-i18n="pii_wireframe_low_text">
+                        Para o PII CKAN, utilizei wireframes...
+                    </p>
+                    <img src="../images/piickan_images/wirefame - baixa fidelidade.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: Design de interface do usuário -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="pii_ui_title">Design de interface <br> do usuário</h2>
+                    <p class="project-intro-text mb-4" data-i18n="pii_ui_text">
+                        O desafio visual do PII CKAN foi transformar...
+                    </p>
+                    <ul class="project-intro-text mb-4" data-i18n="pii_ui_list">
+                        <li class="project-intro-text mb-4"> <strong>Paleta de Cores Funcional: </strong> Utilizei o...</li>
                     </ul>
-                </p>
-                
-            <img src="../images/piickan_images/style guide - pii  ckan.png" class="img-fluid w-100" alt="Estrutura">
-
-                
+                    <img src="../images/piickan_images/style guide - pii  ckan.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
             </div>
         </div>
+    </section>
 
-        
-</section>
-
-<!-- SECTION 8: Wireframe de alta fidelidade -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Wireframe de alta <br>
-                fidelidade</h2>
-                <p class="project-intro-text mb-5">
-                    A etapa de alta fidelidade do PII CKAN foi desenhada para oferecer máxima transparência sobre processos de backend. Como varreduras de dados massivos podem levar tempo, o foco da interface foi manter o usuário informado através de loops de feedback contínuos: barras de progresso dinâmicas, contadores de evidências em tempo real e sinalização clara de estados (Buscando, Finalizado ou Erro).
-                </p>
-                <p  class="project-intro-text mb-5">
-                    Projetei a experiência para ser "error-proof" (à prova de erros). Um exemplo crítico é o modal de cancelamento de busca, que evita ações acidentais em processos custosos computacionalmente. Transformamos parâmetros técnicos de configuração (como URLs de portal e diretórios de arquivos) em formulários intuitivos com validação imediata, garantindo que o gestor de dados tenha o controle total da ferramenta sem necessidade de conhecimento em programação.
-                </p>
-            </div>
+    <!-- SECTION 8: Wireframe de alta fidelidade -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <img src="../images/piickan_images/wireframes- alta fidelidade.png" class="img-fluid w-100" alt="Estrutura">
-    </div>
-</section>
-
-
-<!-- SECTION 10: SHOWCASE MOCKUPS -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Background Decorativo (Mantendo o padrão) -->
-    <div class="about-project-decor-2">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <!-- Linha 1: Três Mockups Superiores -->
-        <div class="row g-4 mb-4">
-            <div class="col-md-4">
-                <img src="../images/piickan_images/mockup1_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 1">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="pii_wireframe_hi_title">Wireframe de alta <br> fidelidade</h2>
+                    <p class="project-intro-text mb-5" data-i18n="pii_wireframe_hi_text_1">
+                        A etapa de alta fidelidade do PII CKAN foi desenhada...
+                    </p>
+                    <p class="project-intro-text mb-5" data-i18n="pii_wireframe_hi_text_2">
+                        Projetei a experiência para ser "error-proof"...
+                    </p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <img src="../images/piickan_images/mockup2_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 2">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/piickan_images/mockup3_piickan.png" class="img-fluid mockup-item" alt="Mockup 3">
-            </div>
+            <img src="../images/piickan_images/wireframes- alta fidelidade.png" class="img-fluid w-100" alt="Estrutura">
+        </div>
+    </section>
+
+    <!-- SECTION 10: SHOWCASE MOCKUPS -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-2">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <!-- Linha 2: Mockup Grande Central (Laptop) -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <img src="../images/piickan_images/Frame 14 (2).png" class="img-fluid w-100 mockup-item" alt="Mockup Central">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4"><img src="../images/piickan_images/mockup1_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 1"></div>
+                <div class="col-md-4"><img src="../images/piickan_images/mockup2_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 2"></div>
+                <div class="col-md-4"><img src="../images/piickan_images/mockup3_piickan.png" class="img-fluid mockup-item" alt="Mockup 3"></div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12"><img src="../images/piickan_images/Frame 14 (2).png" class="img-fluid w-100 mockup-item" alt="Mockup Central"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4"><img src="../images/piickan_images/mockup4_piickan].png" class="img-fluid mockup-item" alt="Mockup 4"></div>
+                <div class="col-md-4"><img src="../images/piickan_images/Mockup5_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 5"></div>
+                <div class="col-md-4"><img src="../images/piickan_images/mockup6_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 6"></div>
             </div>
         </div>
+    </section>
 
-        <!-- Linha 3: Três Mockups Inferiores -->
-        <div class="row g-4">
-            <div class="col-md-4">
-                <img src="../images/piickan_images/mockup4_piickan].png" class="img-fluid mockup-item" alt="Mockup 4">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/piickan_images/Mockup5_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 5">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/piickan_images/mockup6_piickan (1).png" class="img-fluid mockup-item" alt="Mockup 6">
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- SECTION CTA (PRECISA DE AJUDA?) -->
+    <!-- SECTION CTA -->
     <section class="cta-section">
         <div class="container text-center py-5">
-            <h2 class="display-4 fw-bold">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
-            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2">Entre em contato</a>
+            <h2 class="display-4 fw-bold" data-i18n="cta_help_title">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
+            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2" data-i18n="cta_contact_btn">Entre em contato</a>
         </div>
     </section>
     
-
     <!---SEÇÃO FOOTER-->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row py-5 gy-4">
-                  <!-- Botão Voltar ao Topo -->
-        <div class="text-end mt-5">
-            <a href="#" class="back-to-top">
-                <i class="bi bi-arrow-up-short"></i>
-            </a>
-        </div>
-            <!-- Sessão Explorar -->
-            <div class="col-md-4 footer-col">
-                <h5 class="footer-title">Explorar</h5>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Contato -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title">Contato</h5>
-                <ul class="footer-links">
-                    <li>
-                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
-                            Let's talk
-                        </a>
-                    </li>
-                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Conectar -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title text-md-end">Conectar</h5>
-                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
-                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
-                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row py-5 gy-4">
+                <div class="text-end mt-5">
+                    <a href="#" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
                 </div>
-          
+                <!-- Sessão Explorar -->
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title" data-i18n="footer_explore">Explorar</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="menu_home">Home</a></li>
+                        <li><a href="#projects" data-i18n="menu_projects">Projetos</a></li>
+                        <li><a href="#" data-i18n="menu_about">Sobre</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Contato -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title" data-i18n="footer_contact">Contato</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda..." target="_blank">Let's talk</a>
+                        </li>
+                       <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink" data-i18n="footer_copy_email">Copy email</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Conectar -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title text-md-end" data-i18n="footer_connect">Conectar</h5>
+                    <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                        <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                        <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom border-top-custom py-4 text-center">
+                <p class="mb-0">© <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
             </div>
         </div>
-
-        <!-- Linha do Copyright -->
-        <div class="footer-bottom border-top-custom py-4 text-center">
-            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
-        </div>
-    </div>
-</footer>
-
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scripts.js"></script>
-
-
-
-
     
+    <!-- Script de Tradução -->
+    <script src="../js/translations.js"></script>
 </body>
 </html>

@@ -228,7 +228,69 @@ const translations = {
 
         'ponte_mobile_title': 'Wireframe de alta  fidelidade: mobile',
         'ponte_mobile_text_1': 'Como a maioria das interações de denúncia ocorre em trânsito, a versão mobile foi o coração do projeto. Foquei em um design altamente tátil e responsivo, otimizando formulários densos para preenchimento rápido. O objetivo técnico foi reduzir o tempo de interação para que o relato de violação de direitos ocorra no momento exato da observação. O resultado é uma ferramenta leve, performática e inclusiva, garantindo que a tecnologia atue como um facilitador imediato de proteção social na palma da mão.',
-        'ponte_mobile_text_2': 'Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.'
+        'ponte_mobile_text_2': 'Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.',
+
+
+        // --- PROJETO: PII CKAN ---
+        'pii_hero_title': 'Sobre o  Projeto',
+        'pii_intro': 'O PII CKAN é uma solução de governança e privacidade de dados desenvolvida em parceria com a Citinova para o ecossistema de Dados Abertos de Fortaleza. A ferramenta atua como um scanner inteligente que automatiza a detecção de informações pessoalmente identificáveis (PII) em datasets massivos. O projeto foi vencedor do 1º lugar no Prêmio Fortaleza no Controle (categoria Transparência), sendo reconhecido por sua eficácia em garantir que a transparência pública caminhe lado a lado com a proteção à privacidade dos cidadãos.',
+        
+        // Detalhes
+        'pii_client_value': 'CITINOVA, Maurício Bezerra (Autor do projeto)  Fortaleza, CE - BRA',
+        'pii_services_list': 'Engenharia de RequisitosUX/UI DesignFront-end DevelopmentQA & Testes de Segurança',
+        'pii_role_value': 'Product Designer & Front-end Developer',
+
+        // Narrativa
+        'pii_challenge_title': 'O desafio',
+        'pii_challenge_text': 'Com a implementação da LGPD, servidores públicos enfrentaram um dilema crítico: como manter portais de dados brutos sem expor indevidamente CPFs, telefones e endereços? O desafio era técnico e operacional, pois a revisão manual de milhões de registros era humanamente impossível. Minha missão foi ajudar a conceber uma ferramenta que auditasse arquivos em diversos formatos (CSV, PDF, XLSX) e entregasse um diagnóstico preciso para mitigar riscos jurídicos e éticos antes da publicação.',
+        
+        'pii_deliverables_title': 'Principais entregáveis',
+        'pii_deliverables_text': 'Foi entregue uma solução técnica robusta composta por: Modelagem de Processos para varredura de arquivos, Engine de busca baseada em Expressões Regulares (Regex), Interface de Relatório Diagnóstico (Reporting UI) e documentação técnica completa para o ecossistema Open Source. A ferramenta permite que o administrador identifique instantaneamente em qual arquivo e linha os dados sensíveis estão localizados, acelerando o ciclo de auditoria em mais de 100%. Além disso, UX/UI bem definidos de acordo com o usuário final, design system bem elaborado, reduzindo fricções e curvas de aprendizado.',
+        
+        'pii_uxui_title': 'Design de sites (UX/UI)',
+        'pii_uxui_text': 'O design de interface do PII CKAN foi focado em visualização de dados e clareza técnica. Projetar relatórios para ferramentas de linha de comando (CLI) exige uma hierarquia rigorosa para que o usuário não se sinta sobrecarregado. Utilizei uma estética limpa e funcional, focada em sinalizar estados de alerta e segurança. A arquitetura de informação foi desenhada para facilitar a triagem de incidentes, garantindo que mesmo usuários com perfil administrativo pudessem interpretar os resultados técnicos da varredura, independente do seu grau de senioridade com dados e relacionados.',
+        
+        'pii_dev_title': 'Desenvolvimento',
+        'pii_dev_text': 'Fui responsável pelo desenvolvimento do front-end da primeira versão da aplicação, focando na fidelidade visual e performance de leitura. Transformei os dados brutos processados pelo motor em Python em uma interface de relatório amigável. Atuei diretamente no levantamento de requisitos técnicos junto aos especialistas de dados, garantindo que o front-end consumisse corretamente as informações do sistema e oferecesse uma experiência de diagnóstico resiliente e escalável para o ambiente CKAN.',
+
+        // Impacto
+        'pii_impact_title': 'IMPACTO & APRENDIZADOS',
+        
+        'pii_metric_1_title': 'Segurança e Privacidade  (LGPD)',
+        'pii_metric_1_desc': 'Risco de Exposição Mitigado. A ferramenta garantiu uma camada de proteção proativa, impedindo que dados sensíveis (PII) fossem publicados inadvertidamente. O impacto direto foi a blindagem jurídica e ética do município, assegurando que a transparência pública não comprometa o direito à privacidade dos cidadãos conforme a LGPD.',
+        
+        'pii_metric_2_title': 'Eficiência de Auditoria',
+        'pii_metric_2_desc': 'Otimização do Ciclo de Publicação. Antes do PII CKAN, a revisão de datasets massivos era um processo manual e passível de falhas humanas. A automação permitiu que volumes massivos de dados fossem escaneados em minutos, devolvendo tempo valioso aos servidores e acelerando a atualização do portal Dados Abertos.',
+        
+        'pii_metric_3_title': 'Qualidade dos Dados Abertos',
+        'pii_metric_3_desc': 'Padronização de Transparência. O uso da ferramenta elevou o nível de maturidade dos dados enviados pelas secretarias. Ao fornecer um relatório claro de erros, o sistema educou os servidores sobre as melhores práticas de tratamento de dados, resultando em um portal de Dados Abertos muito mais íntegro e confiável para a população.',
+        
+        'pii_metric_4_title': 'Reconhecimento Técnico  (O Prêmio)',
+        'pii_metric_4_desc': 'Selo de Excelência em Inovação. A conquista do 1º lugar no Prêmio Fortaleza no Controle serve como a métrica máxima de validação. O projeto foi auditado e premiado por uma comissão de especialistas da USP e UFC, comprovando sua eficácia técnica e seu valor inestimável para a administração pública.',
+        
+        'pii_metric_5_title': 'A ponte entre Código e LGPD.',
+        'pii_metric_5_desc': 'Reduzir a fricção para os colaboradores. Este projeto me permitiu entender como traduzir leis complexas (como a LGPD) em lógica de programação (Regex e Python). Foi meu maior exercício de transpor requisitos jurídicos para uma interface técnica simplificada.',
+        
+        'pii_metric_6_title': 'Colaboração em Projetos Open Source.',
+        'pii_metric_6_desc': 'Boa documentação é essencial. Participar de um projeto de código aberto para o governo me ensinou sobre a importância de criar interfaces escaláveis e documentações claras, permitindo que outros órgãos repliquem a solução com facilidade.',
+
+        // Seções Extras
+        'pii_user_title': 'O usuário',
+        'pii_user_text': 'O design do PII CKAN nasceu do diagnóstico de um "gargalo" invisível: a revisão de dados pessoais em arquivos brutos (CSV, PDF, XLSX). Apresentamos o Ricardo, um gestor de dados pragmático que vê sua produtividade limitada por processos lentos e burocráticos. O mapeamento de sua jornada revelou a necessidade crítica de um "filtro de segurança" proativo. O foco do projeto foi transformar o medo do erro humano em uma experiência de auditoria rápida, intuitiva e tecnicamente robusta, devolvendo tempo e segurança institucional ao usuário.',
+        
+        'pii_structure_title': 'Estrutura do  projeto',
+        'pii_structure_text': 'Para transformar uma ferramenta de script (Python) em uma plataforma intuitiva, projetei uma estrutura baseada na visibilidade de processos e auditoria. O objetivo foi garantir que o gestor de dados tenha controle total sobre as varreduras de segurança, desde a configuração dos parâmetros até o veredito final do relatório.',
+        
+        'pii_wireframe_low_title': 'WIREFRAMES',
+        'pii_wireframe_low_text': 'Para o PII CKAN, utilizei wireframes de média fidelidade para validar a hierarquia de navegação antes da implementação. O foco foi criar um workflow de auditoria de ponta a ponta. Projetei fluxos onde o usuário pudesse configurar uma varredura massiva em poucos cliques, selecionando padrões específicos da LGPD (como CPF e endereços). A inclusão de um Histórico de Relatórios (Tasks) permite que o gestor tenha uma visão retrospectiva da conformidade de dados, transformando uma tarefa técnica exaustiva em um processo de gestão ágil, seguro e escalável.',
+
+        'pii_ui_title': 'Design de interface  do usuário',
+        'pii_ui_text': 'O desafio visual do PII CKAN foi transformar um processo de auditoria técnica em uma experiência intuitiva e segura. Para isso, desenvolvi um Design System focado em semântica visual, onde cada cor desempenha um papel crítico na tomada de decisão do gestor.',
+        'pii_ui_list': ' Paleta de Cores Funcional:  Utilizei o Teal (#0C87B3) como cor primária para transmitir tecnologia e estabilidade. O uso do Vermelho (#FF0000) e do Verde (#057E03) é estritamente funcional, sinalizando instantaneamente arquivos com vazamento de dados (Alerta) ou conjuntos de dados em conformidade (Seguro).  Tipografia Sistêmica (Inter):  A escolha da família Inter foi estratégica. Por ser uma fonte desenhada especificamente para interfaces de computador, ela garante uma legibilidade excepcional em tabelas densas, logs técnicos e relatórios complexos, reduzindo a fadiga visual do usuário.  Componentização Modular:  Desenvolvi botões e cards com estados claros (Solid e Outline), permitindo um handoff ágil e escalável. Essa estrutura modular garante que o sistema possa crescer com novas funcionalidades sem perder a consistência visual ou técnica.',
+
+        'pii_wireframe_hi_title': 'Wireframe de alta  fidelidade',
+        'pii_wireframe_hi_text_1': 'A etapa de alta fidelidade do PII CKAN foi desenhada para oferecer máxima transparência sobre processos de backend. Como varreduras de dados massivos podem levar tempo, o foco da interface foi manter o usuário informado através de loops de feedback contínuos: barras de progresso dinâmicas, contadores de evidências em tempo real e sinalização clara de estados (Buscando, Finalizado ou Erro).',
+        'pii_wireframe_hi_text_2': 'Projetei a experiência para ser "error-proof" (à prova de erros). Um exemplo crítico é o modal de cancelamento de busca, que evita ações acidentais em processos custosos computacionalmente. Transformamos parâmetros técnicos de configuração (como URLs de portal e diretórios de arquivos) em formulários intuitivos com validação imediata, garantindo que o gestor de dados tenha o controle total da ferramenta sem necessidade de conhecimento em programação.'
     },
 
     'en': {
@@ -535,7 +597,69 @@ const translations = {
 
         'ponte_mobile_title': 'High Fidelity:  Mobile',
         'ponte_mobile_text_1': 'Since most reporting interactions occur in transit, the mobile version was the project\'s heart. I focused on a highly tactile and responsive design, optimizing dense forms for quick completion. The technical objective was to reduce interaction time so the rights violation report occurs at the exact moment of observation. The result is a lightweight, performant, and inclusive tool, ensuring technology acts as an immediate social protection facilitator in the palm of the hand.',
-        'ponte_mobile_text_2': 'We adapted information density to avoid overload on smaller screens, ensuring the enrollment flow and education contents remain fluid and accessible on any device. The result is a modern, lightweight, and technically scalable interface, ready to provide a frictionless handoff for development.'
+        'ponte_mobile_text_2': 'We adapted information density to avoid overload on smaller screens, ensuring the enrollment flow and education contents remain fluid and accessible on any device. The result is a modern, lightweight, and technically scalable interface, ready to provide a frictionless handoff for development.',
+
+
+        // --- PROJECT: PII CKAN ---
+        'pii_hero_title': 'About the  Project',
+        'pii_intro': 'The PII CKAN is a data governance and privacy solution developed in partnership with Citinova for the Fortaleza Open Data ecosystem. The tool acts as an intelligent scanner automating the detection of Personally Identifiable Information (PII) in massive datasets. The project was the 1st place winner of the Fortaleza on Control Award (Transparency category), recognized for its effectiveness in ensuring public transparency walks hand in hand with citizen privacy protection.',
+        
+        // Details
+        'pii_client_value': 'CITINOVA, Maurício Bezerra (Project Author)  Fortaleza, CE - BRA',
+        'pii_services_list': 'Requirements EngineeringUX/UI DesignFront-end DevelopmentQA & Security Testing',
+        'pii_role_value': 'Product Designer & Front-end Developer',
+
+        // Narrative
+        'pii_challenge_title': 'The Challenge',
+        'pii_challenge_text': 'With LGPD (GDPR) implementation, public servants faced a critical dilemma: how to maintain raw data portals without improperly exposing Social Security numbers, phones, and addresses? The challenge was technical and operational, as manually reviewing millions of records was humanly impossible. My mission was to help conceive a tool that audited files in various formats (CSV, PDF, XLSX) and delivered a precise diagnostic to mitigate legal and ethical risks before publication.',
+        
+        'pii_deliverables_title': 'Key Deliverables',
+        'pii_deliverables_text': 'A robust technical solution was delivered comprising: Process Modeling for file scanning, Search Engine based on Regular Expressions (Regex), Diagnostic Reporting Interface (Reporting UI), and complete technical documentation for the Open Source ecosystem. The tool allows administrators to instantly identify in which file and line sensitive data are located, accelerating the audit cycle by over 100%. Furthermore, well-defined UX/UI tailored to the end-user and a polished design system reduced friction and learning curves.',
+        
+        'pii_uxui_title': 'Site Design (UX/UI)',
+        'pii_uxui_text': 'PII CKAN\'s interface design focused on data visualization and technical clarity. Designing reports for Command Line Interface (CLI) tools requires rigorous hierarchy so the user doesn\'t feel overwhelmed. I used a clean and functional aesthetic, focused on signaling alert and safety states. Information architecture was designed to facilitate incident triage, ensuring even administrative users could interpret technical scan results, regardless of their data seniority.',
+        
+        'pii_dev_title': 'Development',
+        'pii_dev_text': 'I was responsible for the front-end development of the application\'s first version, focusing on visual fidelity and reading performance. I transformed raw data processed by the Python engine into a user-friendly report interface. I worked directly on technical requirement gathering with data specialists, ensuring the front-end correctly consumed system information and offered a resilient and scalable diagnostic experience for the CKAN environment.',
+
+        // Impact
+        'pii_impact_title': 'IMPACT & LEARNINGS',
+        
+        'pii_metric_1_title': 'Security & Privacy  (LGPD)',
+        'pii_metric_1_desc': 'Mitigated Exposure Risk. The tool ensured a proactive protection layer, preventing sensitive data (PII) from being inadvertently published. The direct impact was the municipality\'s legal and ethical shielding, ensuring public transparency does not compromise citizens\' right to privacy under LGPD.',
+        
+        'pii_metric_2_title': 'Audit Efficiency',
+        'pii_metric_2_desc': 'Publication Cycle Optimization. Before PII CKAN, reviewing massive datasets was a manual process prone to human error. Automation allowed massive data volumes to be scanned in minutes, returning valuable time to public servants and accelerating Open Data portal updates.',
+        
+        'pii_metric_3_title': 'Open Data Quality',
+        'pii_metric_3_desc': 'Transparency Standardization. Using the tool raised the maturity level of data submitted by departments. By providing a clear error report, the system educated servants on best data treatment practices, resulting in a much more integral and reliable Open Data portal for the population.',
+        
+        'pii_metric_4_title': 'Technical Recognition  (The Award)',
+        'pii_metric_4_desc': 'Innovation Excellence Seal. Winning 1st place in the Fortaleza on Control Award serves as the ultimate validation metric. The project was audited and awarded by a commission of specialists from USP and UFC, proving its technical effectiveness and invaluable worth to public administration.',
+        
+        'pii_metric_5_title': 'The Bridge between Code & LGPD.',
+        'pii_metric_5_desc': 'Reducing friction for collaborators. This project allowed me to understand how to translate complex laws (like LGPD) into programming logic (Regex and Python). It was my greatest exercise in transposing legal requirements into a simplified technical interface.',
+        
+        'pii_metric_6_title': 'Open Source Collaboration.',
+        'pii_metric_6_desc': 'Good documentation is essential. Participating in an open-source project for the government taught me the importance of creating scalable interfaces and clear documentation, allowing other agencies to replicate the solution easily.',
+
+        // Extra Sections
+        'pii_user_title': 'The User',
+        'pii_user_text': 'PII CKAN\'s design was born from diagnosing an invisible "bottleneck": reviewing personal data in raw files (CSV, PDF, XLSX). We introduce Ricardo, a pragmatic data manager whose productivity is limited by slow and bureaucratic processes. Mapping his journey revealed the critical need for a proactive "security filter". The project focus was to transform the fear of human error into a fast, intuitive, and technically robust audit experience, returning time and institutional security to the user.',
+        
+        'pii_structure_title': 'Project  Structure',
+        'pii_structure_text': 'To transform a script tool (Python) into an intuitive platform, I designed a structure based on process visibility and auditability. The goal was to ensure the data manager has full control over security scans, from parameter configuration to the final report verdict.',
+        
+        'pii_wireframe_low_title': 'WIREFRAMES',
+        'pii_wireframe_low_text': 'For PII CKAN, I used mid-fidelity wireframes to validate navigation hierarchy before implementation. The focus was creating an end-to-end audit workflow. I designed flows where the user could configure a massive scan in a few clicks, selecting specific LGPD patterns (like SSN/CPF and addresses). Including a Report History (Tasks) allows the manager a retrospective view of data compliance, transforming an exhausting technical task into an agile, safe, and scalable management process.',
+
+        'pii_ui_title': 'User Interface  Design',
+        'pii_ui_text': 'PII CKAN\'s visual challenge was transforming a technical audit process into an intuitive and safe experience. For this, I developed a Design System focused on visual semantics, where each color plays a critical role in manager decision-making.',
+        'pii_ui_list': ' Functional Color Palette:  I used Teal (#0C87B3) as the primary color to convey technology and stability. The use of Red (#FF0000) and Green (#057E03) is strictly functional, instantly signaling files with data leakage (Alert) or compliant datasets (Safe).  Systemic Typography (Inter):  Choosing the Inter family was strategic. Being a font designed specifically for computer interfaces, it ensures exceptional readability in dense tables, technical logs, and complex reports, reducing user visual fatigue.  Modular Componentization:  I developed buttons and cards with clear states (Solid and Outline), allowing for an agile and scalable handoff. This modular structure ensures the system can grow with new features without losing visual or technical consistency.',
+
+        'pii_wireframe_hi_title': 'High Fidelity  Wireframe',
+        'pii_wireframe_hi_text_1': 'PII CKAN\'s high-fidelity stage was designed to offer maximum transparency regarding backend processes. Since massive data scans can take time, the interface focus was keeping the user informed through continuous feedback loops: dynamic progress bars, real-time evidence counters, and clear state signaling (Searching, Finished, or Error).',
+        'pii_wireframe_hi_text_2': 'I designed the experience to be "error-proof". A critical example is the scan cancellation modal, which prevents accidental actions in computationally expensive processes. We transformed technical configuration parameters (like portal URLs and file directories) into intuitive forms with immediate validation, ensuring the data manager has full tool control without needing programming knowledge.'
     },
 
     'es': {
@@ -796,7 +920,69 @@ const translations = {
 
         'ponte_mobile_title': 'Wireframe de Alta  Fidelidad: Móvil',
         'ponte_mobile_text_1': 'Como la mayoría de las interacciones de denuncia ocurren en tránsito, la versión móvil fue el corazón del proyecto. Me enfoqué en un diseño altamente táctil y responsivo, optimizando formularios densos para llenado rápido. El objetivo técnico fue reducir el tiempo de interacción para que el relato de violación de derechos ocurra en el momento exacto de la observación. El resultado es una herramienta ligera, de alto rendimiento e inclusiva, garantizando que la tecnología actúe como un facilitador inmediato de protección social en la palma de la mano.',
-        'ponte_mobile_text_2': 'Adaptamos la densidad de información para evitar sobrecarga en pantallas más pequeñas, garantizando que el flujo de inscripción y los contenidos de educación permanezcan fluidos y accesibles en cualquier dispositivo. El resultado es una interfaz moderna, ligera y técnicamente escalable, lista para proporcionar un handoff sin fricciones para el desarrollo.'
+        'ponte_mobile_text_2': 'Adaptamos la densidad de información para evitar sobrecarga en pantallas más pequeñas, garantizando que el flujo de inscripción y los contenidos de educación permanezcan fluidos y accesibles en cualquier dispositivo. El resultado es una interfaz moderna, ligera y técnicamente escalable, lista para proporcionar un handoff sin fricciones para el desarrollo.',
+
+
+        // --- PROYECTO: PII CKAN ---
+        'pii_hero_title': 'Sobre el  Proyecto',
+        'pii_intro': 'El PII CKAN es una solución de gobernanza y privacidad de datos desarrollada en colaboración con Citinova para el ecosistema de Datos Abiertos de Fortaleza. La herramienta actúa como un escáner inteligente que automatiza la detección de información personalmente identificable (PII) en conjuntos de datos masivos. El proyecto fue ganador del 1er lugar en el Premio Fortaleza en el Control (categoría Transparencia), reconocido por su eficacia en garantizar que la transparencia pública camine junto a la protección de la privacidad de los ciudadanos.',
+        
+        // Detalles
+        'pii_client_value': 'CITINOVA, Maurício Bezerra (Autor del proyecto)  Fortaleza, CE - BRA',
+        'pii_services_list': 'Ingeniería de RequisitosDiseño UX/UIDesarrollo Front-endQA & Pruebas de Seguridad',
+        'pii_role_value': 'Diseñadora de Producto & Desarrolladora Front-end',
+
+        // Narrativa
+        'pii_challenge_title': 'El Desafío',
+        'pii_challenge_text': 'Con la implementación de la LGPD (RGPD), los funcionarios públicos enfrentaron un dilema crítico: ¿cómo mantener portales de datos brutos sin exponer indebidamente números de identificación, teléfonos y direcciones? El desafío era técnico y operativo, ya que la revisión manual de millones de registros era humanamente imposible. Mi misión fue ayudar a concebir una herramienta que auditara archivos en diversos formatos (CSV, PDF, XLSX) y entregara un diagnóstico preciso para mitigar riesgos legales y éticos antes de la publicación.',
+        
+        'pii_deliverables_title': 'Principales Entregables',
+        'pii_deliverables_text': 'Se entregó una solución técnica robusta compuesta por: Modelado de Procesos para escaneo de archivos, Motor de búsqueda basado en Expresiones Regulares (Regex), Interfaz de Informe de Diagnóstico (Reporting UI) y documentación técnica completa para el ecosistema Open Source. La herramienta permite que el administrador identifique instantáneamente en qué archivo y línea se encuentran los datos sensibles, acelerando el ciclo de auditoría en más del 100%. Además, UX/UI bien definidos según el usuario final y un sistema de diseño pulido redujeron la fricción y las curvas de aprendizaje.',
+        
+        'pii_uxui_title': 'Diseño del Sitio (UX/UI)',
+        'pii_uxui_text': 'El diseño de interfaz de PII CKAN se centró en la visualización de datos y claridad técnica. Diseñar informes para herramientas de línea de comandos (CLI) exige una jerarquía rigurosa para que el usuario no se sienta abrumado. Utilicé una estética limpia y funcional, enfocada en señalar estados de alerta y seguridad. La arquitectura de información fue diseñada para facilitar la clasificación de incidentes, garantizando que incluso usuarios con perfil administrativo pudieran interpretar los resultados técnicos del escaneo, independientemente de su antigüedad en datos.',
+        
+        'pii_dev_title': 'Desarrollo',
+        'pii_dev_text': 'Fui responsable del desarrollo front-end de la primera versión de la aplicación, enfocándome en la fidelidad visual y rendimiento de lectura. Transformé los datos brutos procesados por el motor en Python en una interfaz de informe amigable. Trabajé directamente en el levantamiento de requisitos técnicos junto a especialistas de datos, garantizando que el front-end consumiera correctamente la información del sistema y ofreciera una experiencia de diagnóstico resiliente y escalable para el entorno CKAN.',
+
+        // Impacto
+        'pii_impact_title': 'IMPACTO Y APRENDIZAJES',
+        
+        'pii_metric_1_title': 'Seguridad y Privacidad  (LGPD)',
+        'pii_metric_1_desc': 'Riesgo de Exposición Mitigado. La herramienta garantizó una capa de protección proactiva, impidiendo que datos sensibles (PII) fueran publicados inadvertidamente. El impacto directo fue el blindaje jurídico y ético del municipio, asegurando que la transparencia pública no comprometa el derecho a la privacidad de los ciudadanos según la LGPD.',
+        
+        'pii_metric_2_title': 'Eficiencia de Auditoría',
+        'pii_metric_2_desc': 'Optimización del Ciclo de Publicación. Antes de PII CKAN, la revisión de conjuntos de datos masivos era un proceso manual propenso a errores humanos. La automatización permitió escanear volúmenes masivos de datos en minutos, devolviendo tiempo valioso a los funcionarios y acelerando la actualización del portal de Datos Abiertos.',
+        
+        'pii_metric_3_title': 'Calidad de Datos Abiertos',
+        'pii_metric_3_desc': 'Estandarización de Transparencia. El uso de la herramienta elevó el nivel de madurez de los datos enviados por las secretarías. Al proporcionar un informe claro de errores, el sistema educó a los funcionarios sobre las mejores prácticas de tratamiento de datos, resultando en un portal de Datos Abiertos mucho más íntegro y confiable para la población.',
+        
+        'pii_metric_4_title': 'Reconocimiento Técnico  (El Premio)',
+        'pii_metric_4_desc': 'Sello de Excelencia en Innovación. Ganar el 1er lugar en el Premio Fortaleza en el Control sirve como la métrica máxima de validación. El proyecto fue auditado y premiado por una comisión de especialistas de la USP y UFC, demostrando su eficacia técnica y su valor inestimable para la administración pública.',
+        
+        'pii_metric_5_title': 'El Puente entre Código y LGPD.',
+        'pii_metric_5_desc': 'Reducir la fricción para los colaboradores. Este proyecto me permitió entender cómo traducir leyes complejas (como la LGPD) en lógica de programación (Regex y Python). Fue mi mayor ejercicio de transponer requisitos jurídicos a una interfaz técnica simplificada.',
+        
+        'pii_metric_6_title': 'Colaboración en Open Source.',
+        'pii_metric_6_desc': 'La buena documentación es esencial. Participar en un proyecto de código abierto para el gobierno me enseñó la importancia de crear interfaces escalables y documentación clara, permitiendo que otros organismos repliquen la solución fácilmente.',
+
+        // Secciones Extras
+        'pii_user_title': 'El Usuario',
+        'pii_user_text': 'El diseño de PII CKAN nació del diagnóstico de un "cuello de botella" invisible: la revisión de datos personales en archivos brutos (CSV, PDF, XLSX). Presentamos a Ricardo, un gestor de datos pragmático cuya productividad está limitada por procesos lentos y burocráticos. El mapeo de su viaje reveló la necesidad crítica de un "filtro de seguridad" proactivo. El enfoque del proyecto fue transformar el miedo al error humano en una experiencia de auditoría rápida, intuitiva y técnicamente robusta, devolviendo tiempo y seguridad institucional al usuario.',
+        
+        'pii_structure_title': 'Estructura del  Proyecto',
+        'pii_structure_text': 'Para transformar una herramienta de script (Python) en una plataforma intuitiva, diseñé una estructura basada en la visibilidad de procesos y auditabilidad. El objetivo fue garantizar que el gestor de datos tenga control total sobre los escaneos de seguridad, desde la configuración de parámetros hasta el veredicto final del informe.',
+        
+        'pii_wireframe_low_title': 'WIREFRAMES',
+        'pii_wireframe_low_text': 'Para PII CKAN, utilicé wireframes de fidelidad media para validar la jerarquía de navegación antes de la implementación. El enfoque fue crear un flujo de trabajo de auditoría de extremo a extremo. Diseñé flujos donde el usuario pudiera configurar un escaneo masivo en pocos clics, seleccionando patrones específicos de LGPD (como DNI y direcciones). La inclusión de un Historial de Informes (Tasks) permite al gestor una visión retrospectiva del cumplimiento de datos, transformando una tarea técnica exhaustiva en un proceso de gestión ágil, seguro y escalable.',
+
+        'pii_ui_title': 'Diseño de Interfaz  de Usuario',
+        'pii_ui_text': 'El desafío visual de PII CKAN fue transformar un proceso de auditoría técnica en una experiencia intuitiva y segura. Para ello, desarrollé un Sistema de Diseño enfocado en semántica visual, donde cada color juega un papel crítico en la toma de decisiones del gestor.',
+        'pii_ui_list': ' Paleta de Colores Funcional:  Utilicé el Verde Azulado (#0C87B3) como color primario para transmitir tecnología y estabilidad. El uso del Rojo (#FF0000) y del Verde (#057E03) es estrictamente funcional, señalando instantáneamente archivos con fuga de datos (Alerta) o conjuntos de datos en cumplimiento (Seguro).  Tipografía Sistémica (Inter):  La elección de la familia Inter fue estratégica. Al ser una fuente diseñada específicamente para interfaces de computadora, garantiza una legibilidad excepcional en tablas densas, registros técnicos e informes complejos, reduciendo la fatiga visual del usuario.  Componentización Modular:  Desarrollé botones y tarjetas con estados claros (Sólido y Contorno), permitiendo un handoff ágil y escalable. Esta estructura modular garantiza que el sistema pueda crecer con nuevas funcionalidades sin perder consistencia visual o técnica.',
+
+        'pii_wireframe_hi_title': 'Wireframe de Alta  Fidelidad',
+        'pii_wireframe_hi_text_1': 'La etapa de alta fidelidad de PII CKAN fue diseñada para ofrecer máxima transparencia sobre los procesos de backend. Dado que los escaneos de datos masivos pueden tomar tiempo, el enfoque de la interfaz fue mantener al usuario informado a través de bucles de retroalimentación continuos: barras de progreso dinámicas, contadores de evidencia en tiempo real y señalización clara de estados (Buscando, Finalizado o Error).',
+        'pii_wireframe_hi_text_2': 'Diseñé la experiencia para ser "a prueba de errores". Un ejemplo crítico es el modal de cancelación de escaneo, que evita acciones accidentales en procesos computacionalmente costosos. Transformamos parámetros técnicos de configuración (como URLs de portal y directorios de archivos) en formularios intuitivos con validación inmediata, garantizando que el gestor de datos tenga el control total de la herramienta sin necesidad de conocimientos de programación.'
 
     }
 };
