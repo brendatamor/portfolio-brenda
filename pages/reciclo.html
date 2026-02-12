@@ -6,40 +6,41 @@
     <title>Reciclo| Case Study - Brenda Tavares</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/css/projeto_selecionado.css"> <!-- Novo CSS -->
+    <link rel="stylesheet" href="/css/projeto_selecionado.css">
     <link rel="shortcut icon" href="../images/brenda_branco.png" type="image/x-icon">
 </head>
 <body class="project-page">
 
-   <!-- NAVBAR -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
+            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
+                    <li class="nav-item me-4"><span class="lang-text">
                         <div class="dropdown me-3">
                             <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <!-- Ícone de Tradução (SVG ou FontAwesome) -->
                                 <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
-                                <li ><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
                             </ul>
                         </div>
                     </span>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                     <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/about.html">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/index.html" data-i18n="menu_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/about.html" data-i18n="menu_about">About me</a></li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-outline-dark contact-btn" href="contact.html">Contato <span></span></a>
+                        <a class="btn btn-outline-dark contact-btn" href="contact.html">
+                            <span data-i18n="menu_contact">Contato</span> <span></span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -48,372 +49,307 @@
     <br><br>
 
     <!-- SECTION 1: HERO BANNER -->
-     <br>
-            <!-- HEADER DO PROJETO (Banner expandido e limpo) -->
-        <header class="project-hero" style="background-image: url('../images/reciclo_img/mockup_principal.png');">
-            <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
-                <!-- Opcional: Se a imagem já tiver a logo, deixe vazio. Se não, mantenha a img abaixo -->
-                <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
-            </div>
-        </header>
+    <br>
+    <header class="project-hero" style="background-image: url('../images/reciclo_img/mockup_principal.png');">
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+            <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
+        </div>
+    </header>
 
     <!-- SECTION 2: SOBRE O PROJETO -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Sobre o <br> Projeto</h2>
-                <p class="project-intro-text mb-4">
-                   O <span class="text-success">Re-ciclo</span>  é uma plataforma inovadora de economia circular desenvolvida pela Prefeitura de Fortaleza. O projeto atua na logística de coleta seletiva porta-a-porta, utilizando micromobilidade sustentável (triciclos elétricos) para conectar cidadãos e empresas às associações de catadores. Atuei como UX/UI Designer, fazendo parte do time que foi responsável por traduzir um modelo de serviço público complexo em uma interface simplificada, focada em promover a inclusão socioeconômica dos catadores e elevar o índice de reciclagem da capital cearense.
-                </p>
-            </div>
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <div class="row">
-            <!-- COLUNA ESQUERDA -->
-            <div class="col-lg-4 pe-lg-5">
-                <div class="detail-item mb-5">
-                    <h6 class="info-title-bold">Cliente</h6>
-                    <p class="info-text-dark">RECICLO (Citinova) <br> Fortaleza, CE - BRA</p>
-                    <p class="info-text-dark">
-                        <a class="info-text-dark"  href="https://reciclo.fortaleza.ce.gov.br/" target="_blank">Site</a>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="reciclo_hero_title">Sobre o <br> Projeto</h2>
+                    <p class="project-intro-text mb-4" data-i18n="reciclo_intro">
+                        O <span class="text-success">Re-ciclo</span> é uma plataforma inovadora...
                     </p>
                 </div>
-                <div class="detail-item mb-5">
-                    <h6 class="info-title-bold">Serviços</h6>
-                    <ul class="info-list">
-                        <li>Product Discovery</li>
-                        <li>Interface Design (UI)</li>
-                        <li>UX Research</li>
-                        <li>Prototipagem Interativa</li>
-                    </ul>
-                </div>
-                <div class="detail-item">
-                    <h6 class="info-title-bold">Meu papel</h6>
-                    <p class="info-text-dark">Product Designer (UX/UI)</p>
-                </div>
             </div>
 
-            <!-- COLUNA DIREITA -->
-            <div class="col-lg-8 border-start-custom ps-lg-5 position-relative">
-                <!-- SEGUNDO BACKGROUND (Perto do Sistema de Projeto) -->
-                <div class="about-project-decor-2">
-                    <img src="../images/bg_página_projeto (1).png" alt="">
+            <div class="row">
+                <!-- COLUNA ESQUERDA -->
+                <div class="col-lg-4 pe-lg-5">
+                    <div class="detail-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="project_label_client">Cliente</h6>
+                        <p class="info-text-dark">RECICLO (Citinova) <br> Fortaleza, CE - BRA</p>
+                        <p class="info-text-dark">
+                            <a class="info-text-dark" href="https://reciclo.fortaleza.ce.gov.br/" target="_blank">Site</a>
+                        </p>
+                    </div>
+                    <div class="detail-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="project_label_services">Serviços</h6>
+                        <ul class="info-list" data-i18n="reciclo_services_list">
+                            <li>Product Discovery</li>
+                            <li>Interface Design (UI)</li>
+                            <li>UX Research</li>
+                            <li>Prototipagem Interativa</li>
+                        </ul>
+                    </div>
+                    <div class="detail-item">
+                        <h6 class="info-title-bold" data-i18n="project_label_role">Meu papel</h6>
+                        <p class="info-text-dark">Product Designer (UX/UI)</p>
+                    </div>
                 </div>
 
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">O desafio</h6>
-                    <p class="info-text-dark">O maior desafio técnico foi a heterogeneidade dos usuários. Precisamos projetar um ecossistema que atendesse simultaneamente a três realidades: o Catador (que opera em campo e exige baixíssima carga cognitiva, ou seja, sistema complexo que prejudique seu trabalho), o Cidadão (CPF) (que busca conveniência extrema) e a Empresa (CNPJ) (que necessita de previsibilidade e comprovação de impacto). Nossa missão foi unificar essas necessidades em um fluxo contínuo, onde o agendamento fosse realizado em segundos e a gestão logística fosse transparente e eficaz.
- </p>
-                    <hr>
-                </div>
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">Principais entregáveis</h6>
-                    <p class="info-text-dark">Foi entregue um projeto de experiência end-to-end, composto por: User Flows específicos para cada tipo de perfil, Protótipos de alta fidelidade validados para uso em dispositivos móveis, e uma estrutura de Arquitetura de Informação que organiza o agendamento, o rastreio da coleta e a destinação correta dos resíduos. O foco foi garantir que o sistema não tivesse barreiras de entrada, estimulando a adoção da cultura de reciclagem em toda a cidade.</p>
-                    <hr>
-                </div>
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">Design de sites (UX/UI)</h6>
-                    <p class="info-text-dark">Foi utilizada uma linguagem visual clara, tátil e amigável. A interface foi desenhada com componentes de alta acessibilidade, como botões grandes e ícones autoexplicativos, fundamentais para o uso do catador durante a rota. A paleta de cores e a iconografia foram pensadas para comunicar sustentabilidade e modernidade, transformando a interface e fluxos de usuários finais em jornadas legítimas de confiança e organização. </p>
-                    <hr>
-                </div>
-                <div class="narrative-item">
-                    <h6 class="info-title-bold">Desenvolvimento</h6>
-                    <p class="info-text-dark">Trabalhei em colaboração próxima com a equipe de engenharia para garantir a viabilidade técnica do design. Estruturei os arquivos para um handoff sem atritos, fornecendo um Design System documentado que facilitou a implementação do front-end e a integração com o painel administrativo em Django. </p>
-                    <hr>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                <!-- COLUNA DIREITA -->
+                <div class="col-lg-8 border-start-custom ps-lg-5 position-relative">
+                    <div class="about-project-decor-2">
+                        <img src="../images/bg_página_projeto (1).png" alt="">
+                    </div>
 
-<!-- SECTION 3: IMPACTO (MÉTRICAS) -->
-<section class="impact-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Background do Impacto -->
-    <div class="impact-decor">
-        <img src="../images/bg_página_projeto (2).png" alt=" bg">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <h2 class="impact-title mb-4">IMPACTO & <br>APRENDIZADOS <br></h2>
-        
-        <div class="row g-5">
-            <!-- Coluna 1 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name"> Dignidade e Renda</h4>
-                    <p class="metric-desc"><strong>Inclusão da Base da Pirâmide. </strong>Ao formalizar e facilitar a coleta via triciclos elétricos, o projeto removeu o estigma social e o esforço físico exaustivo, garantindo uma fonte de renda estável e o reconhecimento desses profissionais como agentes ambientais essenciais para Fortaleza.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Gamificação como Mudança de Hábito</h4>
-                    <p class="metric-desc"> Aprendi que a tecnologia sozinha não recicla nada; o design precisa motivar. Usar elementos de gamificação (como o conceito 'Reciclou, Ganhou') foi fundamental para transformar uma tarefa chata em um hábito prazeroso e recompensador para o cidadão.</p>
-                </div>
-            </div>
-            <!-- Coluna 2 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">Eficiência e Incentivos</h4>
-                    <p class="metric-desc"><strong>Viabilidade da Economia Circular.</strong>Estrategicamente alinhado à Lei de Incentivo à Reciclagem (14.260/21), o projeto contribuiu para um ecossistema capaz de captar investimentos massivos (com projeções de R$ 140M), provando que o design sustentável é altamente rentável.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Design para Contextos Extremos</h4>
-                    <p class="metric-desc">Projetar para o catador me ensinou sobre usabilidade em condições adversas. A interface precisa ser legível e tátil o suficiente para ser usada rapidamente durante as rotas. Simplicidade aqui não é estética, é ferramenta de trabalho.</p>
-                </div>
-            </div>
-            <!-- Coluna 3 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">Conformidade e Escala</h4>
-                    <p class="metric-desc"><strong>Redução de Resíduos em Aterros. </strong> Através de uma interface focada em agendamento rápido, potencializamos a aplicação da Política Nacional de Resíduos Sólidos (PNRS). A facilidade de separação e coleta porta-a-porta aumentou o índice de reciclagem municipal, preservando recursos naturais e transformando o que seria "lixo" em novos insumos industriais de forma escalável.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Intermediação Público-Privada</h4>
-                    <p class="metric-desc">Este projeto me ensinou a projetar fluxos que atendem simultaneamente às exigências burocráticas do governo (Pessoa Jurídica/Lei) e à necessidade de conveniência do usuário comum (Pessoa Física), unificando interesses distintos em uma única jornada fluida.</p>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="reciclo_challenge_title">O desafio</h6>
+                        <p class="info-text-dark" data-i18n="reciclo_challenge_text">O maior desafio técnico foi...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="reciclo_deliverables_title">Principais entregáveis</h6>
+                        <p class="info-text-dark" data-i18n="reciclo_deliverables_text">Foi entregue um projeto...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="reciclo_uxui_title">Design de sites (UX/UI)</h6>
+                        <p class="info-text-dark" data-i18n="reciclo_uxui_text">Foi utilizada uma linguagem visual...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item">
+                        <h6 class="info-title-bold" data-i18n="reciclo_dev_title">Desenvolvimento</h6>
+                        <p class="info-text-dark" data-i18n="reciclo_dev_text">Trabalhei em colaboração próxima...</p>
+                        <hr>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
- <!-- SECTION 4: O usuário -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">O usuário</h2>
-                <p class="project-intro-text mb-4">
-                    Para construir O sucesso do Re-ciclo depende da harmonia entre três atores fundamentais. Para projetar uma solução que realmente transformasse a gestão de resíduos em Fortaleza, mergulhamos no dia a dia do Afonso (a força operacional que busca dignidade), do Marcelo (o cidadão que busca conveniência) e da Júlia (o negócio que busca eficiência logística). O desafio do design foi criar uma interface que eliminasse a fricção entre esses perfis, garantindo que a tecnologia atuasse como o elo invisível que transforma descarte em valor social e ambiental.
-                </p>
-            <img src="../images/reciclo_img/Proto-persona1.png" class="img-fluid w-100" alt="Estrutura">
-            <img src="../images/reciclo_img/Proto-persona2.png" class="img-fluid w-100" alt="Estrutura">
-            <img src="../images/reciclo_img/Proto-persona3.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
+    <!-- SECTION 3: IMPACTO (MÉTRICAS) -->
+    <section class="impact-section py-5 position-relative" style="overflow: hidden;">
+        <div class="impact-decor">
+            <img src="../images/bg_página_projeto (2).png" alt=" bg">
         </div>
 
-        
-</section>
-
-<!-- SECTION 5: estrutura do projeto -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Estrutura do <br> projeto</h2>
-                <p class="project-intro-text mb-4">
-                    O sitemap do Re-ciclo foi projetado para simplificar a jornada do descarte sustentável. Estruturamos a navegação em módulos que primeiro educam o usuário ("Conheça") para depois facilitar a ação direta ("Participe"). A segmentação entre Pessoa Física e Jurídica no fluxo de acesso é fundamental para garantir que as funcionalidades operacionais sejam personalizadas para cada perfil, otimizando a logística de coleta e a experiência de gestão de resíduos.
-                </p>
-            <img src="../images/reciclo_img/sitemap_reciclo.png" class="img-fluid w-100" alt="Estrutura">
-
-                
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <h2 class="impact-title mb-4" data-i18n="reciclo_impact_title">IMPACTO & <br>APRENDIZADOS <br></h2>
+            
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="reciclo_metric_1_title">Dignidade e Renda</h4>
+                        <p class="metric-desc" data-i18n="reciclo_metric_1_desc"><strong>Inclusão da Base da Pirâmide.</strong> Ao formalizar...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="reciclo_metric_2_title">Gamificação como Mudança de Hábito</h4>
+                        <p class="metric-desc" data-i18n="reciclo_metric_2_desc">Aprendi que a tecnologia...</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="reciclo_metric_3_title">Eficiência e Incentivos</h4>
+                        <p class="metric-desc" data-i18n="reciclo_metric_3_desc"><strong>Viabilidade da Economia Circular.</strong> Estrategicamente...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="reciclo_metric_4_title">Design para Contextos Extremos</h4>
+                        <p class="metric-desc" data-i18n="reciclo_metric_4_desc">Projetar para o catador...</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="reciclo_metric_5_title">Conformidade e Escala</h4>
+                        <p class="metric-desc" data-i18n="reciclo_metric_5_desc"><strong>Redução de Resíduos em Aterros.</strong> Através de uma interface...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="reciclo_metric_6_title">Intermediação Público-Privada</h4>
+                        <p class="metric-desc" data-i18n="reciclo_metric_6_desc">Este projeto me ensinou...</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        
-</section>
-
-
-
-
-
-<!-- SECTION 7: Design de interface do usuário -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Design de interface <br> do usuário</h2>
-                <p class="project-intro-text mb-4">
-                    O veredito visual do Re-ciclo é a modernização da sustentabilidade. Através de uma tipografia amigável e uma paleta cromática diversificada, criamos uma interface que comunica energia e responsabilidade social. O foco esteve na criação de uma linguagem visual proprietária, onde a iconografia detalhada e os componentes arredondados convidam o usuário à ação, fortalecendo a cultura da economia circular através de um design centrado no ser humano e na eficiência operacional.
-                </p>
-            <img src="../images/reciclo_img/sytleguide_reciclo.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
+    <!-- SECTION 4: O usuário -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        
-</section>
-
-<!-- SECTION 8: Wireframe de alta fidelidade -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Wireframe de alta <br>
-                fidelidade</h2>
-                <p class="project-intro-text mb-5">
-                    A etapa de alta fidelidade para desktop foi projetada para ser o centro de controle da reciclagem em Fortaleza. O foco principal foi a consolidação de dados e transparência: criamos dashboards que exibem métricas reais de impacto social e ambiental (tonelagens coletadas e renda gerada).
-                </p>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="reciclo_user_title">O usuário</h2>
+                    <p class="project-intro-text mb-4" data-i18n="reciclo_user_text">
+                        O sucesso do Re-ciclo depende da harmonia...
+                    </p>
+                    <img src="../images/reciclo_img/Proto-persona1.png" class="img-fluid w-100" alt="Estrutura">
+                    <img src="../images/reciclo_img/Proto-persona2.png" class="img-fluid w-100" alt="Estrutura">
+                    <img src="../images/reciclo_img/Proto-persona3.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
             </div>
         </div>
+    </section>
 
-        <img src="../images/reciclo_img/wireframe_alta_fidelidade.png" class="img-fluid w-100" alt="Estrutura">
-    </div>
-</section>
-
-<!-- SECTION 9: WIREFRAMES DE ALTA FIDELIDADE: mobile -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Wireframe de alta <br> fidelidade: mobile</h2>
-                <p class="project-intro-text mb-4">
-                   O design mobile do Re-ciclo foi concebido sob a premissa da baixa fricção e usabilidade tátil. Para o cidadão comum, o fluxo de agendamento foi otimizado para ser concluído em poucos toques, eliminando barreiras cognitivas.
-                </p>
-            <img src="../images/reciclo_img/wireframe_mobile.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
+    <!-- SECTION 5: estrutura do projeto -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        
-</section>
-
-
-<!-- SECTION 10: SHOWCASE MOCKUPS -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Background Decorativo (Mantendo o padrão) -->
-    <div class="about-project-decor-2">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <!-- Linha 1: Três Mockups Superiores -->
-        <div class="row g-4 mb-4">
-            <div class="col-md-4">
-                <img src="../images/reciclo_img/mockup1.png" class="img-fluid mockup-item" alt="Mockup 1">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/reciclo_img/mockup2.png" class="img-fluid mockup-item" alt="Mockup 2">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/reciclo_img/mockup3.png" class="img-fluid mockup-item" alt="Mockup 3">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="reciclo_structure_title">Estrutura do <br> projeto</h2>
+                    <p class="project-intro-text mb-4" data-i18n="reciclo_structure_text">
+                        O sitemap do Re-ciclo foi projetado...
+                    </p>
+                    <img src="../images/reciclo_img/sitemap_reciclo.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Linha 2: Mockup Grande Central (Laptop) -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <img src="../images/reciclo_img/Mockup_grande.png" class="img-fluid w-100 mockup-item" alt="Mockup Central">
-            </div>
+    <!-- SECTION 7: Design de interface do usuário -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <!-- Linha 3: Três Mockups Inferiores -->
-        <div class="row g-4">
-            <div class="col-md-4">
-                <img src="../images/reciclo_img/mockuop4.png" class="img-fluid mockup-item" alt="Mockup 4">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/reciclo_img/mockup6.png" class="img-fluid mockup-item" alt="Mockup 5">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/reciclo_img/mockup7.png" class="img-fluid mockup-item" alt="Mockup 6">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="reciclo_ui_title">Design de interface <br> do usuário</h2>
+                    <p class="project-intro-text mb-4" data-i18n="reciclo_ui_text">
+                        O veredito visual do Re-ciclo...
+                    </p>
+                    <img src="../images/reciclo_img/sytleguide_reciclo.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-    <!-- SECTION CTA (PRECISA DE AJUDA?) -->
+    <!-- SECTION 8: Wireframe de alta fidelidade -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="reciclo_wireframe_title">Wireframe de alta <br> fidelidade</h2>
+                    <p class="project-intro-text mb-5" data-i18n="reciclo_wireframe_text">
+                        A etapa de alta fidelidade para desktop...
+                    </p>
+                </div>
+            </div>
+            <img src="../images/reciclo_img/wireframe_alta_fidelidade.png" class="img-fluid w-100" alt="Estrutura">
+        </div>
+    </section>
+
+    <!-- SECTION 9: WIREFRAMES DE ALTA FIDELIDADE: mobile -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="reciclo_mobile_title">Wireframe de alta <br> fidelidade: mobile</h2>
+                    <p class="project-intro-text mb-4" data-i18n="reciclo_mobile_text">
+                       O design mobile do Re-ciclo foi concebido...
+                    </p>
+                    <img src="../images/reciclo_img/wireframe_mobile.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 10: SHOWCASE MOCKUPS (Sem tradução, só imagens) -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-2">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4"><img src="../images/reciclo_img/mockup1.png" class="img-fluid mockup-item" alt="Mockup 1"></div>
+                <div class="col-md-4"><img src="../images/reciclo_img/mockup2.png" class="img-fluid mockup-item" alt="Mockup 2"></div>
+                <div class="col-md-4"><img src="../images/reciclo_img/mockup3.png" class="img-fluid mockup-item" alt="Mockup 3"></div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12"><img src="../images/reciclo_img/Mockup_grande.png" class="img-fluid w-100 mockup-item" alt="Mockup Central"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4"><img src="../images/reciclo_img/mockuop4.png" class="img-fluid mockup-item" alt="Mockup 4"></div>
+                <div class="col-md-4"><img src="../images/reciclo_img/mockup6.png" class="img-fluid mockup-item" alt="Mockup 5"></div>
+                <div class="col-md-4"><img src="../images/reciclo_img/mockup7.png" class="img-fluid mockup-item" alt="Mockup 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CTA -->
     <section class="cta-section">
         <div class="container text-center py-5">
-            <h2 class="display-4 fw-bold">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
-            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2">Entre em contato</a>
+            <h2 class="display-4 fw-bold" data-i18n="cta_help_title">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
+            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2" data-i18n="cta_contact_btn">Entre em contato</a>
         </div>
     </section>
     
-
     <!---SEÇÃO FOOTER-->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row py-5 gy-4">
-                  <!-- Botão Voltar ao Topo -->
-        <div class="text-end mt-5">
-            <a href="#" class="back-to-top">
-                <i class="bi bi-arrow-up-short"></i>
-            </a>
-        </div>
-            <!-- Sessão Explorar -->
-            <div class="col-md-4 footer-col">
-                <h5 class="footer-title">Explorar</h5>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Contato -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title">Contato</h5>
-                <ul class="footer-links">
-                    <li>
-                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
-                            Let's talk
-                        </a>
-                    </li>
-                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Conectar -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title text-md-end">Conectar</h5>
-                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
-                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
-                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row py-5 gy-4">
+                <div class="text-end mt-5">
+                    <a href="#" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
                 </div>
-          
+                <!-- Sessão Explorar -->
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title" data-i18n="footer_explore">Explorar</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="menu_home">Home</a></li>
+                        <li><a href="#projects" data-i18n="menu_projects">Projetos</a></li>
+                        <li><a href="#" data-i18n="menu_about">Sobre</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Contato -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title" data-i18n="footer_contact">Contato</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda..." target="_blank">Let's talk</a>
+                        </li>
+                       <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink" data-i18n="footer_copy_email">Copy email</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Conectar -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title text-md-end" data-i18n="footer_connect">Conectar</h5>
+                    <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                        <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                        <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom border-top-custom py-4 text-center">
+                <p class="mb-0">© <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
             </div>
         </div>
-
-        <!-- Linha do Copyright -->
-        <div class="footer-bottom border-top-custom py-4 text-center">
-            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
-        </div>
-    </div>
-</footer>
-
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scripts.js"></script>
-
-
-
-
     
+    <!-- Script de Tradução -->
+    <script src="../js/translations.js"></script>
 </body>
 </html>
