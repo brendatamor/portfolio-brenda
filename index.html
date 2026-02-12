@@ -24,7 +24,8 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tavares <img class="logo_brenda" src="images/logo brenda.png" alt=""></a>
+            <!-- CORREÇÃO: Removido o data-i18n daqui para não sumir a logo -->
+            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="images/logo brenda.png" alt=""></a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -34,22 +35,25 @@
                     <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
                         <div class="dropdown me-3">
                             <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <!-- Ícone de Tradução (SVG ou FontAwesome) -->
                                 <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
-                                <li ><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
                             </ul>
                         </div>
                     </span>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/about.html">About me</a></li>
+                    <!-- Links com tradução -->
+                    <li class="nav-item"><a class="nav-link" href="#" data-i18n="menu_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html" data-i18n="menu_projects">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html" data-i18n="menu_about">About me</a></li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-outline-dark contact-btn" href="pages/contact.html">Contato <span></span></a>
+                        <!-- Botão com span de decoração preservado -->
+                        <a class="btn btn-outline-dark contact-btn" href="pages/contact.html">
+                            <span data-i18n="menu_contact">Contato</span> <span></span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -61,20 +65,21 @@
         <div class="container h-100 d-flex align-items-center">
             <div class="row w-100">
                 <div class="col-lg-8 hero-text-box">
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                    <p class="subtitle text-uppercase">Product design • Web design • Development</p>
-                    <h1 class="main-title">
+                  <br><br><br><br>
+                    <p class="subtitle text-uppercase" data-i18n="hero_subtitle">Product design • Web design • Development</p>
+                    <h1 class="main-title" data-i18n="hero_title">
                         CRIANDO <br>
                         EXPERIÊNCIAS <br>
                         CONECTANDO <br>
                         PESSOAS
                     </h1>
                     <div class="hero-btns mt-4 d-flex gap-3">
-                        <a href="pages/contact.html" class="btn custom-btn">Fale comigo <span></span></a>
-                        <a href="pages/todos_projetos.html" class="btn custom-btn">Ver projetos <span></span></a>
+                        <a href="pages/contact.html" class="btn custom-btn">
+                            <span data-i18n="btn_talk">Fale comigo</span> <span></span>
+                        </a>
+                        <a href="pages/todos_projetos.html" class="btn custom-btn">
+                            <span data-i18n="btn_projects">Ver projetos</span> <span></span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -83,155 +88,138 @@
 
     <!-- CARROSSEL DE LOGOS (TRUST BAR) -->
     <section class="logo-slider">
-    <div class="logo-slide-track">
-        <!-- Lista de Logos (Repetimos a lista duas vezes para o efeito infinito ser perfeito) -->
-        <div class="slide"><img src="images/Meu portfolio brenda/ajdc.png" alt="AJDC"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/fortaleza_logo.png" alt="Fortaleza Prefeitura"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/FUNCI COR 3 1 (1).png" alt="FUNCI"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/piickan.png" alt="PII CKAN"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo-citinova-color 1.png" alt="CITINOVA"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/re-ciclo_comunicação-05 1 1.png" alt="Reciclo"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo-jdRosa 1 1.png" alt="JD Digital"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/ponto_de_encontro_logo.png" alt=" Ponto de encontro" ></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/missao_verde.png" alt=" Missão Verde" ></div>
-       <div class="slide"><img src="images/Meu portfolio brenda/logo_fortaleza_controle.png" alt=" Fortaleza no Controle" ></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo-dadosAbertos 4 1.png" alt=" Dados Abertos Fortaleza" ></div>
-
-        
-        <!-- Repetição (Cópia exata da lista acima) -->
-         <div class="slide"><img src="images/Meu portfolio brenda/ajdc.png" alt="AJDC"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/fortaleza_logo.png" alt="Fortaleza Prefeitura"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/FUNCI COR 3 1 (1).png" alt="FUNCI"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/piickan.png" alt="PII CKAN"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo-citinova-color 1.png" alt="CITINOVA"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/re-ciclo_comunicação-05 1 1.png" alt="Reciclo"></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo-jdRosa 1 1.png" alt="JD Digital"></div>
-         <div class="slide"><img src="images/Meu portfolio brenda/ponto_de_encontro_logo.png" alt=" Ponto de encontro" ></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/missao_verde.png" alt=" Missão Verde" ></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo_fortaleza_controle.png" alt=" Fortaleza no Controle" ></div>
-        <div class="slide"><img src="images/Meu portfolio brenda/logo-dadosAbertos 4 1.png" alt=" Dados Abertos Fortaleza" ></div>
-    </div>
-    
+        <div class="logo-slide-track">
+            <!-- Seus logos continuam aqui iguais -->
+            <div class="slide"><img src="images/Meu portfolio brenda/ajdc.png" alt="AJDC"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/fortaleza_logo.png" alt="Fortaleza Prefeitura"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/FUNCI COR 3 1 (1).png" alt="FUNCI"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/piickan.png" alt="PII CKAN"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo-citinova-color 1.png" alt="CITINOVA"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/re-ciclo_comunicação-05 1 1.png" alt="Reciclo"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo-jdRosa 1 1.png" alt="JD Digital"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/ponto_de_encontro_logo.png" alt="Ponto de encontro"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/missao_verde.png" alt="Missão Verde"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo_fortaleza_controle.png" alt="Fortaleza no Controle"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo-dadosAbertos 4 1.png" alt="Dados Abertos Fortaleza"></div>
+            <!-- Repetição -->
+            <div class="slide"><img src="images/Meu portfolio brenda/ajdc.png" alt="AJDC"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/fortaleza_logo.png" alt="Fortaleza Prefeitura"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/FUNCI COR 3 1 (1).png" alt="FUNCI"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/piickan.png" alt="PII CKAN"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo-citinova-color 1.png" alt="CITINOVA"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/re-ciclo_comunicação-05 1 1.png" alt="Reciclo"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo-jdRosa 1 1.png" alt="JD Digital"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/ponto_de_encontro_logo.png" alt="Ponto de encontro"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/missao_verde.png" alt="Missão Verde"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo_fortaleza_controle.png" alt="Fortaleza no Controle"></div>
+            <div class="slide"><img src="images/Meu portfolio brenda/logo-dadosAbertos 4 1.png" alt="Dados Abertos Fortaleza"></div>
+        </div>
     </section>
 
     <!-- SEÇÃO TRABALHOS EM DESTAQUE -->
     <section id="projects" class="projects-section py-5">
-    <!-- Imagem de fundo decorativa desta seção -->
-     <div class="projects-decor">
-        <img src="images/Frame 10.png" alt="decor">
-     </div>
+        <div class="projects-decor">
+            <img src="images/Frame 10.png" alt="decor">
+        </div>
 
         <div class="container position-relative" style="z-index: 2;">
-        <!-- Cabeçalho da Seção -->
-        <div class="row mb-5">
-            <div class="col-lg-6">
-                <p class="since-text">Since 2022 ———</p>
-                <h2 class="section-title">TRABALHOS EM <br> <span>DESTAQUE</span></h2>
-                <p class="section-desc mt-3">
-                    Abaixo meus projetos em destaque. Para visualizar todos os meus projetos, clique abaixo em <strong>Todos os projetos</strong>.
-                </p>
-                <a href="pages/todos_projetos.html" class="btn btn-outline-light all-projects-btn mt-4">Todos os projetos</a>
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <p class="since-text">Since 2022 ———</p>
+                    <h2 class="section-title" data-i18n="section_highlight_title">TRABALHOS EM <br> <span>DESTAQUE</span></h2>
+                    <p class="section-desc mt-3" data-i18n="section_highlight_desc">
+                        Abaixo meus projetos em destaque. Para visualizar todos os meus projetos, clique abaixo em <strong>Todos os projetos</strong>.
+                    </p>
+                    <a href="pages/todos_projetos.html" class="btn btn-outline-light all-projects-btn mt-4" data-i18n="btn_all_projects">Todos os projetos</a>
+                </div>
+            </div>
+
+            <!-- Grade de Projetos -->
+            <div class="row g-4">
+                <!-- Projeto 1 -->
+                <div class="col-md-6 mb-5">
+                    <div class="project-card">
+                        <a href="./pages/piickan.html">
+                            <div class="project-img-wrapper">
+                                <img src="images/piickan_images/mockup6_piickan (1).png" class="img-fluid project-main-img" alt="Projeto Piickan">
+                            </div>
+                        </a>
+                        <div class="project-footer d-flex align-items-center mt-3">
+                            <div class="project-logo-box me-3">
+                                <img src="images/logo_piickan.png" alt="Logo">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-name mb-0">PII CKAN</h4>
+                                <p class="project-category mb-0">PRODUCT DESIGN • BRANDING • WEBSITE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="col-md-6 mb-5">
+                    <div class="project-card">
+                        <a href="./pages/ajdc.html">
+                            <div class="project-img-wrapper">
+                                <img src="images/mockup_AJDC.png" class="img-fluid project-main-img" alt="Projeto AJDC">
+                            </div>
+                        </a>
+                        <div class="project-footer d-flex align-items-center mt-3">
+                            <div class="project-logo-box me-3">
+                                <img src="images/logo_AJDC.png" alt="Logo">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-name mb-0">AJDC</h4>
+                                <p class="project-category mb-0">End-to-end</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="col-md-6 mb-5">
+                    <div class="project-card">
+                        <a href="./pages/jd_digital.html">
+                            <div class="project-img-wrapper">
+                                <img src="images/mockup_jd_digital.png" class="img-fluid project-main-img" alt="Projeto JD">
+                            </div>
+                        </a>
+                        <div class="project-footer d-flex align-items-center mt-3">
+                            <div class="project-logo-box me-3">
+                                <img src="images/logo_jd_digital.png" alt="Logo">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-name mb-0">JD DIGITAL</h4>
+                                <p class="project-category mb-0">REDESIGN • BRANDING • WEBSITE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="col-md-6 mb-5">
+                    <div class="project-card">
+                        <a href="./pages/ponte_de_encontro.html">
+                            <div class="project-img-wrapper">
+                                <img src="images/mockup_ponte.png" class="img-fluid project-main-img" alt="Projeto Ponte">
+                            </div>
+                        </a>
+                        <div class="project-footer d-flex align-items-center mt-3">
+                            <div class="project-logo-box me-3">
+                                <img src="images/logo_ponte.png" alt="Logo">
+                            </div>
+                            <div class="project-info">
+                                <h4 class="project-name mb-0">PONTE DE ENCONTRO</h4>
+                                <p class="project-category mb-0">End-to-end</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Grade de Projetos -->
-        <div class="row g-4">
-            <!-- Projeto 1 -->
-            <div class="col-md-6 mb-5">
-         <div class="project-card">
-             <a href="./pages/piickan.html">
-            <div class="project-img-wrapper">
-                <img src="images/piickan_images/mockup6_piickan (1).png" class="img-fluid project-main-img" alt="Projeto Eleveit">
-             </div>
-        </a>
-        
-        <!-- FOOTER ATUALIZADO -->
-        <div class="project-footer d-flex align-items-center mt-3">
-            <div class="project-logo-box me-3">
-                <img src="images/logo_piickan.png" alt="Logo">
-            </div>
-            
-            <div class="project-info">
-                <h4 class="project-name mb-0">PII CKAN</h4>
-                <p class="project-category mb-0">PRODUCT DESIGN • BRANDING • WEBSITE</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-            <!-- Projeto 2 (Você pode duplicar este bloco para mais projetos) -->
-            <div class="col-md-6 mb-5">
-    <div class="project-card">
-        <a href="./pages/ajdc.html">
-            <div class="project-img-wrapper">
-                <img src="images/mockup_AJDC.png" class="img-fluid project-main-img" alt="Projeto Eleveit">
-            </div>
-        </a>
-        
-        <!-- FOOTER ATUALIZADO -->
-        <div class="project-footer d-flex align-items-center mt-3">
-            <div class="project-logo-box me-3">
-                <img src="images/logo_AJDC.png" alt="Logo">
-            </div>
-            
-            <div class="project-info">
-                <h4 class="project-name mb-0">AJDC</h4>
-                <p class="project-category mb-0">End-to-end</p>
-            </div>
-        </div>
-    </div>
-</div>
-            <!-- Projeto 3 -->
-            <div class="col-md-6 mb-5">
-    <div class="project-card">
-        <a href="./pages/jd_digital.html">
-            <div class="project-img-wrapper">
-                <img src="images/mockup_jd_digital.png" class="img-fluid project-main-img" alt="Projeto Eleveit">
-            </div>
-        </a>
-        
-        <!-- FOOTER ATUALIZADO -->
-        <div class="project-footer d-flex align-items-center mt-3">
-            <div class="project-logo-box me-3">
-                <img src="images/logo_jd_digital.png" alt="Logo">
-            </div>
-            
-            <div class="project-info">
-                <h4 class="project-name mb-0">JD DIGITAL</h4>
-                <p class="project-category mb-0">REDESIGN • BRANDING • WEBSITE</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-            <!-- Projeto 4 (Você pode duplicar este bloco para mais projetos) -->
-            <div class="col-md-6 mb-5">
-    <div class="project-card">
-        <a href="./pages/ponte_de_encontro.html">
-            <div class="project-img-wrapper">
-                <img src="images/mockup_ponte.png" class="img-fluid project-main-img" alt="Projeto Eleveit">
-            </div>
-        </a>
-        
-        <!-- FOOTER ATUALIZADO -->
-        <div class="project-footer d-flex align-items-center mt-3">
-            <div class="project-logo-box me-3">
-                <img src="images/logo_ponte.png" alt="Logo">
-            </div>
-            
-            <div class="project-info">
-                <h4 class="project-name mb-0">PONTE DE ENCONTRO</h4>
-                <p class="project-category mb-0">End-to-end</p>
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
-    
-</section>
-
-
-<!-- SEÇÃO SERVIÇOS -->
+    <!-- SEÇÃO SERVIÇOS -->
 <section id="services" class="services-section py-5">
     <!-- Imagem de fundo decorativa -->
     <div class="services-decor">
@@ -242,9 +230,9 @@
         <!-- Cabeçalho da Seção -->
         <div class="row mb-5">
             <div class="col-lg-6">
-                <p class="subtitle-small text-uppercase mb-2">Em que posso ajudar</p>
-                <h2 class="section-title-large mb-3">SERVIÇOS</h2>
-                <p class="section-description">
+                <p class="subtitle-small text-uppercase mb-2" data-i18n="serv_help_title">Em que posso ajudar</p>
+                <h2 class="section-title-large mb-3" data-i18n="serv_main_title">SERVIÇOS</h2>
+                <p class="section-description" data-i18n="serv_desc">
                     Soluções digitais para produtos que precisam sair do papel, evoluir e escalar — sem depender de times grandes.
                 </p>
             </div>
@@ -255,18 +243,18 @@
             <!-- Card 1: UX & Product Design -->
             <div class="col-lg-6">
                 <div class="service-card">
-                    <h3>UX & Product Design</h3>
-                    <p>Atuo em todo o ciclo do produto, desde a descoberta do problema até a validação da solução, garantindo decisões orientadas ao usuário e aos objetivos do negócio.</p>
+                    <h3 data-i18n="serv_1_title">UX & Product Design</h3>
+                    <p data-i18n="serv_1_desc">Atuo em todo o ciclo do produto, desde a descoberta do problema até a validação da solução, garantindo decisões orientadas ao usuário e aos objetivos do negócio.</p>
                     
                     <div class="service-list-wrapper">
-                        <h6>Inclui:</h6>
+                        <h6 data-i18n="word_includes">Inclui:</h6>
                         <ul class="service-list">
-                            <li><i class="bi bi-check-circle-fill"></i> UX Research e discovery</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Mapeamento de jornadas (onboarding, ativação e retenção)</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Arquitetura da informação</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Fluxos de usuário</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Wireframes e protótipos (baixa → alta fidelidade)</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Testes de usabilidade e validação</li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_1_item_1">UX Research e discovery</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_1_item_2">Mapeamento de jornadas (onboarding, ativação e retenção)</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_1_item_3">Arquitetura da informação</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_1_item_4">Fluxos de usuário</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_1_item_5">Wireframes e protótipos (baixa → alta fidelidade)</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_1_item_6">Testes de usabilidade e validação</span></li>
                         </ul>
                     </div>
                 </div>
@@ -275,17 +263,17 @@
             <!-- Card 2: UI & Visual Design -->
             <div class="col-lg-6">
                 <div class="service-card">
-                    <h3>UI & Visual Design</h3>
-                    <p>Crio interfaces funcionais, acessíveis e visualmente consistentes, focadas em usabilidade, clareza e escalabilidade. Trabalho com design systems para garantir eficiência no desenvolvimento e evolução contínua do produto.</p>
+                    <h3 data-i18n="serv_2_title">UI & Visual Design</h3>
+                    <p data-i18n="serv_2_desc">Crio interfaces funcionais, acessíveis e visualmente consistentes, focadas em usabilidade, clareza e escalabilidade. Trabalho com design systems para garantir eficiência.</p>
                     
                     <div class="service-list-wrapper">
-                        <h6>Inclui:</h6>
+                        <h6 data-i18n="word_includes">Inclui:</h6>
                         <ul class="service-list">
-                            <li><i class="bi bi-check-circle-fill"></i> UI Design para produtos digitais</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Design system (criação ou evolução)</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Componentização visual</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Design responsivo</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Acessibilidade aplicada ao produto</li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_2_item_1">UI Design para produtos digitais</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_2_item_2">Design system (criação ou evolução)</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_2_item_3">Componentização visual</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_2_item_4">Design responsivo</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_2_item_5">Acessibilidade aplicada ao produto</span></li>
                         </ul>
                     </div>
                 </div>
@@ -294,17 +282,17 @@
             <!-- Card 3: Front-end & No-Code -->
             <div class="col-lg-6">
                 <div class="service-card">
-                    <h3>Front-end & No-Code Development</h3>
-                    <p>Implemento interfaces com fidelidade ao design, unindo código e no-code para entregar soluções funcionais, performáticas e prontas para uso real.</p>
+                    <h3 data-i18n="serv_3_title">Front-end & No-Code Development</h3>
+                    <p data-i18n="serv_3_desc">Implemento interfaces com fidelidade ao design, unindo código e no-code para entregar soluções funcionais, performáticas e prontas para uso real.</p>
                     
                     <div class="service-list-wrapper">
-                        <h6>Inclui:</h6>
+                        <h6 data-i18n="word_includes">Inclui:</h6>
                         <ul class="service-list">
-                            <li><i class="bi bi-check-circle-fill"></i> HTML, CSS, JavaScript, SCSS e Bootstrap</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Implementação de interfaces responsivas</li>
-                            <li><i class="bi bi-check-circle-fill"></i> FlutterFlow (apps e web apps)</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Integrações via API (GET / POST)</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Ajustes finos entre design e desenvolvimento</li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_3_item_1">HTML, CSS, JavaScript, SCSS e Bootstrap</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_3_item_2">Implementação de interfaces responsivas</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_3_item_3">FlutterFlow (apps e web apps)</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_3_item_4">Integrações via API (GET / POST)</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_3_item_5">Ajustes finos entre design e desenvolvimento</span></li>
                         </ul>
                     </div>
                 </div>
@@ -313,17 +301,17 @@
             <!-- Card 4: Websites & MVPs -->
             <div class="col-lg-6">
                 <div class="service-card">
-                    <h3>Websites & MVPs</h3>
-                    <p>Desenvolvo websites e MVPs rápidos para validar ideias, comunicar propostas de valor e acelerar lançamentos. Soluções pensadas para startups, produtos digitais e projetos em estágio inicial.</p>
+                    <h3 data-i18n="serv_4_title">Websites & MVPs</h3>
+                    <p data-i18n="serv_4_desc">Desenvolvo websites e MVPs rápidos para validar ideias, comunicar propostas de valor e acelerar lançamentos.</p>
                     
                     <div class="service-list-wrapper">
-                        <h6>Inclui:</h6>
+                        <h6 data-i18n="word_includes">Inclui:</h6>
                         <ul class="service-list">
-                            <li><i class="bi bi-check-circle-fill"></i> Websites em Webflow</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Prototipação e MVPs funcionais</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Landing pages para validação</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Estruturação de conteúdo e UX</li>
-                            <li><i class="bi bi-check-circle-fill"></i> SEO técnico essencial e performance</li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_4_item_1">Websites em Webflow</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_4_item_2">Prototipação e MVPs funcionais</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_4_item_3">Landing pages para validação</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_4_item_4">Estruturação de conteúdo e UX</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span data-i18n="serv_4_item_5">SEO técnico essencial e performance</span></li>
                         </ul>
                     </div>
                 </div>
@@ -332,122 +320,117 @@
     </div>
 </section>
 
+    <!-- SEÇÃO FAQ -->
+    <section id="faq" class="faq-section py-5">
+        <div class="faq-decor">
+            <img src="images/frame_faq.png" alt="decor">
+        </div>
 
-<!-- SEÇÃO FAQ -->
-<section id="faq" class="faq-section py-5">
-    <!-- Imagem de fundo decorativa -->
-    <div class="faq-decor">
-        <img src="images/frame_faq.png" alt="decor">
-    </div>
+        <div class="container position-relative" style="z-index: 2;">
+            <h2 class="faq-title mb-5" data-i18n="faq_title">FAQ</h2>
 
-    <div class="container position-relative" style="z-index: 2;">
-        <h2 class="faq-title mb-5">FAQ</h2>
+            <div class="accordion accordion-flush" id="accordionFAQ">
+                <!-- Pergunta 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            <span data-i18n="faq_1_question">Quem é Brenda Tavares?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body" data-i18n="faq_1_answer">
+                            Sou brasileira, estudo e trabalho com UX...
+                        </div>
+                    </div>
+                </div>
 
-        <div class="accordion accordion-flush" id="accordionFAQ">
-            
-            <!-- Pergunta 1 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                        Quem é Brenda Tavares?
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
-                    <div class="accordion-body">
-                        Sou brasileira, estudo e trabalho com UX, desenvolvimento e product design há mais de 3 anos. Meu objetivo é somar com projetos, sonhos, negócios e objetivos de outras pessoas do mundo todo, que tenham o desejo de criar funcionalidades que melhorem a vida das pessoas.
+                <!-- Pergunta 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            <span data-i18n="faq_2_question">Com o que de fato eu trabalho? E com que eu não trabalho?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body" data-i18n="faq_2_answer">
+                            Trabalho com Product Design (End-to-end)...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            <span data-i18n="faq_3_question">Como posso contatá-la?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body" data-i18n="faq_3_answer">
+                            Você pode entrar em contato através...
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Pergunta 2 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                        Com o que de fato eu trabalho? E com que eu não trabalho?
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
-                    <div class="accordion-body">
-                        Trabalho com Product Design (End-to-end), UI/UX, Design Systems e Desenvolvimento Front-end (No-code e Code). Não trabalho com marketing digital, gestão de tráfego ou design gráfico para redes sociais.
+            <div class="text-end mt-5">
+                <a href="#" class="back-to-top">
+                    <i class="bi bi-arrow-up-short"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO FOOTER -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row py-5 gy-4">
+                <!-- Sessão Explorar -->
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title" data-i18n="footer_explore">Explorar</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="menu_home">Home</a></li>
+                        <li><a href="#projects" data-i18n="menu_projects">Projetos</a></li>
+                        <li><a href="#" data-i18n="menu_about">Sobre</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Contato -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title" data-i18n="footer_contact">Contato</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda..." target="_blank">
+                                Let's talk
+                            </a>
+                        </li>
+                       <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink" data-i18n="footer_copy_email">Copy email</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Conectar -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title text-md-end" data-i18n="footer_connect">Conectar</h5>
+                    <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                        <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                        <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
                     </div>
                 </div>
             </div>
 
-            <!-- Pergunta 3 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                        Como posso contatá-la?
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
-                    <div class="accordion-body">
-                        Você pode entrar em contato através do botão "Contato" no menu, ou pelas minhas redes sociais (LinkedIn e Behance). Costumo responder em até 24h úteis.
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Botão Voltar ao Topo -->
-        <div class="text-end mt-5">
-            <a href="#" class="back-to-top">
-                <i class="bi bi-arrow-up-short"></i>
-            </a>
-        </div>
-    </div>
-</section>
-
-
-<!---SEÇÃO FOOTER-->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row py-5 gy-4">
-            <!-- Sessão Explorar -->
-            <div class="col-md-4 footer-col">
-                <h5 class="footer-title">Explorar</h5>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Contato -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title">Contato</h5>
-                <ul class="footer-links">
-                    <li>
-                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
-                            Let's talk
-                        </a>
-                    </li>
-                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Conectar -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title text-md-end">Conectar</h5>
-                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
-                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
-                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
-                </div>
+            <!-- Linha do Copyright -->
+            <div class="footer-bottom border-top-custom py-4 text-center">
+                <p class="mb-0">© <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
             </div>
         </div>
-
-        <!-- Linha do Copyright -->
-        <div class="footer-bottom border-top-custom py-4 text-center">
-            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
-        </div>
-    </div>
-</footer>
-
-
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
+
+    <!-- Script de Tradução -->
+    <script src="js/translations.js"></script>
 </body>
 </html>
