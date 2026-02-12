@@ -290,7 +290,74 @@ const translations = {
 
         'pii_wireframe_hi_title': 'Wireframe de alta  fidelidade',
         'pii_wireframe_hi_text_1': 'A etapa de alta fidelidade do PII CKAN foi desenhada para oferecer máxima transparência sobre processos de backend. Como varreduras de dados massivos podem levar tempo, o foco da interface foi manter o usuário informado através de loops de feedback contínuos: barras de progresso dinâmicas, contadores de evidências em tempo real e sinalização clara de estados (Buscando, Finalizado ou Erro).',
-        'pii_wireframe_hi_text_2': 'Projetei a experiência para ser "error-proof" (à prova de erros). Um exemplo crítico é o modal de cancelamento de busca, que evita ações acidentais em processos custosos computacionalmente. Transformamos parâmetros técnicos de configuração (como URLs de portal e diretórios de arquivos) em formulários intuitivos com validação imediata, garantindo que o gestor de dados tenha o controle total da ferramenta sem necessidade de conhecimento em programação.'
+        'pii_wireframe_hi_text_2': 'Projetei a experiência para ser "error-proof" (à prova de erros). Um exemplo crítico é o modal de cancelamento de busca, que evita ações acidentais em processos custosos computacionalmente. Transformamos parâmetros técnicos de configuração (como URLs de portal e diretórios de arquivos) em formulários intuitivos com validação imediata, garantindo que o gestor de dados tenha o controle total da ferramenta sem necessidade de conhecimento em programação.',
+
+
+        // --- PROJETO: AJDC ---
+        'ajdc_hero_title': 'Sobre o  Projeto',
+        'ajdc_intro': 'O AJDC Clean Energy é um ecossistema de gestão inteligente desenvolvido sob medida para o setor de energia solar. O projeto nasceu com o desafio de centralizar processos administrativos que eram fragmentados, manuais e burocráticos, transformando-os em uma jornada digital fluida e intuitiva. Minha missão foi projetar uma interface que reduzisse a carga cognitiva da equipe financeira, integrando desde o cadastro dinâmico de clientes até a automação de faturas conectadas diretamente aos sistemas bancários. O resultado é uma ferramenta que não apenas organiza dados, mas acelera a geração de receita e oferece visibilidade estratégica em tempo real.',
+        'ajdc_intro_2': 'Atuei desde a fase de Engenharia de Requisitos, mapeando processos internos e fluxos de usuário, até a entrega final do código. A solução centraliza o controle de faturas e boletos através de uma arquitetura baseada em APIs personalizadas, integrando automações via IA (n8n) para uma gestão financeira sem falhas humanas.',
+        
+        // Detalhes
+        'ajdc_client_value': 'AJDC Clean Energy  Fortaleza, CE - BRA',
+        'ajdc_services_list': 'Product Discovery & StrategyUX/UI Design & PrototypingFront-end DevelopmentAPI Integration & Automation',
+        'ajdc_role_value': 'Product Designer & Front-end Developer',
+
+        // Narrativa
+        'ajdc_challenge_title': 'O desafio',
+        'ajdc_challenge_text': 'Eliminar o "gargalo" operacional. A empresa perdia horas valiosas em preenchimentos manuais e consultas dispersas. O objetivo técnico era criar uma arquitetura de informação onde o administrador pudesse realizar ações complexas (como cadastrar clientes, fazer consultas, criar faturas, e ter acesso a métricas importantes) em poucos cliques, sem margem para erros.',
+        
+        'ajdc_deliverables_title': 'Principais entregáveis',
+        'ajdc_deliverables_text': 'Cadastro de clientes e faturas, consultas relacionadas aos mesmos, desenvolvimento de um Dashboard Administrativo, fluxos de faturamento automatizados, sistema de filtros avançados para consulta de pagamentos e uma central de documentação/tutoriais integrada para facilitar o onboarding de novos colaboradores.',
+        
+        'ajdc_uxui_title': 'Design de sites (UX/UI)',
+        'ajdc_uxui_text': 'Cada elemento visual foi pensado para minimizar erros operacionais, garantindo que a gestão de centenas de clientes e faturas fosse realizada de forma ágil e segura, reduzindo a curva de aprendizado e fricção para os usuários finais. O objetivo era alcançar eficiência máxima com o mínimo de esforço cognitivo.',
+        
+        'ajdc_dev_title': 'Desenvolvimento',
+        'ajdc_dev_text': 'Fui responsável pela implementação completa do front-end utilizando FlutterFlow, garantindo fidelidade absoluta ao design e performance escalável. O diferencial técnico deste projeto foi a integração via APIs REST, onde trabalhei em colaboração direta com o desenvolvedor back-end para o consumo de dados em tempo real. Foi implementada toda a lógica de exibição de faturas e dashboards, além da estrutura da interface para interagir com automações de IA (n8n), entregando um produto funcional e pronto para operação.',
+
+        // Impacto
+        'ajdc_impact_title': 'IMPACTO & APRENDIZADOS',
+        
+        'ajdc_metric_1_title': 'Agilidade Operacional',
+        'ajdc_metric_1_desc': 'Aumento de 300% na eficiência de cadastro. Através da unificação de ferramentas e automação de cálculos matemáticos complexos, o tempo médio para registro de clientes e faturas foi reduzido drasticamente, tornando o fluxo de trabalho 3x mais ágil e prático.',
+        
+        'ajdc_metric_2_title': 'Product Discovery & Insights',
+        'ajdc_metric_2_desc': 'Redução de "Gargalos" Invisíveis. As entrevistas qualitativas com colaboradores permitiram mapear dores operacionais que não haviam sido diagnosticadas. O resultado foi a criação de funcionalidades inéditas que resolveram necessidades críticas de gestão antes negligenciadas.',
+        
+        'ajdc_metric_3_title': 'Satisfação do Usuário  (NPS Qualitativo)',
+        'ajdc_metric_3_desc': '100% de Aprovação Interna. O sistema alcançou um índice de satisfação absoluta entre a equipe operacional e diretoria. A interface eliminou as nuances de erro e a resistência ao uso, sendo reconhecida como uma ferramenta "perfeita" para o dia a dia da empresa.',
+        
+        'ajdc_metric_4_title': 'Escalabilidade de Dados',
+        'ajdc_metric_4_desc': 'Gestão Estratégica de Ativos. O lançamento permitiu um crescimento significativo na manutenção de dados vitais. Agora, a empresa possui visibilidade total sobre o número de clientes, fluxos de pagamentos e métricas financeiras, facilitando a tomada de decisão baseada em dados reais.',
+        
+        'ajdc_metric_5_title': 'Integridade de Dados',
+        'ajdc_metric_5_desc': 'Zero Erros de Cálculo. Ao anular a necessidade de cálculos manuais e planilhas externas, o sistema garantiu 100% de integridade nas faturas geradas. Isso eliminou prejuízos financeiros causados por falhas humanas e retrabalho da equipe financeira.',
+
+        // Seções Extras
+        'ajdc_user_title': 'O usuário',
+        'ajdc_user_text': 'Para que o AJDC não fosse apenas mais um software de gestão, utilizei metodologias de Product Discovery para mapear o comportamento real de quem opera o faturamento. Através de Needs Statements e Mapas de Empatia, consolidamos a proto-persona Jeice: o perfil que sintetiza os desafios de escala e automação do setor solar.',
+        
+        'ajdc_structure_title': 'Estrutura do  projeto',
+        'ajdc_structure_text': 'Para transformar o pedido de automação do cliente em uma ferramenta robusta, projetei a estrutura do sistema focada em modularidade e controle total de dados. A arquitetura foi desenhada para centralizar o ciclo de vida do faturamento solar em um único ambiente, eliminando a dependência de planilhas externas e processos manuais. Foi desenvolvido um Sitemap estratégico que organiza o sistema em cinco pilares fundamentais:',
+        'ajdc_structure_list_items': 'Gestão de Clientes: Fluxos completos de cadastro e consulta de dados sensíveis e endereçamentos.Automação de Faturamento: Módulo core para criação, consulta e geração de remessas bancárias automatizadas.Inteligência de Dados: Dashboard de métricas para visão macro do negócio e status de pagamentos.Consultas Financeiras: Ferramenta de busca avançada com somatórios automáticos de pendências e recebidos.Onboarding e Suporte: Uma seção dedicada de tutoriais interativos para cada funcionalidade, garantindo autonomia plena aos usuários e reduzindo a curva de aprendizado.',
+        'ajdc_structure_footer': 'O resultado é um ecossistema lógico onde o usuário navega com confiança, realizando ações complexas através de caminhos intuitivos e validados por fluxogramas de processos.',
+
+        'ajdc_wireframe_low_title': 'WIREFRAMES &  arquitetura funcional',
+        'ajdc_wireframe_low_text_1': 'Na etapa de wireframes, meu foco principal foi a organização de dados densos e a validação das regras de negócio do setor de energia solar. Dada a complexidade dos cálculos de faturamento e a diversidade de categorias de clientes, utilizei o design de média fidelidade para estruturar interfaces que priorizam a precisão e a velocidade de operação.',
+        'ajdc_wireframe_low_text_2': 'Através de iterações constantes com stakeholders e usuários finais, refinei fluxos críticos como o cadastro de clientes, a geração automática de faturas e a consulta de pagamentos. Cada tela foi projetada para minimizar erros humanos, com elementos visuais que guiam o usuário através de processos complexos de forma intuitiva. O resultado é uma base sólida que sustenta a experiência do usuário, garantindo que cada interação seja eficiente e livre de ambiguidades.',
+
+        'ajdc_ui_title': 'Design de interface  do usuário',
+        'ajdc_ui_text': 'O design de interface do AJDC foi projetado para equilibrar a robustez de um sistema financeiro com a leveza de uma ferramenta moderna de energia limpa. O objetivo principal do Style Guide foi garantir consistência absoluta entre os módulos, facilitando o aprendizado da equipe e otimizando o fluxo de faturamento.',
+        'ajdc_ui_list': ' Cores e Semântica: A paleta utiliza tons de Azul Petróleo e Teals para transmitir estabilidade e profissionalismo, remetendo diretamente ao setor de energia sustentável. Utilizamos o Verde Esmeralda para estados de sucesso e o Coral Vibrante para alertas críticos, garantindo que o usuário identifique instantaneamente o status das faturas e processos.  Tipografia (Inter):  Escolhi a família Inter por sua versatilidade sistêmica. Sua alta legibilidade em diferentes escalas foi fundamental para organizar tabelas densas e dashboards, mantendo uma hierarquia clara entre dados operacionais e métricas de decisão.  Componentização e Botões:  Desenvolvi uma biblioteca de componentes modulares com estilos Solid e Outline. Essa abordagem não apenas melhora a experiência do usuário através da previsibilidade, mas também garantiu um handoff ágil para o desenvolvimento no FlutterFlow, permitindo a reutilização de elementos e a escalabilidade do sistema.  Iconografia:  Utilizamos ícones minimalistas de traço limpo para auxiliar no reconhecimento cognitivo rápido das funcionalidades, reduzindo o tempo de resposta do administrador durante tarefas repetitivas.',
+
+        'ajdc_wireframe_hi_title': 'Wireframes:  alta fidelidade',
+        'ajdc_wireframe_hi_text_1': 'A etapa de alta fidelidade traduziu a complexidade lógica do AJDC em uma interface de alta performance. O foco principal foi a criação de um ecossistema consistente, onde o administrador pode gerenciar centenas de faturas com o mínimo de cliques e esforço cognitivo.',
+        'ajdc_wireframe_hi_text_2': 'Cada componente foi desenhado seguindo as diretrizes do Style Guide, garantindo que elementos críticos — como status de pagamento e alertas de vencimento — tenham destaque imediato, reduzindo drasticamente a margem de erro humano no faturamento.',
+
+        'ajdc_mobile_title': 'Wireframe de alta  fidelidade: mobile',
+        'ajdc_mobile_text_1': 'A versão mobile do AJDC foi projetada para ser a extensão de bolso do administrador. O desafio técnico foi adaptar fluxos densos de dados para telas reduzidas, priorizando a acessibilidade e a rapidez na consulta.',
+        'ajdc_mobile_text_2': 'Através de um design responsivo e adaptativo, implementei o empilhamento inteligente de componentes e a simplificação de formulários extensos. Para garantir a segurança em processos críticos, como a geração de faturas, adotamos a estratégia de restringir certas funcionalidades ao ambiente desktop, enquanto o mobile atua como uma poderosa ferramenta de monitoramento e consulta rápida de status e métricas, permitindo que o gestor tenha o controle da operação na palma da mão, com total clareza visual.'
     },
 
     'en': {
@@ -659,7 +726,74 @@ const translations = {
 
         'pii_wireframe_hi_title': 'High Fidelity  Wireframe',
         'pii_wireframe_hi_text_1': 'PII CKAN\'s high-fidelity stage was designed to offer maximum transparency regarding backend processes. Since massive data scans can take time, the interface focus was keeping the user informed through continuous feedback loops: dynamic progress bars, real-time evidence counters, and clear state signaling (Searching, Finished, or Error).',
-        'pii_wireframe_hi_text_2': 'I designed the experience to be "error-proof". A critical example is the scan cancellation modal, which prevents accidental actions in computationally expensive processes. We transformed technical configuration parameters (like portal URLs and file directories) into intuitive forms with immediate validation, ensuring the data manager has full tool control without needing programming knowledge.'
+        'pii_wireframe_hi_text_2': 'I designed the experience to be "error-proof". A critical example is the scan cancellation modal, which prevents accidental actions in computationally expensive processes. We transformed technical configuration parameters (like portal URLs and file directories) into intuitive forms with immediate validation, ensuring the data manager has full tool control without needing programming knowledge.',
+
+
+        // --- PROJECT: AJDC ---
+        'ajdc_hero_title': 'About the  Project',
+        'ajdc_intro': 'AJDC Clean Energy is an intelligent management ecosystem developed specifically for the solar energy sector. The project was born from the challenge of centralizing administrative processes that were fragmented, manual, and bureaucratic, transforming them into a fluid and intuitive digital journey. My mission was to design an interface that reduced the cognitive load of the finance team, integrating everything from dynamic client registration to invoice automation connected directly to banking systems. The result is a tool that not only organizes data but accelerates revenue generation and offers real-time strategic visibility.',
+        'ajdc_intro_2': 'I worked from the Requirements Engineering phase, mapping internal processes and user flows, to the final code delivery. The solution centralizes invoice and billing control through an architecture based on custom APIs, integrating AI automations via n8n for financial management without human errors.',
+        
+        // Details
+        'ajdc_client_value': 'AJDC Clean Energy  Fortaleza, CE - BRA',
+        'ajdc_services_list': 'Product Discovery & StrategyUX/UI Design & PrototypingFront-end DevelopmentAPI Integration & Automation',
+        'ajdc_role_value': 'Product Designer & Front-end Developer',
+
+        // Narrative
+        'ajdc_challenge_title': 'The Challenge',
+        'ajdc_challenge_text': 'Eliminate the operational "bottleneck". The company was losing valuable hours on manual entries and dispersed queries. The technical goal was to create an information architecture where the administrator could perform complex actions (such as registering clients, making queries, creating invoices, and accessing important metrics) in a few clicks, with no margin for error.',
+        
+        'ajdc_deliverables_title': 'Key Deliverables',
+        'ajdc_deliverables_text': 'Client and invoice registration, related queries, Administrative Dashboard development, automated billing flows, advanced filter system for payment consultation, and an integrated documentation/tutorial center to facilitate new employee onboarding.',
+        
+        'ajdc_uxui_title': 'Site Design (UX/UI)',
+        'ajdc_uxui_text': 'Every visual element was designed to minimize operational errors, ensuring that managing hundreds of clients and invoices was done agilely and securely, reducing the learning curve and friction for end-users. The goal was to achieve maximum efficiency with minimum cognitive effort.',
+        
+        'ajdc_dev_title': 'Development',
+        'ajdc_dev_text': 'I was responsible for the complete front-end implementation using FlutterFlow, ensuring absolute fidelity to the design and scalable performance. The technical differentiator of this project was the integration via REST APIs, where I worked in direct collaboration with the back-end developer for real-time data consumption. All logic for displaying invoices and dashboards was implemented, as well as the interface structure to interact with AI automations (n8n), delivering a functional and operation-ready product.',
+
+        // Impact
+        'ajdc_impact_title': 'IMPACT & LEARNINGS',
+        
+        'ajdc_metric_1_title': 'Operational Agility',
+        'ajdc_metric_1_desc': '300% increase in registration efficiency. Through tool unification and automation of complex mathematical calculations, the average time for client and invoice registration was drastically reduced, making the workflow 3x more agile and practical.',
+        
+        'ajdc_metric_2_title': 'Product Discovery & Insights',
+        'ajdc_metric_2_desc': 'Reduction of Invisible "Bottlenecks". Qualitative interviews with employees allowed mapping operational pains that hadn\'t been diagnosed. The result was the creation of novel features that solved critical management needs previously neglected.',
+        
+        'ajdc_metric_3_title': 'User Satisfaction  (Qualitative NPS)',
+        'ajdc_metric_3_desc': '100% Internal Approval. The system achieved an absolute satisfaction index among the operational team and board. The interface eliminated error nuances and resistance to use, being recognized as a "perfect" tool for the company\'s day-to-day.',
+        
+        'ajdc_metric_4_title': 'Data Scalability',
+        'ajdc_metric_4_desc': 'Strategic Asset Management. The launch allowed significant growth in maintaining vital data. Now, the company has total visibility over customer numbers, payment flows, and financial metrics, facilitating data-driven decision-making.',
+        
+        'ajdc_metric_5_title': 'Data Integrity',
+        'ajdc_metric_5_desc': 'Zero Calculation Errors. By voiding the need for manual calculations and external spreadsheets, the system ensured 100% integrity in generated invoices. This eliminated financial losses caused by human error and rework by the finance team.',
+
+        // Extra Sections
+        'ajdc_user_title': 'The User',
+        'ajdc_user_text': 'So that AJDC wouldn\'t be just another management software, I used Product Discovery methodologies to map the real behavior of those operating billing. Through Needs Statements and Empathy Maps, we consolidated the proto-persona Jeice: the profile synthesizing the scale and automation challenges of the solar sector.',
+        
+        'ajdc_structure_title': 'Project  Structure',
+        'ajdc_structure_text': 'To transform the client\'s automation request into a robust tool, I designed the system structure focused on modularity and total data control. The architecture was designed to centralize the solar billing lifecycle in a single environment, eliminating dependence on external spreadsheets and manual processes. A strategic Sitemap was developed organizing the system into five fundamental pillars:',
+        'ajdc_structure_list_items': 'Client Management: Complete flows for registration and consultation of sensitive data and addressing.Billing Automation: Core module for creation, consultation, and generation of automated bank remittances.Data Intelligence: Metrics dashboard for macro business view and payment status.Financial Queries: Advanced search tool with automatic summation of pending and received amounts.Onboarding and Support: A dedicated section of interactive tutorials for each feature, ensuring full user autonomy and reducing the learning curve.',
+        'ajdc_structure_footer': 'The result is a logical ecosystem where the user navigates with confidence, performing complex actions through intuitive paths validated by process flowcharts.',
+
+        'ajdc_wireframe_low_title': 'WIREFRAMES &  functional architecture',
+        'ajdc_wireframe_low_text_1': 'In the wireframe stage, my main focus was organizing dense data and validating solar energy sector business rules. Given the complexity of billing calculations and diverse client categories, I used mid-fidelity design to structure interfaces prioritizing precision and operation speed.',
+        'ajdc_wireframe_low_text_2': 'Through constant iterations with stakeholders and end-users, I refined critical flows like client registration, automatic invoice generation, and payment consultation. Each screen was designed to minimize human error, with visual elements guiding the user through complex processes intuitively. The result is a solid base supporting user experience, ensuring every interaction is efficient and ambiguity-free.',
+
+        'ajdc_ui_title': 'User Interface  Design',
+        'ajdc_ui_text': 'AJDC\'s interface design was planned to balance the robustness of a financial system with the lightness of a modern clean energy tool. The main goal of the Style Guide was ensuring absolute consistency between modules, facilitating team learning and optimizing billing flow.',
+        'ajdc_ui_list': ' Colors and Semantics: The palette uses Petroleum Blue and Teal tones to convey stability and professionalism, directly referencing the sustainable energy sector. We used Emerald Green for success states and Vibrant Coral for critical alerts, ensuring the user instantly identifies invoice and process status.  Typography (Inter):  I chose the Inter family for its systemic versatility. Its high legibility at different scales was fundamental for organizing dense tables and dashboards, maintaining a clear hierarchy between operational data and decision metrics.  Componentization and Buttons:  I developed a library of modular components with Solid and Outline styles. This approach not only improves user experience through predictability but also ensured an agile handoff for FlutterFlow development, allowing element reuse and system scalability.  Iconography:  We used minimalist clean-line icons to assist in quick cognitive recognition of features, reducing administrator response time during repetitive tasks.',
+
+        'ajdc_wireframe_hi_title': 'Wireframes:  high fidelity',
+        'ajdc_wireframe_hi_text_1': 'The high-fidelity stage translated AJDC\'s logical complexity into a high-performance interface. The main focus was creating a consistent ecosystem where the administrator can manage hundreds of invoices with minimal clicks and cognitive effort.',
+        'ajdc_wireframe_hi_text_2': 'Each component was designed following Style Guide guidelines, ensuring critical elements — like payment status and due date alerts — have immediate prominence, drastically reducing human error margin in billing.',
+
+        'ajdc_mobile_title': 'High Fidelity:  Mobile',
+        'ajdc_mobile_text_1': 'AJDC\'s mobile version was designed to be the administrator\'s pocket extension. The technical challenge was adapting dense data flows for reduced screens, prioritizing accessibility and query speed.',
+        'ajdc_mobile_text_2': 'Through responsive and adaptive design, I implemented intelligent component stacking and simplification of extensive forms. To ensure security in critical processes like invoice generation, we adopted the strategy of restricting certain features to the desktop environment, while mobile acts as a powerful tool for monitoring and quick consultation of status and metrics, allowing the manager to have operation control in the palm of their hand, with total visual clarity.'
     },
 
     'es': {
@@ -982,7 +1116,74 @@ const translations = {
 
         'pii_wireframe_hi_title': 'Wireframe de Alta  Fidelidad',
         'pii_wireframe_hi_text_1': 'La etapa de alta fidelidad de PII CKAN fue diseñada para ofrecer máxima transparencia sobre los procesos de backend. Dado que los escaneos de datos masivos pueden tomar tiempo, el enfoque de la interfaz fue mantener al usuario informado a través de bucles de retroalimentación continuos: barras de progreso dinámicas, contadores de evidencia en tiempo real y señalización clara de estados (Buscando, Finalizado o Error).',
-        'pii_wireframe_hi_text_2': 'Diseñé la experiencia para ser "a prueba de errores". Un ejemplo crítico es el modal de cancelación de escaneo, que evita acciones accidentales en procesos computacionalmente costosos. Transformamos parámetros técnicos de configuración (como URLs de portal y directorios de archivos) en formularios intuitivos con validación inmediata, garantizando que el gestor de datos tenga el control total de la herramienta sin necesidad de conocimientos de programación.'
+        'pii_wireframe_hi_text_2': 'Diseñé la experiencia para ser "a prueba de errores". Un ejemplo crítico es el modal de cancelación de escaneo, que evita acciones accidentales en procesos computacionalmente costosos. Transformamos parámetros técnicos de configuración (como URLs de portal y directorios de archivos) en formularios intuitivos con validación inmediata, garantizando que el gestor de datos tenga el control total de la herramienta sin necesidad de conocimientos de programación.',
+
+
+        // --- PROYECTO: AJDC ---
+        'ajdc_hero_title': 'Sobre el  Proyecto',
+        'ajdc_intro': 'AJDC Clean Energy es un ecosistema de gestión inteligente desarrollado a medida para el sector de energía solar. El proyecto nació del desafío de centralizar procesos administrativos que eran fragmentados, manuales y burocráticos, transformándolos en una jornada digital fluida e intuitiva. Mi misión fue diseñar una interfaz que redujera la carga cognitiva del equipo financiero, integrando desde el registro dinámico de clientes hasta la automatización de facturas conectadas directamente a los sistemas bancarios. El resultado es una herramienta que no solo organiza datos, sino que acelera la generación de ingresos y ofrece visibilidad estratégica en tiempo real.',
+        'ajdc_intro_2': 'Actué desde la fase de Ingeniería de Requisitos, mapeando procesos internos y flujos de usuario, hasta la entrega final del código. La solución centraliza el control de facturas y boletos a través de una arquitectura basada en APIs personalizadas, integrando automatizaciones vía IA (n8n) para una gestión financiera sin fallos humanos.',
+        
+        // Detalles
+        'ajdc_client_value': 'AJDC Clean Energy  Fortaleza, CE - BRA',
+        'ajdc_services_list': 'Descubrimiento y Estrategia de ProductoDiseño UX/UI y PrototipadoDesarrollo Front-endIntegración de API y Automatización',
+        'ajdc_role_value': 'Diseñadora de Producto y Desarrolladora Front-end',
+
+        // Narrativa
+        'ajdc_challenge_title': 'El Desafío',
+        'ajdc_challenge_text': 'Eliminar el "cuello de botella" operativo. La empresa perdía horas valiosas en llenados manuales y consultas dispersas. El objetivo técnico era crear una arquitectura de información donde el administrador pudiera realizar acciones complejas (como registrar clientes, hacer consultas, crear facturas y tener acceso a métricas importantes) en pocos clics, sin margen de error.',
+        
+        'ajdc_deliverables_title': 'Principales Entregables',
+        'ajdc_deliverables_text': 'Registro de clientes y facturas, consultas relacionadas, desarrollo de un Dashboard Administrativo, flujos de facturación automatizados, sistema de filtros avanzados para consulta de pagos y una central de documentación/tutoriales integrada para facilitar la incorporación de nuevos colaboradores.',
+        
+        'ajdc_uxui_title': 'Diseño del Sitio (UX/UI)',
+        'ajdc_uxui_text': 'Cada elemento visual fue pensado para minimizar errores operativos, garantizando que la gestión de cientos de clientes y facturas se realizara de forma ágil y segura, reduciendo la curva de aprendizaje y fricción para los usuarios finales. El objetivo era alcanzar la máxima eficiencia con el mínimo esfuerzo cognitivo.',
+        
+        'ajdc_dev_title': 'Desarrollo',
+        'ajdc_dev_text': 'Fui responsable de la implementación completa del front-end utilizando FlutterFlow, garantizando fidelidad absoluta al diseño y rendimiento escalable. El diferencial técnico de este proyecto fue la integración vía APIs REST, donde trabajé en colaboración directa con el desarrollador back-end para el consumo de datos en tiempo real. Se implementó toda la lógica de visualización de facturas y dashboards, además de la estructura de la interfaz para interactuar con automatizaciones de IA (n8n), entregando un producto funcional y listo para operar.',
+
+        // Impacto
+        'ajdc_impact_title': 'IMPACTO Y APRENDIZAJES',
+        
+        'ajdc_metric_1_title': 'Agilidad Operativa',
+        'ajdc_metric_1_desc': 'Aumento del 300% en la eficiencia de registro. A través de la unificación de herramientas y automatización de cálculos matemáticos complejos, el tiempo promedio para el registro de clientes y facturas se redujo drásticamente, haciendo el flujo de trabajo 3 veces más ágil y práctico.',
+        
+        'ajdc_metric_2_title': 'Descubrimiento de Producto e Insights',
+        'ajdc_metric_2_desc': 'Reducción de "Cuellos de Botella" Invisibles. Las entrevistas cualitativas con colaboradores permitieron mapear dolores operativos que no habían sido diagnosticados. El resultado fue la creación de funcionalidades inéditas que resolvieron necesidades críticas de gestión antes ignoradas.',
+        
+        'ajdc_metric_3_title': 'Satisfacción del Usuario  (NPS Cualitativo)',
+        'ajdc_metric_3_desc': '100% de Aprobación Interna. El sistema alcanzó un índice de satisfacción absoluta entre el equipo operativo y la dirección. La interfaz eliminó los matices de error y la resistencia al uso, siendo reconocida como una herramienta "perfecta" para el día a día de la empresa.',
+        
+        'ajdc_metric_4_title': 'Escalabilidad de Datos',
+        'ajdc_metric_4_desc': 'Gestión Estratégica de Activos. El lanzamiento permitió un crecimiento significativo en el mantenimiento de datos vitales. Ahora, la empresa posee visibilidad total sobre el número de clientes, flujos de pagos y métricas financieras, facilitando la toma de decisiones basada en datos reales.',
+        
+        'ajdc_metric_5_title': 'Integridad de Datos',
+        'ajdc_metric_5_desc': 'Cero Errores de Cálculo. Al anular la necesidad de cálculos manuales y hojas de cálculo externas, el sistema garantizó el 100% de integridad en las facturas generadas. Esto eliminó pérdidas financieras causadas por errores humanos y retrabajo del equipo financiero.',
+
+        // Secciones Extras
+        'ajdc_user_title': 'El Usuario',
+        'ajdc_user_text': 'Para que AJDC no fuera solo otro software de gestión, utilicé metodologías de Product Discovery para mapear el comportamiento real de quien opera la facturación. A través de Declaraciones de Necesidades y Mapas de Empatía, consolidamos la proto-persona Jeice: el perfil que sintetiza los desafíos de escala y automatización del sector solar.',
+        
+        'ajdc_structure_title': 'Estructura del  Proyecto',
+        'ajdc_structure_text': 'Para transformar el pedido de automatización del cliente en una herramienta robusta, diseñé la estructura del sistema enfocada en modularidad y control total de datos. La arquitectura fue diseñada para centralizar el ciclo de vida de la facturación solar en un entorno único, eliminando la dependencia de hojas de cálculo externas y procesos manuales. Se desarrolló un Sitemap estratégico que organiza el sistema en cinco pilares fundamentales:',
+        'ajdc_structure_list_items': 'Gestión de Clientes: Flujos completos de registro y consulta de datos sensibles y direcciones.Automatización de Facturación: Módulo central para creación, consulta y generación de remesas bancarias automatizadas.Inteligencia de Datos: Dashboard de métricas para visión macro del negocio y estado de pagos.Consultas Financieras: Herramienta de búsqueda avanzada con sumatorios automáticos de pendientes y recibidos.Onboarding y Soporte: Una sección dedicada de tutoriales interactivos para cada funcionalidad, garantizando autonomía plena a los usuarios y reduciendo la curva de aprendizaje.',
+        'ajdc_structure_footer': 'El resultado es un ecosistema lógico donde el usuario navega con confianza, realizando acciones complejas a través de caminos intuitivos y validados por diagramas de flujo de procesos.',
+
+        'ajdc_wireframe_low_title': 'WIREFRAMES y  arquitectura funcional',
+        'ajdc_wireframe_low_text_1': 'En la etapa de wireframes, mi enfoque principal fue la organización de datos densos y la validación de las reglas de negocio del sector de energía solar. Dada la complejidad de los cálculos de facturación y la diversidad de categorías de clientes, utilicé el diseño de fidelidad media para estructurar interfaces que priorizan la precisión y la velocidad de operación.',
+        'ajdc_wireframe_low_text_2': 'A través de iteraciones constantes con stakeholders y usuarios finales, refiné flujos críticos como el registro de clientes, la generación automática de facturas y la consulta de pagos. Cada pantalla fue diseñada para minimizar errores humanos, con elementos visuales que guían al usuario a través de procesos complejos de forma intuitiva. El resultado es una base sólida que sustenta la experiencia del usuario, garantizando que cada interacción sea eficiente y libre de ambigüedades.',
+
+        'ajdc_ui_title': 'Diseño de Interfaz  de Usuario',
+        'ajdc_ui_text': 'El diseño de interfaz de AJDC fue proyectado para equilibrar la robustez de un sistema financiero con la ligereza de una herramienta moderna de energía limpia. El objetivo principal de la Guía de Estilo fue garantizar consistencia absoluta entre los módulos, facilitando el aprendizaje del equipo y optimizando el flujo de facturación.',
+        'ajdc_ui_list': ' Colores y Semántica: La paleta utiliza tonos de Azul Petróleo y Verde Azulado para transmitir estabilidad y profesionalismo, remitiendo directamente al sector de energía sostenible. Utilizamos el Verde Esmeralda para estados de éxito y el Coral Vibrante para alertas críticas, garantizando que el usuario identifique instantáneamente el estado de las facturas y procesos.  Tipografía (Inter):  Elegí la familia Inter por su versatilidad sistémica. Su alta legibilidad en diferentes escalas fue fundamental para organizar tablas densas y dashboards, manteniendo una jerarquía clara entre datos operativos y métricas de decisión.  Componentización y Botones:  Desarrollé una biblioteca de componentes modulares con estilos Sólido y Contorno. Este enfoque no solo mejora la experiencia del usuario a través de la previsibilidad, sino que también garantizó un handoff ágil para el desarrollo en FlutterFlow, permitiendo la reutilización de elementos y la escalabilidad del sistema.  Iconografía:  Utilizamos íconos minimalistas de trazo limpio para ayudar en el reconocimiento cognitivo rápido de las funcionalidades, reduciendo el tiempo de respuesta del administrador durante tareas repetitivas.',
+
+        'ajdc_wireframe_hi_title': 'Wireframes:  alta fidelidad',
+        'ajdc_wireframe_hi_text_1': 'La etapa de alta fidelidad tradujo la complejidad lógica de AJDC en una interfaz de alto rendimiento. El enfoque principal fue la creación de un ecosistema consistente, donde el administrador puede gestionar cientos de facturas con el mínimo de clics y esfuerzo cognitivo.',
+        'ajdc_wireframe_hi_text_2': 'Cada componente fue diseñado siguiendo las directrices de la Guía de Estilo, garantizando que elementos críticos — como estado de pago y alertas de vencimiento — tengan destaque inmediato, reduciendo drásticamente el margen de error humano en la facturación.',
+
+        'ajdc_mobile_title': 'Wireframe de Alta  Fidelidad: Móvil',
+        'ajdc_mobile_text_1': 'La versión móvil de AJDC fue diseñada para ser la extensión de bolsillo del administrador. El desafío técnico fue adaptar flujos densos de datos para pantallas reducidas, priorizando la accesibilidad y la rapidez en la consulta.',
+        'ajdc_mobile_text_2': 'A través de un diseño responsivo y adaptativo, implementé el apilamiento inteligente de componentes y la simplificación de formularios extensos. Para garantizar la seguridad en procesos críticos, como la generación de facturas, adoptamos la estrategia de restringir ciertas funcionalidades al entorno de escritorio, mientras que el móvil actúa como una poderosa herramienta de monitoreo y consulta rápida de estados y métricas, permitiendo que el gestor tenga el control de la operación en la palma de la mano, con total claridad visual.'
 
     }
 };

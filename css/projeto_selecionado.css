@@ -44,6 +44,9 @@ html, body {
     filter: invert(93%) sepia(8%) saturate(307%) hue-rotate(345deg) brightness(98%) contrast(92%);
 }
 
+
+
+
 /* Menu Aberto no Mobile */
 @media (max-width: 991px) {
     .navbar-collapse {
