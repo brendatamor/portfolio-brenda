@@ -160,7 +160,75 @@ const translations = {
         'reciclo_wireframe_text': 'A etapa de alta fidelidade para desktop foi projetada para ser o centro de controle da reciclagem em Fortaleza. O foco principal foi a consolidação de dados e transparência: criamos dashboards que exibem métricas reais de impacto social e ambiental (tonelagens coletadas e renda gerada).',
         
         'reciclo_mobile_title': 'Wireframe de alta  fidelidade: mobile',
-        'reciclo_mobile_text': 'O design mobile do Re-ciclo foi concebido sob a premissa da baixa fricção e usabilidade tátil. Para o cidadão comum, o fluxo de agendamento foi otimizado para ser concluído em poucos toques, eliminando barreiras cognitivas.'
+        'reciclo_mobile_text': 'O design mobile do Re-ciclo foi concebido sob a premissa da baixa fricção e usabilidade tátil. Para o cidadão comum, o fluxo de agendamento foi otimizado para ser concluído em poucos toques, eliminando barreiras cognitivas.',
+
+        // --- PROJETO: PONTE DE ENCONTRO ---
+        'ponte_hero_title': 'Sobre o  Projeto',
+        'ponte_intro': 'O Ponte de Encontro é uma plataforma vital desenvolvida para a FUNCI (Fundação da Criança e da Família Cidadã) em parceria com a Citinova. O projeto centraliza o serviço especializado de abordagem social em Fortaleza, facilitando a identificação e o acolhimento de crianças e adolescentes em situação de vulnerabilidade. Como minha primeira experiência liderando um projeto, coordenei todo o ciclo de desenvolvimento, desde a escuta ativa das necessidades da FUNCI até a entrega técnica de um sistema que atua como ponte direta entre o cidadão e a rede socioassistencial.',
+        
+        // Detalhes
+        'ponte_client_value': 'FUNCI  Fortaleza, CE - BRA',
+        'ponte_services_list': 'Liderança de ProjetoUX/UI DesignFront-end DevelopmentAdmin Experience (AX)',
+        'ponte_role_value': 'Project Lead & Front-end Developer',
+
+        // Narrativa
+        'ponte_challenge_title': 'O desafio',
+        'ponte_challenge_text': 'O maior desafio foi a simplificação da complexidade. Projetos governamentais costumam ter requisitos densos e burocráticos. Minha missão foi traduzir essas necessidades em uma interface que estimulasse a ação do cidadão. Sabemos que a população evita plataformas complexas, especialmente para ações sociais. Por isso, o foco técnico foi remover qualquer barreira cognitiva, garantindo que o ato de denunciar ou pedir ajuda fosse rápido, intuitivo e acessível para qualquer nível de letramento digital.',
+        
+        'ponte_deliverables_title': 'Principais entregáveis',
+        'ponte_deliverables_text': 'Entregamos um ecossistema completo focado em agilidade e transparência: um portal de denúncias mobile-first com fluxos simplificados, uma ferramenta de consulta de protocolos em tempo real e um Painel Administrativo robusto para a gestão das equipes volantes. Desenvolvi fluxogramas de processos que garantiram que, do clique inicial ao atendimento da criança, não houvesse gargalos de informação, transformando o sistema em uma ferramenta de trabalho ágil para os educadores sociais.',
+        
+        'ponte_uxui_title': 'Design de sites (UX/UI)',
+        'ponte_uxui_text': 'Construí uma interface baseada no objetivo de não ter fricções ou curvas de aprendizado. Utilizei uma paleta de cores acolhedora e tipografia legível para passar segurança e seriedade. Cada elemento de UI foi validado para garantir rapidez na inserção de dados. O design aqui não é apenas estética, mas essencialmente funcional para um sistema com uso intuitivo. A arquitetura foi pensada para que o usuário sinta que "fazer o bem é fácil", utilizando componentes táteis e formulários inteligentes que reduzem o tempo de preenchimento.',
+        
+        'ponte_dev_title': 'Desenvolvimento',
+        'ponte_dev_text': 'Neste projeto, atuei intensamente no desenvolvimento técnico, utilizando um stack moderno composto por Node.js, Webpack e SCSS para garantir um front-end performático e modularizado. A estrutura foi construída sobre o Bootstrap para assegurar responsividade total, já que a maioria das interações ocorre via mobile nas ruas. No back-end, utilizamos Django, o que nos permitiu criar uma interface administrativa (Admin) customizada para a FUNCI, facilitando o gerenciamento de dados complexos com a segurança que um projeto público exige.',
+
+        // Impacto
+        'ponte_impact_title': 'IMPACTOS & APRENDIZADOS',
+        
+        'ponte_metric_1_title': 'Eficiência na Abordagem',
+        'ponte_metric_1_desc': 'Aumento na Agilidade de Denúncia. Ao projetar uma interface mobile-first focada em baixa fricção, reduzimos o tempo médio de preenchimento do formulário de denúncia. Isso permitiu que cidadãos realizassem o reporte em segundos, garantindo que a equipe volante recebesse os dados em tempo real e agisse com maior precisão geográfica.',
+        
+        'ponte_metric_2_title': 'Alcance Social e Visibilidade',
+        'ponte_metric_2_desc': '+680 Identificações Realizadas. O sistema atuou como um facilitador técnico para o registro de crianças e adolescentes acompanhados. A clareza visual e a facilidade de consulta de protocolos geraram uma maior confiança da população no canal oficial, resultando em um aumento direto no número de acolhimentos e atendimentos sociais documentados.',
+        
+        'ponte_metric_3_title': 'Educação e Direitos Humanos',
+        'ponte_metric_3_desc': 'Democratização da Informação. Além da ferramenta de denúncia, o portal tornou-se um hub de consulta de direitos. Registramos um alto volume de acessos às seções informativas sobre o Estatuto da Criança e do Adolescente (ECA) e leis municipais, educando a população sobre as condições que configuram violação de direitos.',
+        
+        'ponte_metric_4_title': 'Digitalização e Rastreabilidade',
+        'ponte_metric_4_desc': 'Fim do Gap de Dados. A migração do processo manual para o sistema administrativo (Django Admin) que desenvolvemos permitiu a rastreabilidade total de cada caso. Agora, a FUNCI possui métricas reais para planejar políticas públicas baseadas em locais de maior incidência e tipos de ocorrência mais frequentes.',
+        
+        'ponte_metric_5_title': 'A Importância do Admin',
+        'ponte_metric_5_desc': 'Projetar o lado administrativo para os educadores sociais foi tão vital quanto o portal público. Criar dashboards simples para quem está no campo de batalha é o que realmente faz a operação ser sustentável.',
+        
+        'ponte_metric_6_title': 'Design como facilitador & liderança',
+        'ponte_metric_6_desc': 'Aprendi que, em projetos sociais, o design serve para construir uma ponte de confiança entre o cidadão e o governo, e liderar este projeto me ensinou a gerenciar expectativas de stakeholders públicos e a garantir um bom e adequado desenvolvimento.',
+
+        // Seções Extras
+        'ponte_user_title': 'O usuário',
+        'ponte_user_text_1': 'Para projetar o Ponte de Encontro, foi necessário olhar para duas realidades distintas. De um lado, a criança e o adolescente, o beneficiário final que vive em um ciclo de invisibilidade e privação de direitos. Do outro, o cidadão ativo, representado pelo Alberto, que sente o incômodo social, mas muitas vezes não age por medo da burocracia.',
+        'ponte_user_text_2': 'O mapeamento destas personas revelou que o sucesso do projeto dependia de remover a fricção exacerbada e curva de aprendizados do sistema. Alberto precisa de um gatilho de denúncia instantâneo e seguro para que a criança deixe de ser invisível. O design foi concebido para ser o elo mais curto e humano possível entre a vontade de ajudar e a ação do poder público.',
+        
+        'ponte_structure_title': 'Estrutura do  projeto',
+        'ponte_structure_text': 'Para um projeto de abordagem social, a arquitetura de informação deve ser o caminho mais curto entre a percepção de uma violação e a ação protetiva. Projetei uma estrutura enxuta e intuitiva, eliminando ruídos para que o cidadão possa agir no momento exato da necessidade.',
+        
+        'ponte_wireframe_low_title': 'WIREFRAMES INICIAIS',
+        'ponte_wireframe_low_text': 'Na etapa de wireframes de média fidelidade, meu foco como Lead do Projeto foi a remoção de barreiras cognitivas. Projetar para o serviço social exige que o cidadão não precise gastar energia pensando "como usar", mas sim focar na ação de ajudar. Estruturei a hierarquia de informações priorizando o fluxo de denúncia e consulta, validando a disposição dos elementos antes da aplicação da identidade visual. O foco técnico esteve em:',
+        'ponte_wireframe_low_list': ' Formulários Simplificados: Agrupamento lógico de campos para reduzir o tempo de preenchimento. Navegação Mobile-First: Garantia de que todos os componentes fossem táteis e funcionais para o uso em trânsito, ambiente onde a maioria das abordagens e denúncias ocorrem.',
+
+        'ponte_ui_title': 'Design de interface  do usuário',
+        'ponte_ui_text_1': 'O desafio visual do Ponte de Encontro foi equilibrar a seriedade de um serviço público com a sensibilidade exigida pelos direitos humanos. Projetei um Style Guide focado em alta visibilidade e acolhimento, garantindo que a interface fosse, ao mesmo tempo, um alerta para a sociedade e um porto seguro para quem busca ajuda.',
+        'ponte_ui_list': 'Cores Estratégicas: A paleta utiliza o Laranja (#DF9A14) e o Amarelo (#FFCC00) para evocar atenção e energia, garantindo que o portal se destaque como uma ferramenta de utilidade pública. O Azul (#2B5FC5) foi inserido para trazer o contraponto de confiança e credibilidade institucional. Tipografia Dinâmica:  Combinei a fonte Righteous nos títulos, pois pela sua personalidade moderna e marcante, com a Roboto nos textos de leitura, garantindo acessibilidade e fluidez na absorção de informações densas sobre leis e protocolos.  Iconografia Humanizada:  Desenvolvi um conjunto de ícones ilustrados que facilitam a identificação rápida das causas (trabalho infantil, exploração, etc). Essa escolha reduz o impacto psicológico do tema, tornando a navegação mais amigável e intuitiva para o cidadão.',
+
+        'ponte_wireframe_hi_title': 'Wireframe de alta  fidelidade',
+        'ponte_wireframe_hi_text': 'A etapa de alta fidelidade traduziu o compromisso social do Ponte de Encontro em uma interface de alto impacto e baixa fricção. Utilizei o Design System para garantir que a navegação fosse acolhedora, mas extremamente funcional. O foco principal foi a hierarquia visual: o botão de denúncia e as informações sobre direitos infantis ganharam destaque imediato, guiando o cidadão de forma linear. Implementamos ferramentas de acessibilidade nativas e uma arquitetura de informação que organiza desde a conscientização até o monitoramento administrativo via Django.',
+        'ponte_label_desktop_web': 'Wireframes - desktop (Website)',
+        'ponte_label_desktop_admin': 'Wireframes - desktop (Admin)',
+
+        'ponte_mobile_title': 'Wireframe de alta  fidelidade: mobile',
+        'ponte_mobile_text_1': 'Como a maioria das interações de denúncia ocorre em trânsito, a versão mobile foi o coração do projeto. Foquei em um design altamente tátil e responsivo, otimizando formulários densos para preenchimento rápido. O objetivo técnico foi reduzir o tempo de interação para que o relato de violação de direitos ocorra no momento exato da observação. O resultado é uma ferramenta leve, performática e inclusiva, garantindo que a tecnologia atue como um facilitador imediato de proteção social na palma da mão.',
+        'ponte_mobile_text_2': 'Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.'
     },
 
     'en': {
@@ -399,7 +467,75 @@ const translations = {
         'reciclo_wireframe_text': 'The high-fidelity desktop stage was designed to be the control center for recycling in Fortaleza. The main focus was data consolidation and transparency: creating dashboards displaying real social and environmental impact metrics (collected tonnage and generated income).',
         
         'reciclo_mobile_title': 'High Fidelity:  Mobile',
-        'reciclo_mobile_text': 'Re-ciclo\'s mobile design was conceived under the premise of low friction and tactile usability. For the common citizen, the scheduling flow was optimized to be completed in a few taps, eliminating cognitive barriers.'
+        'reciclo_mobile_text': 'Re-ciclo\'s mobile design was conceived under the premise of low friction and tactile usability. For the common citizen, the scheduling flow was optimized to be completed in a few taps, eliminating cognitive barriers.',
+
+        // --- PROJECT: PONTE DE ENCONTRO ---
+        'ponte_hero_title': 'About the  Project',
+        'ponte_intro': 'The  Ponte de Encontro is a vital platform developed for FUNCI (Foundation for the Child and Family Citizen) in partnership with Citinova. The project centralizes the specialized social outreach service in Fortaleza, facilitating the identification and shelter of vulnerable children and adolescents. As my first experience leading a project, I coordinated the entire development cycle, from active listening to FUNCI\'s needs to the technical delivery of a system that acts as a direct bridge between the citizen and the social assistance network.',
+        
+        // Details
+        'ponte_client_value': 'FUNCI  Fortaleza, CE - BRA',
+        'ponte_services_list': 'Project LeadershipUX/UI DesignFront-end DevelopmentAdmin Experience (AX)',
+        'ponte_role_value': 'Project Lead & Front-end Developer',
+
+        // Narrative
+        'ponte_challenge_title': 'The Challenge',
+        'ponte_challenge_text': 'The biggest challenge was simplifying complexity. Government projects often have dense and bureaucratic requirements. My mission was to translate these needs into an interface that stimulated citizen action. We know the population avoids complex platforms, especially for social actions. Therefore, the technical focus was to remove any cognitive barrier, ensuring the act of reporting or asking for help was fast, intuitive, and accessible for any level of digital literacy.',
+        
+        'ponte_deliverables_title': 'Key Deliverables',
+        'ponte_deliverables_text': 'We delivered a complete ecosystem focused on agility and transparency: a mobile-first reporting portal with simplified flows, a real-time protocol query tool, and a robust Administrative Panel for mobile team management. I developed process flowcharts ensuring that, from the initial click to the child\'s assistance, there were no information bottlenecks, transforming the system into an agile work tool for social educators.',
+        
+        'ponte_uxui_title': 'Site Design (UX/UI)',
+        'ponte_uxui_text': 'I built an interface based on the goal of having no friction or learning curves. I used a welcoming color palette and legible typography to convey safety and seriousness. Each UI element was validated to ensure speed in data entry. The design here is not just aesthetic, but essentially functional for intuitive system use. The architecture was designed so the user feels that "doing good is easy," using tactile components and smart forms that reduce completion time.',
+        
+        'ponte_dev_title': 'Development',
+        'ponte_dev_text': 'In this project, I worked intensely on technical development, using a modern stack composed of Node.js, Webpack, and SCSS to ensure a performant and modular front-end. The structure was built on Bootstrap to ensure total responsiveness, as most interactions occur via mobile on the streets. On the back-end, we used Django, allowing us to create a customized administrative interface (Admin) for FUNCI, facilitating complex data management with the security a public project demands.',
+
+        // Impact
+        'ponte_impact_title': 'IMPACTS & LEARNINGS',
+        
+        'ponte_metric_1_title': 'Approach Efficiency',
+        'ponte_metric_1_desc': 'Increase in Reporting Agility. By designing a mobile-first interface focused on low friction, we reduced the average time to complete the reporting form. This allowed citizens to report in seconds, ensuring the mobile team received data in real-time and acted with greater geographic precision.',
+        
+        'ponte_metric_2_title': 'Social Reach and Visibility',
+        'ponte_metric_2_desc': '+680 Identifications Made. The system acted as a technical facilitator for registering accompanied children and adolescents. Visual clarity and ease of protocol consultation generated greater public trust in the official channel, resulting in a direct increase in the number of documented shelters and social services.',
+        
+        'ponte_metric_3_title': 'Education and Human Rights',
+        'ponte_metric_3_desc': 'Information Democratization. Beyond the reporting tool, the portal became a rights consultation hub. We recorded a high volume of access to informative sections about the Child and Adolescent Statute (ECA) and municipal laws, educating the population on conditions constituting rights violations.',
+        
+        'ponte_metric_4_title': 'Digitization and Traceability',
+        'ponte_metric_4_desc': 'End of Data Gap. Migrating the manual process to the administrative system (Django Admin) we developed allowed full traceability of each case. Now, FUNCI has real metrics to plan public policies based on high-incidence locations and most frequent occurrence types.',
+        
+        'ponte_metric_5_title': 'The Importance of Admin',
+        'ponte_metric_5_desc': 'Designing the administrative side for social educators was as vital as the public portal. Creating simple dashboards for those on the battlefield is what truly makes the operation sustainable.',
+        
+        'ponte_metric_6_title': 'Design as Facilitator & Leadership',
+        'ponte_metric_6_desc': 'I learned that, in social projects, design serves to build a bridge of trust between the citizen and the government, and leading this project taught me to manage public stakeholder expectations and ensure good and adequate development.',
+
+        // Extra Sections
+        'ponte_user_title': 'The User',
+        'ponte_user_text_1': 'To design Ponte de Encontro, it was necessary to look at two distinct realities. On one side, the child and adolescent, the final beneficiary living in a cycle of invisibility and rights deprivation. On the other, the active citizen, represented by Alberto, who feels social discomfort but often does not act due to fear of bureaucracy.',
+        'ponte_user_text_2': 'Mapping these personas revealed that the project\'s success depended on removing exaggerated friction and system learning curves. Alberto needs an instant and safe reporting trigger for the child to stop being invisible. The design was conceived to be the shortest and most human link possible between the will to help and public power action.',
+        
+        'ponte_structure_title': 'Project  Structure',
+        'ponte_structure_text': 'For a social outreach project, information architecture must be the shortest path between perceiving a violation and protective action. I designed a lean and intuitive structure, eliminating noise so the citizen can act at the exact moment of need.',
+        
+        'ponte_wireframe_low_title': 'INITIAL WIREFRAMES',
+        'ponte_wireframe_low_text': 'In the mid-fidelity wireframe stage, my focus as Project Lead was removing cognitive barriers. Designing for social service requires the citizen not to spend energy thinking "how to use," but focusing on the action of helping. I structured the information hierarchy prioritizing the reporting and query flow, validating element layout before visual identity application. Technical focus was on:',
+        'ponte_wireframe_low_list': ' Simplified Forms: Logical grouping of fields to reduce completion time. Mobile-First Navigation: Ensuring all components were tactile and functional for on-the-go use, the environment where most approaches and reports occur.',
+
+        'ponte_ui_title': 'User Interface  Design',
+        'ponte_ui_text_1': 'The visual challenge of Ponte de Encontro was balancing the seriousness of a public service with the sensitivity required by human rights. I designed a Style Guide focused on high visibility and welcoming, ensuring the interface was both an alert to society and a safe harbor for those seeking help.',
+        'ponte_ui_list': ' Strategic Colors: The palette uses Orange (#DF9A14) and Yellow (#FFCC00) to evoke attention and energy, ensuring the portal stands out as a public utility tool. Blue (#2B5FC5) was inserted to bring the counterpoint of trust and institutional credibility.  Dynamic Typography: I combined Righteous font in titles, for its modern and striking personality, with Roboto in reading texts, ensuring accessibility and fluidity in absorbing dense information about laws and protocols.  Humanized Iconography: I developed a set of illustrated icons facilitating quick identification of causes (child labor, exploitation, etc). This choice reduces the psychological impact of the theme, making navigation friendlier and more intuitive for the citizen.',
+
+        'ponte_wireframe_hi_title': 'High Fidelity  Wireframe',
+        'ponte_wireframe_hi_text': 'The high-fidelity stage translated Ponte de Encontro\'s social commitment into a high-impact, low-friction interface. I used the Design System to ensure navigation was welcoming but extremely functional. The main focus was visual hierarchy: the report button and child rights information gained immediate prominence, guiding the citizen linearly. We implemented native accessibility tools and an information architecture organizing everything from awareness to administrative monitoring via Django.',
+        'ponte_label_desktop_web': 'Wireframes - desktop (Website)',
+        'ponte_label_desktop_admin': 'Wireframes - desktop (Admin)',
+
+        'ponte_mobile_title': 'High Fidelity:  Mobile',
+        'ponte_mobile_text_1': 'Since most reporting interactions occur in transit, the mobile version was the project\'s heart. I focused on a highly tactile and responsive design, optimizing dense forms for quick completion. The technical objective was to reduce interaction time so the rights violation report occurs at the exact moment of observation. The result is a lightweight, performant, and inclusive tool, ensuring technology acts as an immediate social protection facilitator in the palm of the hand.',
+        'ponte_mobile_text_2': 'We adapted information density to avoid overload on smaller screens, ensuring the enrollment flow and education contents remain fluid and accessible on any device. The result is a modern, lightweight, and technically scalable interface, ready to provide a frictionless handoff for development.'
     },
 
     'es': {
@@ -591,7 +727,77 @@ const translations = {
         'reciclo_wireframe_text': 'La etapa de alta fidelidad para escritorio fue diseñada para ser el centro de control del reciclaje. El foco principal fue la consolidación de datos y transparencia: creamos dashboards que muestran métricas reales de impacto social y ambiental.',
         
         'reciclo_mobile_title': 'Wireframe de Alta  Fidelidad: Móvil',
-        'reciclo_mobile_text': 'El diseño móvil de Re-ciclo fue concebido bajo la premisa de baja fricción y usabilidad táctil. Para el ciudadano común, el flujo de programación fue optimizado para completarse en pocos toques, eliminando barreras cognitivas.'
+        'reciclo_mobile_text': 'El diseño móvil de Re-ciclo fue concebido bajo la premisa de baja fricción y usabilidad táctil. Para el ciudadano común, el flujo de programación fue optimizado para completarse en pocos toques, eliminando barreras cognitivas.',
+
+
+        // --- PROYECTO: PONTE DE ENCONTRO ---
+        'ponte_hero_title': 'Sobre el  Proyecto',
+        'ponte_intro': 'El Ponte de Encontro es una plataforma vital desarrollada para la FUNCI (Fundación del Niño y la Familia Ciudadana) en asociación con Citinova. El proyecto centraliza el servicio especializado de abordaje social en Fortaleza, facilitando la identificación y acogida de niños y adolescentes en situación de vulnerabilidad. Como mi primera experiencia liderando un proyecto, coordiné todo el ciclo de desarrollo, desde la escucha activa de las necesidades de la FUNCI hasta la entrega técnica de un sistema que actúa como puente directo entre el ciudadano y la red socioasistencial.',
+        
+        // Detalles
+        'ponte_client_value': 'FUNCI  Fortaleza, CE - BRA',
+        'ponte_services_list': 'Liderazgo de ProyectoDiseño UX/UIDesarrollo Front-endAdmin Experience (AX)',
+        'ponte_role_value': 'Líder de Proyecto & Desarrolladora Front-end',
+
+        // Narrativa
+        'ponte_challenge_title': 'El Desafío',
+        'ponte_challenge_text': 'El mayor desafío fue la simplificación de la complejidad. Los proyectos gubernamentales suelen tener requisitos densos y burocráticos. Mi misión fue traducir estas necesidades en una interfaz que estimulara la acción del ciudadano. Sabemos que la población evita plataformas complejas, especialmente para acciones sociales. Por eso, el enfoque técnico fue eliminar cualquier barrera cognitiva, garantizando que el acto de denunciar o pedir ayuda fuera rápido, intuitivo y accesible para cualquier nivel de alfabetización digital.',
+        
+        'ponte_deliverables_title': 'Principales Entregables',
+        'ponte_deliverables_text': 'Entregamos un ecosistema completo enfocado en agilidad y transparencia: un portal de denuncias mobile-first con flujos simplificados, una herramienta de consulta de protocolos en tiempo real y un Panel Administrativo robusto para la gestión de equipos móviles. Desarrollé flujogramas de procesos que garantizaron que, desde el clic inicial hasta la atención del niño, no hubiera cuellos de botella de información, transformando el sistema en una herramienta de trabajo ágil para los educadores sociales.',
+        
+        'ponte_uxui_title': 'Diseño del Sitio (UX/UI)',
+        'ponte_uxui_text': 'Construí una interfaz basada en el objetivo de no tener fricciones o curvas de aprendizaje. Utilicé una paleta de colores acogedora y tipografía legible para transmitir seguridad y seriedad. Cada elemento de UI fue validado para garantizar rapidez en la inserción de datos. El diseño aquí no es solo estético, sino esencialmente funcional para un sistema con uso intuitivo. La arquitectura fue pensada para que el usuario sienta que "hacer el bien es fácil", utilizando componentes táctiles y formularios inteligentes que reducen el tiempo de llenado.',
+        
+        'ponte_dev_title': 'Desarrollo',
+        'ponte_dev_text': 'En este proyecto, actué intensamente en el desarrollo técnico, utilizando un stack moderno compuesto por Node.js, Webpack y SCSS para garantizar un front-end de alto rendimiento y modularizado. La estructura fue construida sobre Bootstrap para asegurar responsabilidad total, ya que la mayoría de las interacciones ocurren vía móvil en las calles. En el back-end, utilizamos Django, lo que nos permitió crear una interfaz administrativa (Admin) personalizada para la FUNCI, facilitando la gestión de datos complejos con la seguridad que exige un proyecto público.',
+
+        // Impacto
+        'ponte_impact_title': 'IMPACTOS Y APRENDIZAJES',
+        
+        'ponte_metric_1_title': 'Eficiencia en el Abordaje',
+        'ponte_metric_1_desc': 'Aumento en la Agilidad de Denuncia. Al diseñar una interfaz mobile-first enfocada en baja fricción, redujimos el tiempo promedio de llenado del formulario de denuncia. Esto permitió que los ciudadanos realizaran el reporte en segundos, garantizando que el equipo móvil recibiera los datos en tiempo real y actuara con mayor precisión geográfica.',
+        
+        'ponte_metric_2_title': 'Alcance Social y Visibilidad',
+        'ponte_metric_2_desc': '+680 Identificaciones Realizadas. El sistema actuó como un facilitador técnico para el registro de niños y adolescentes acompañados. La claridad visual y la facilidad de consulta de protocolos generaron una mayor confianza de la población en el canal oficial, resultando en un aumento directo en el número de acogimientos y atenciones sociales documentadas.',
+        
+        'ponte_metric_3_title': 'Educación y Derechos Humanos',
+        'ponte_metric_3_desc': 'Democratización de la Información. Además de la herramienta de denuncia, el portal se convirtió en un hub de consulta de derechos. Registramos un alto volumen de accesos a las secciones informativas sobre el Estatuto del Niño y del Adolescente (ECA) y leyes municipales, educando a la población sobre las condiciones que configuran violación de derechos.',
+        
+        'ponte_metric_4_title': 'Digitalización y Trazabilidad',
+        'ponte_metric_4_desc': 'Fin del Gap de Datos. La migración del proceso manual al sistema administrativo (Django Admin) que desarrollamos permitió la trazabilidad total de cada caso. Ahora, la FUNCI posee métricas reales para planificar políticas públicas basadas en lugares de mayor incidencia y tipos de ocurrencia más frecuentes.',
+        
+        'ponte_metric_5_title': 'La Importancia del Admin',
+        'ponte_metric_5_desc': 'Diseñar el lado administrativo para los educadores sociales fue tan vital como el portal público. Crear dashboards simples para quienes están en el campo de batalla es lo que realmente hace que la operación sea sostenible.',
+        
+        'ponte_metric_6_title': 'Diseño como facilitador y liderazgo',
+        'ponte_metric_6_desc': 'Aprendí que, en proyectos sociales, el diseño sirve para construir un puente de confianza entre el ciudadano y el gobierno, y liderar este proyecto me enseñó a gestionar expectativas de stakeholders públicos y garantizar un buen y adecuado desarrollo.',
+
+        // Secciones Extras
+        'ponte_user_title': 'El Usuario',
+        'ponte_user_text_1': 'Para diseñar el Ponte de Encontro, fue necesario mirar dos realidades distintas. Por un lado, el niño y el adolescente, el beneficiario final que vive en un ciclo de invisibilidad y privación de derechos. Por otro, el ciudadano activo, representado por Alberto, que siente la incomodidad social, pero muchas veces no actúa por miedo a la burocracia.',
+        'ponte_user_text_2': 'El mapeo de estas personas reveló que el éxito del proyecto dependía de eliminar la fricción exacerbada y curva de aprendizaje del sistema. Alberto necesita un gatillo de denuncia instantáneo y seguro para que el niño deje de ser invisible. El diseño fue concebido para ser el eslabón más corto y humano posible entre la voluntad de ayudar y la acción del poder público.',
+        
+        'ponte_structure_title': 'Estructura del  Proyecto',
+        'ponte_structure_text': 'Para un proyecto de abordaje social, la arquitectura de información debe ser el camino más corto entre la percepción de una violación y la acción protectora. Diseñé una estructura ágil e intuitiva, eliminando ruidos para que el ciudadano pueda actuar en el momento exacto de la necesidad.',
+        
+        'ponte_wireframe_low_title': 'WIREFRAMES INICIALES',
+        'ponte_wireframe_low_text': 'En la etapa de wireframes de fidelidad media, mi enfoque como Líder del Proyecto fue la eliminación de barreras cognitivas. Diseñar para el servicio social exige que el ciudadano no necesite gastar energía pensando "cómo usar", sino enfocarse en la acción de ayudar. Estructuré la jerarquía de información priorizando el flujo de denuncia y consulta, validando la disposición de los elementos antes de la aplicación de la identidad visual. El enfoque técnico estuvo en:',
+        'ponte_wireframe_low_list': ' Formularios Simplificados: Agrupación lógica de campos para reducir el tiempo de llenado. Navegación Mobile-First: Garantía de que todos los componentes fueran táctiles y funcionales para el uso en tránsito, ambiente donde ocurren la mayoría de los abordajes y denuncias.',
+
+        'ponte_ui_title': 'Diseño de Interfaz  de Usuario',
+        'ponte_ui_text_1': 'El desafío visual de Ponte de Encontro fue equilibrar la seriedad de un servicio público con la sensibilidad exigida por los derechos humanos. Diseñé una Guía de Estilo enfocada en alta visibilidad y acogida, garantizando que la interfaz fuera, al mismo tiempo, una alerta para la sociedad y un puerto seguro para quienes buscan ayuda.',
+        'ponte_ui_list': ' Colores Estratégicos: La paleta utiliza el Naranja (#DF9A14) y el Amarillo (#FFCC00) para evocar atención y energía, garantizando que el portal se destaque como una herramienta de utilidad pública. El Azul (#2B5FC5) se insertó para traer el contrapunto de confianza y credibilidad institucional.  Tipografía Dinámica:  Combiné la fuente Righteous en los títulos, por su personalidad moderna y llamativa, con Roboto en los textos de lectura, garantizando accesibilidad y fluidez en la absorción de información densa sobre leyes y protocolos.  Iconografía Humanizada:  Desarrollé un conjunto de íconos ilustrados que facilitan la identificación rápida de las causas (trabajo infantil, explotación, etc). Esta elección reduce el impacto psicológico del tema, haciendo la navegación más amigable e intuitiva para el ciudadano.',
+
+        'ponte_wireframe_hi_title': 'Wireframe de Alta  Fidelidad',
+        'ponte_wireframe_hi_text': 'La etapa de alta fidelidad tradujo el compromiso social de Ponte de Encontro en una interfaz de alto impacto y baja fricción. Utilicé el Design System para garantizar que la navegación fuera acogedora, pero extremadamente funcional. El foco principal fue la jerarquía visual: el botón de denuncia y la información sobre derechos infantiles ganaron destaque inmediato, guiando al ciudadano de forma lineal. Implementamos herramientas de accesibilidad nativas y una arquitectura de información que organiza desde la concienciación hasta el monitoreo administrativo vía Django.',
+        'ponte_label_desktop_web': 'Wireframes - escritorio (Sitio web)',
+        'ponte_label_desktop_admin': 'Wireframes - escritorio (Admin)',
+
+        'ponte_mobile_title': 'Wireframe de Alta  Fidelidad: Móvil',
+        'ponte_mobile_text_1': 'Como la mayoría de las interacciones de denuncia ocurren en tránsito, la versión móvil fue el corazón del proyecto. Me enfoqué en un diseño altamente táctil y responsivo, optimizando formularios densos para llenado rápido. El objetivo técnico fue reducir el tiempo de interacción para que el relato de violación de derechos ocurra en el momento exacto de la observación. El resultado es una herramienta ligera, de alto rendimiento e inclusiva, garantizando que la tecnología actúe como un facilitador inmediato de protección social en la palma de la mano.',
+        'ponte_mobile_text_2': 'Adaptamos la densidad de información para evitar sobrecarga en pantallas más pequeñas, garantizando que el flujo de inscripción y los contenidos de educación permanezcan fluidos y accesibles en cualquier dispositivo. El resultado es una interfaz moderna, ligera y técnicamente escalable, lista para proporcionar un handoff sin fricciones para el desarrollo.'
+
     }
 };
 

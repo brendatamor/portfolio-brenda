@@ -6,7 +6,7 @@
     <title>Ponte de Encontro | Case Study - Brenda Tavares</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/css/projeto_selecionado.css"> <!-- Novo CSS -->
+    <link rel="stylesheet" href="/css/projeto_selecionado.css">
     <link rel="shortcut icon" href="../images/brenda_branco.png" type="image/x-icon">
 </head>
 <body class="project-page">
@@ -14,32 +14,33 @@
    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
+            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
+                    <li class="nav-item me-4"><span class="lang-text">
                         <div class="dropdown me-3">
                             <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <!-- Ícone de Tradução (SVG ou FontAwesome) -->
                                 <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
-                                <li ><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
                             </ul>
                         </div>
                     </span>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                     <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/about.html">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/index.html" data-i18n="menu_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/about.html" data-i18n="menu_about">About me</a></li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-outline-dark contact-btn" href="contact.html">Contato <span></span></a>
+                        <a class="btn btn-outline-dark contact-btn" href="contact.html">
+                            <span data-i18n="menu_contact">Contato</span> <span></span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -48,414 +49,343 @@
     <br><br>
 
     <!-- SECTION 1: HERO BANNER -->
-     <br>
-            <!-- HEADER DO PROJETO (Banner expandido e limpo) -->
-        <header class="project-hero" style="background-image: url('../images/ponte_encontro_img/Ponte_de_encontro_mockup_apresentacao.png');">
-            <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
-                <!-- Opcional: Se a imagem já tiver a logo, deixe vazio. Se não, mantenha a img abaixo -->
-                <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
-            </div>
-        </header>
+    <br>
+    <header class="project-hero" style="background-image: url('../images/ponte_encontro_img/Ponte_de_encontro_mockup_apresentacao.png');">
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+            <img src="../images/eleveit/logo_header.png" alt="" class="hero-project-logo mb-4">
+        </div>
+    </header>
 
     <!-- SECTION 2: SOBRE O PROJETO -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Sobre o <br> Projeto</h2>
-                <p class="project-intro-text mb-4">
-                    O <span class="text-primary">Ponte de Encontro </span> é uma plataforma vital desenvolvida para a FUNCI (Fundação da Criança e da Família Cidadã) em parceria com a Citinova. O projeto centraliza o serviço especializado de abordagem social em Fortaleza, facilitando a identificação e o acolhimento de crianças e adolescentes em situação de vulnerabilidade. Como minha primeira experiência liderando um projeto, coordenei todo o ciclo de desenvolvimento, desde a escuta ativa das necessidades da FUNCI até a entrega técnica de um sistema que atua como ponte direta entre o cidadão e a rede socioassistencial.
-            </div>
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <div class="row">
-            <!-- COLUNA ESQUERDA -->
-            <div class="col-lg-4 pe-lg-5">
-                <div class="detail-item mb-5">
-                    <h6 class="info-title-bold">Cliente</h6>
-                    <p class="info-text-dark">FUNCI  <br> Fortaleza, CE - BRA</p>
-                </div>
-                <div class="detail-item mb-5">
-                    <h6 class="info-title-bold">Serviços</h6>
-                    <ul class="info-list">
-                        <li>Liderança de Projeto</li>
-                        <li>UX/UI Design</li>
-                        <li>Front-end Development</li>
-                        <li>Admin Experience (AX)</li>
-                    </ul>
-                </div>
-                <div class="detail-item">
-                    <h6 class="info-title-bold">Meu papel</h6>
-                    <p class="info-text-dark">Project Lead & Front-end Developer</p>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_hero_title">Sobre o <br> Projeto</h2>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_intro">
+                        O <span class="text-primary">Ponte de Encontro </span> é uma plataforma vital...
+                    </p>
                 </div>
             </div>
 
-            <!-- COLUNA DIREITA -->
-            <div class="col-lg-8 border-start-custom ps-lg-5 position-relative">
-                <!-- SEGUNDO BACKGROUND (Perto do Sistema de Projeto) -->
-                <div class="about-project-decor-2">
-                    <img src="../images/bg_página_projeto (1).png" alt="">
+            <div class="row">
+                <!-- COLUNA ESQUERDA -->
+                <div class="col-lg-4 pe-lg-5">
+                    <div class="detail-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="project_label_client">Cliente</h6>
+                        <p class="info-text-dark" data-i18n="ponte_client_value">FUNCI  <br> Fortaleza, CE - BRA</p>
+                    </div>
+                    <div class="detail-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="project_label_services">Serviços</h6>
+                        <ul class="info-list" data-i18n="ponte_services_list">
+                            <li>Liderança de Projeto</li>
+                            <li>UX/UI Design</li>
+                            <li>Front-end Development</li>
+                            <li>Admin Experience (AX)</li>
+                        </ul>
+                    </div>
+                    <div class="detail-item">
+                        <h6 class="info-title-bold" data-i18n="project_label_role">Meu papel</h6>
+                        <p class="info-text-dark" data-i18n="ponte_role_value">Project Lead & Front-end Developer</p>
+                    </div>
                 </div>
 
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">O desafio</h6>
-                    <p class="info-text-dark">O maior desafio foi a <span class="text-dark">simplificação da complexidade</span>. Projetos governamentais costumam ter requisitos densos e burocráticos. Minha missão foi traduzir essas necessidades em uma interface que estimulasse a ação do cidadão. Sabemos que a população evita plataformas complexas, especialmente para ações sociais. Por isso, o foco técnico foi remover qualquer barreira cognitiva, garantindo que o ato de denunciar ou pedir ajuda fosse rápido, intuitivo e acessível para qualquer nível de letramento digital.</p>
-                    <hr>
-                </div>
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">Principais entregáveis</h6>
-                    <p class="info-text-dark">Entregamos um ecossistema completo focado em <span class="text-dark">agilidade e transparência</span>: um portal de denúncias mobile-first com fluxos simplificados, uma ferramenta de consulta de protocolos em tempo real e um <span class="text-dark">Painel Administrativo robusto</span> para a gestão das equipes volantes. Desenvolvi fluxogramas de processos que garantiram que, do clique inicial ao atendimento da criança, não houvesse gargalos de informação, transformando o sistema em uma ferramenta de trabalho ágil para os educadores sociais.</p>
-                    <hr>
-                </div>
-                <div class="narrative-item mb-5">
-                    <h6 class="info-title-bold">Design de sites (UX/UI)</h6>
-                    <p class="info-text-dark">Construí uma interface baseada no objetivo de não ter <span class="text-dark">fricções</span> ou <span class="text-dark">curvas de aprendizado</span>. Utilizei uma paleta de cores acolhedora e tipografia legível para passar segurança e seriedade. Cada elemento de UI foi validado para garantir rapidez na inserção de dados. O design aqui não é apenas estética, mas essencialmente funcional para um sistema com uso intuitivo. A arquitetura foi pensada para que o usuário sinta que 'fazer o bem é fácil', utilizando componentes táteis e formulários inteligentes que reduzem o tempo de preenchimento. </p>
-                    <hr>
-                </div>
-                <div class="narrative-item">
-                    <h6 class="info-title-bold">Desenvolvimento</h6>
-                    <p class="info-text-dark">Neste projeto, atuei intensamente no desenvolvimento técnico, utilizando um stack moderno composto por <span class="text-dark">Node.js, Webpack e SCSS</span> para garantir um front-end performático e modularizado. A estrutura foi construída sobre o <span class="text-dark">Bootstrap</span> para assegurar responsividade total, já que a maioria das interações ocorre via mobile nas ruas. No back-end, utilizamos <span class="text-dark">Django</span>, o que nos permitiu criar uma interface administrativa (Admin) customizada para a FUNCI, facilitando o gerenciamento de dados complexos com a segurança que um projeto público exige. </p>
-                    <hr>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                <!-- COLUNA DIREITA -->
+                <div class="col-lg-8 border-start-custom ps-lg-5 position-relative">
+                    <div class="about-project-decor-2">
+                        <img src="../images/bg_página_projeto (1).png" alt="">
+                    </div>
 
-<!-- SECTION 3: IMPACTO (MÉTRICAS) -->
-<section class="impact-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Background do Impacto -->
-    <div class="impact-decor">
-        <img src="../images/bg_página_projeto (2).png" alt=" bg">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <h2 class="impact-title mb-4">IMPACTOS & APRENDIZADOS</h2>
-        <!-- <p class="impact-subtitle mb-5">Tanto o lançamento inicial quanto as versões subsequentes produziram ótimos resultados...</p> -->
-        
-        <div class="row g-5">
-            <!-- Coluna 1 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">Eficiência na Abordagem </h4>
-                    <p class="metric-desc"><strong>Aumento na Agilidade de Denúncia.</strong> Ao projetar uma interface mobile-first focada em baixa fricção, reduzimos o tempo médio de preenchimento do formulário de denúncia. Isso permitiu que cidadãos realizassem o reporte em segundos, garantindo que a equipe volante recebesse os dados em tempo real e agisse com maior precisão geográfica.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Alcance Social e Visibilidade</h4>
-                    <p class="metric-desc"><strong>+680 Identificações Realizadas.</strong>O sistema atuou como um facilitador técnico para o registro de crianças e adolescentes acompanhados. A clareza visual e a facilidade de consulta de protocolos geraram uma maior confiança da população no canal oficial, resultando em um aumento direto no número de acolhimentos e atendimentos sociais documentados.</p>
-                </div>
-            </div>
-            <!-- Coluna 2 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">Educação e <br>Direitos Humanos</h4>
-                    <p class="metric-desc"><strong>Democratização da Informação.</strong> Além da ferramenta de denúncia, o portal tornou-se um hub de consulta de direitos. Registramos um alto volume de acessos às seções informativas sobre o Estatuto da Criança e do Adolescente (ECA) e leis municipais, educando a população sobre as condições que configuram violação de direitos.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Digitalização e Rastreabilidade</h4>
-                    <p class="metric-desc"><strong>Fim do Gap de Dados. </strong> A migração do processo manual para o sistema administrativo (Django Admin) que desenvolvemos permitiu a rastreabilidade total de cada caso. Agora, a FUNCI possui métricas reais para planejar políticas públicas baseadas em locais de maior incidência e tipos de ocorrência mais frequentes.</p>
-                </div>
-            </div>
-            <!-- Coluna 3 -->
-            <div class="col-lg-4">
-                <div class="metric-item mb-5">
-                    <h4 class="metric-name">A Importância do Admin</h4>
-                    <p class="metric-desc"> Projetar o lado administrativo para os educadores sociais foi tão vital quanto o portal público. Criar dashboards simples para quem está no campo de batalha é o que realmente faz a operação ser sustentável.</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-name">Design como facilitador & liderança</h4>
-                    <p class="metric-desc"> Aprendi que, em projetos sociais, o design serve para construir uma ponte de confiança entre o cidadão e o governo, e liderar este projeto me ensinou a gerenciar expectativas de stakeholders públicos e a garantir um bom e adequado desenvolvimento.  </p>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="ponte_challenge_title">O desafio</h6>
+                        <p class="info-text-dark" data-i18n="ponte_challenge_text">O maior desafio foi...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="ponte_deliverables_title">Principais entregáveis</h6>
+                        <p class="info-text-dark" data-i18n="ponte_deliverables_text">Entregamos um ecossistema...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item mb-5">
+                        <h6 class="info-title-bold" data-i18n="ponte_uxui_title">Design de sites (UX/UI)</h6>
+                        <p class="info-text-dark" data-i18n="ponte_uxui_text">Construí uma interface...</p>
+                        <hr>
+                    </div>
+                    <div class="narrative-item">
+                        <h6 class="info-title-bold" data-i18n="ponte_dev_title">Desenvolvimento</h6>
+                        <p class="info-text-dark" data-i18n="ponte_dev_text">Neste projeto, atuei...</p>
+                        <hr>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
- <!-- SECTION 4: O usuário -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">O usuário</h2>
-                <p class="project-intro-text mb-4">
-                    Para projetar o Ponte de Encontro, foi necessário olhar para duas realidades distintas. De um lado, <span class="text-dark">a criança e o adolescente</span>, o beneficiário final que vive em um ciclo de invisibilidade e privação de direitos. Do outro, o <span class="text-dark">cidadão ativo</span>, representado pelo Alberto, que sente o incômodo social, mas muitas vezes não age por medo da burocracia.
-                </p>
-                <p class="project-intro-text mb-4">
-                    O mapeamento destas personas revelou que o sucesso do projeto dependia de remover a <span class="text-dark">fricção exacerbada e curva de aprendizados do sistema</span>. Alberto precisa de um gatilho de denúncia instantâneo e seguro para que a criança deixe de ser invisível. O design foi concebido para ser o elo mais curto e humano possível entre a vontade de ajudar e a ação do poder público.
-                </p>
-            <img src="../images/ponte_encontro_img/personas.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
+    <!-- SECTION 3: IMPACTO (MÉTRICAS) -->
+    <section class="impact-section py-5 position-relative" style="overflow: hidden;">
+        <div class="impact-decor">
+            <img src="../images/bg_página_projeto (2).png" alt=" bg">
         </div>
 
-        
-</section>
-
-<!-- SECTION 5: estrutura do projeto -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Estrutura do <br> projeto</h2>
-                <p class="project-intro-text mb-4">
-                    Para um projeto de abordagem social, a arquitetura de informação deve ser o caminho mais curto entre a percepção de uma violação e a ação protetiva. Projetei uma estrutura enxuta e intuitiva, eliminando ruídos para que o cidadão possa agir no momento exato da necessidade.
-                </p>
-            <img src="../images/ponte_encontro_img/sitemap.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
-        </div>
-
-        
-</section>
-
-
-<!-- SECTION 6: WIREFRAMES de baixa fidelidade-->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">WIREFRAMES INICIAIS</h2>
-                <p class="project-intro-text mb-4">
-                    Na etapa de wireframes de média fidelidade, meu foco como Lead do Projeto foi a remoção de barreiras cognitivas. Projetar para o serviço social exige que o cidadão não precise gastar energia pensando "como usar", mas sim focar na ação de ajudar. Estruturei a hierarquia de informações priorizando o fluxo de denúncia e consulta, validando a disposição dos elementos antes da aplicação da identidade visual. O foco técnico esteve em:
-                </p>
-                 <ul>
-                    <li class="project-intro-text mb-4"> <strong>Formulários Simplificados:</strong> Agrupamento lógico de campos para reduzir o tempo de preenchimento.
-                    </li>
-                    <li class="project-intro-text mb-4"> <strong>Navegação Mobile-First:</strong> Garantia de que todos os componentes fossem táteis e funcionais para o uso em trânsito, ambiente onde a maioria das abordagens e denúncias ocorrem.
-
-                    </li>
-                 </ul>
-                
-            <img src="../images/ponte_encontro_img/wireframe_baixa_fidelidade.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
-        </div>
-        
-</section>
-
-
-<!-- SECTION 7: Design de interface do usuário -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Design de interface <br> do usuário</h2>
-                <p class="project-intro-text mb-4">
-                    O desafio visual do Ponte de Encontro foi equilibrar a seriedade de um serviço público com a sensibilidade exigida pelos direitos humanos. Projetei um Style Guide focado em alta visibilidade e acolhimento, garantindo que a interface fosse, ao mesmo tempo, um alerta para a sociedade e um porto seguro para quem busca ajuda.
-                </p>
-                <p class="project-intro-text mb-4">
-                    <ul class="project-intro-text mb-4">
-                        <li class="project-intro-text mb-4"> <strong>Cores Estratégicas:</strong> A paleta utiliza o Laranja (#DF9A14) e o Amarelo (#FFCC00) para evocar atenção e energia, garantindo que o portal se destaque como uma ferramenta de utilidade pública. O Azul (#2B5FC5) foi inserido para trazer o contraponto de confiança e credibilidade institucional.</li>
-                         <li class="project-intro-text mb-4"> <strong>Tipografia Dinâmica: </strong> Combinei a fonte Righteous nos títulos, pois pela sua personalidade moderna e marcante, com a Roboto nos textos de leitura, garantindo acessibilidade e fluidez na absorção de informações densas sobre leis e protocolos.</li>
-                          <li class="project-intro-text mb-4"> <strong>Iconografia Humanizada: </strong> Desenvolvi um conjunto de ícones ilustrados que facilitam a identificação rápida das causas (trabalho infantil, exploração, etc). Essa escolha reduz o impacto psicológico do tema, tornando a navegação mais amigável e intuitiva para o cidadão.</li>
-                    </ul>
-                </p>
-                
-            <img src="../images/ponte_encontro_img/style guide.png" class="img-fluid w-100" alt="Estrutura">
-
-                
-            </div>
-        </div>
-
-        
-</section>
-
-<!-- SECTION 8: Wireframe de alta fidelidade -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Wireframe de alta <br>
-                fidelidade</h2>
-                <p class="project-intro-text mb-5">
-                    A etapa de alta fidelidade traduziu o compromisso social do Ponte de Encontro em uma interface de alto impacto e baixa fricção. Utilizei o Design System para garantir que a navegação fosse acolhedora, mas extremamente funcional. O foco principal foi a hierarquia visual: o botão de denúncia e as informações sobre direitos infantis ganharam destaque imediato, guiando o cidadão de forma linear. Implementamos ferramentas de acessibilidade nativas e uma arquitetura de informação que organiza desde a conscientização até o monitoramento administrativo via Django.
-
-                </p>
-            </div>
-        </div>
-        <p class="text-dark">Wireframes - desktop (Website)</p>
-        <img src="../images/ponte_encontro_img/wireframes_alta_fidelidade.png" class="img-fluid w-100" alt="Estrutura"> <br> <br>
-
-        <p class="text-dark">Wireframes - desktop (Admin)</p>
-        <img src="../images/ponte_encontro_img/wireframes_admin.png" class="img-fluid w-100" alt="Estrutura">
-    </div>
-</section>
-
-<!-- SECTION 9: WIREFRAMES DE ALTA FIDELIDADE: mobile -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Backgrounds Decorativos (Posicionados para não dar scroll) -->
-    <div class="about-project-decor-1">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h2 class="section-label-main text-uppercase mb-4">Wireframe de alta <br> fidelidade: mobile</h2>
-                <p class="project-intro-text mb-4">
-                    Como a maioria das interações de denúncia ocorre em trânsito, a versão mobile foi o coração do projeto. Foquei em um design altamente tátil e responsivo, otimizando formulários densos para preenchimento rápido. O objetivo técnico foi reduzir o tempo de interação para que o relato de violação de direitos ocorra no momento exato da observação. O resultado é uma ferramenta leve, performática e inclusiva, garantindo que a tecnologia atue como um facilitador imediato de proteção social na palma da mão.
-                </p>
-                <p class="project-intro-text mb-4">
-                    Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação  permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.
-                </p>
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <h2 class="impact-title mb-4" data-i18n="ponte_impact_title">IMPACTOS & APRENDIZADOS</h2>
             
-                
-            <img src="../images/ponte_encontro_img/wireframe_mobile.png" class="img-fluid w-100" alt="Estrutura">
-
-                
+            <div class="row g-5">
+                <!-- Coluna 1 -->
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="ponte_metric_1_title">Eficiência na Abordagem </h4>
+                        <p class="metric-desc" data-i18n="ponte_metric_1_desc"><strong>Aumento na Agilidade de Denúncia.</strong> Ao projetar...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="ponte_metric_2_title">Alcance Social e Visibilidade</h4>
+                        <p class="metric-desc" data-i18n="ponte_metric_2_desc"><strong>+680 Identificações Realizadas.</strong>O sistema atuou...</p>
+                    </div>
+                </div>
+                <!-- Coluna 2 -->
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="ponte_metric_3_title">Educação e <br>Direitos Humanos</h4>
+                        <p class="metric-desc" data-i18n="ponte_metric_3_desc"><strong>Democratização da Informação.</strong> Além da ferramenta...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="ponte_metric_4_title">Digitalização e Rastreabilidade</h4>
+                        <p class="metric-desc" data-i18n="ponte_metric_4_desc"><strong>Fim do Gap de Dados. </strong> A migração do processo...</p>
+                    </div>
+                </div>
+                <!-- Coluna 3 -->
+                <div class="col-lg-4">
+                    <div class="metric-item mb-5">
+                        <h4 class="metric-name" data-i18n="ponte_metric_5_title">A Importância do Admin</h4>
+                        <p class="metric-desc" data-i18n="ponte_metric_5_desc"> Projetar o lado administrativo...</p>
+                    </div>
+                    <div class="metric-item">
+                        <h4 class="metric-name" data-i18n="ponte_metric_6_title">Design como facilitador & liderança</h4>
+                        <p class="metric-desc" data-i18n="ponte_metric_6_desc"> Aprendi que, em projetos sociais...</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        
-</section>
-
-
-<!-- SECTION 10: SHOWCASE MOCKUPS -->
-<section class="about-project-section py-5 position-relative" style="overflow: hidden;">
-    <!-- Background Decorativo (Mantendo o padrão) -->
-    <div class="about-project-decor-2">
-        <img src="../images/bg_página_projeto (1).png" alt="">
-    </div>
-
-    <div class="container py-5 position-relative" style="z-index: 2;">
-        <!-- Linha 1: Três Mockups Superiores -->
-        <div class="row g-4 mb-4">
-            <div class="col-md-4">
-                <img src="../images/ponte_encontro_img/mockup1_ponte.png" class="img-fluid mockup-item" alt="Mockup 1">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/ponte_encontro_img/mockup4_phone_ponte (1).png" class="img-fluid mockup-item" alt="Mockup 2">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/ponte_encontro_img/mockup5 (1).png" class="img-fluid mockup-item" alt="Mockup 3">
-            </div>
+    <!-- SECTION 4: O usuário -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
         </div>
 
-        <!-- Linha 2: Mockup Grande Central (Laptop) -->
-        <div class="row mb-4">
-            <div class="col-12">
-                <img src="../images/ponte_encontro_img/mockupgrande.png" class="img-fluid w-100 mockup-item" alt="Mockup Central">
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_user_title">O usuário</h2>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_user_text_1">
+                        Para projetar o Ponte de Encontro...
+                    </p>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_user_text_2">
+                        O mapeamento destas personas revelou...
+                    </p>
+                    <img src="../images/ponte_encontro_img/personas.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
             </div>
         </div>
+    </section>
 
-        <!-- Linha 3: Três Mockups Inferiores -->
-        <div class="row g-4">
-            <div class="col-md-4">
-                <img src="../images/ponte_encontro_img/mockup3_ponte (1).png" class="img-fluid mockup-item" alt="Mockup 4">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/ponte_encontro_img/mockup7 (1).png" class="img-fluid mockup-item" alt="Mockup 5">
-            </div>
-            <div class="col-md-4">
-                <img src="../images/ponte_encontro_img/mokcup6 (1).png" class="img-fluid mockup-item" alt="Mockup 6">
+    <!-- SECTION 5: estrutura do projeto -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_structure_title">Estrutura do <br> projeto</h2>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_structure_text">
+                        Para um projeto de abordagem social...
+                    </p>
+                    <img src="../images/ponte_encontro_img/sitemap.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-    <!-- SECTION CTA (PRECISA DE AJUDA?) -->
+    <!-- SECTION 6: WIREFRAMES de baixa fidelidade-->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_wireframe_low_title">WIREFRAMES INICIAIS</h2>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_wireframe_low_text">
+                        Na etapa de wireframes de média fidelidade...
+                    </p>
+                    <ul data-i18n="ponte_wireframe_low_list">
+                        <li class="project-intro-text mb-4"> <strong>Formulários Simplificados:</strong> Agrupamento lógico de campos para reduzir o tempo de preenchimento.</li>
+                        <li class="project-intro-text mb-4"> <strong>Navegação Mobile-First:</strong> Garantia de que todos os componentes fossem táteis e funcionais para o uso em trânsito, ambiente onde a maioria das abordagens e denúncias ocorrem.</li>
+                    </ul>
+                    <img src="../images/ponte_encontro_img/wireframe_baixa_fidelidade.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: Design de interface do usuário -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_ui_title">Design de interface <br> do usuário</h2>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_ui_text_1">
+                        O desafio visual do Ponte de Encontro foi equilibrar...
+                    </p>
+                    <ul class="project-intro-text mb-4" data-i18n="ponte_ui_list">
+                        <li class="project-intro-text mb-4"> <strong>Cores Estratégicas:</strong> A paleta utiliza o Laranja...</li>
+                        <li class="project-intro-text mb-4"> <strong>Tipografia Dinâmica: </strong> Combinei a fonte Righteous...</li>
+                        <li class="project-intro-text mb-4"> <strong>Iconografia Humanizada: </strong> Desenvolvi um conjunto...</li>
+                    </ul>
+                    <img src="../images/ponte_encontro_img/style guide.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 8: Wireframe de alta fidelidade -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_wireframe_hi_title">Wireframe de alta <br> fidelidade</h2>
+                    <p class="project-intro-text mb-5" data-i18n="ponte_wireframe_hi_text">
+                        A etapa de alta fidelidade traduziu...
+                    </p>
+                </div>
+            </div>
+            <p class="text-dark" data-i18n="ponte_label_desktop_web">Wireframes - desktop (Website)</p>
+            <img src="../images/ponte_encontro_img/wireframes_alta_fidelidade.png" class="img-fluid w-100" alt="Estrutura"> <br> <br>
+
+            <p class="text-dark" data-i18n="ponte_label_desktop_admin">Wireframes - desktop (Admin)</p>
+            <img src="../images/ponte_encontro_img/wireframes_admin.png" class="img-fluid w-100" alt="Estrutura">
+        </div>
+    </section>
+
+    <!-- SECTION 9: WIREFRAMES DE ALTA FIDELIDADE: mobile -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-1">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-label-main text-uppercase mb-4" data-i18n="ponte_mobile_title">Wireframe de alta <br> fidelidade: mobile</h2>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_mobile_text_1">
+                        Como a maioria das interações de denúncia ocorre em trânsito...
+                    </p>
+                    <p class="project-intro-text mb-4" data-i18n="ponte_mobile_text_2">
+                        Adaptamos a densidade de informações para evitar sobrecarga...
+                    </p>
+                    <img src="../images/ponte_encontro_img/wireframe_mobile.png" class="img-fluid w-100" alt="Estrutura">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 10: SHOWCASE MOCKUPS -->
+    <section class="about-project-section py-5 position-relative" style="overflow: hidden;">
+        <div class="about-project-decor-2">
+            <img src="../images/bg_página_projeto (1).png" alt="">
+        </div>
+
+        <div class="container py-5 position-relative" style="z-index: 2;">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4"><img src="../images/ponte_encontro_img/mockup1_ponte.png" class="img-fluid mockup-item" alt="Mockup 1"></div>
+                <div class="col-md-4"><img src="../images/ponte_encontro_img/mockup4_phone_ponte (1).png" class="img-fluid mockup-item" alt="Mockup 2"></div>
+                <div class="col-md-4"><img src="../images/ponte_encontro_img/mockup5 (1).png" class="img-fluid mockup-item" alt="Mockup 3"></div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12"><img src="../images/ponte_encontro_img/mockupgrande.png" class="img-fluid w-100 mockup-item" alt="Mockup Central"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4"><img src="../images/ponte_encontro_img/mockup3_ponte (1).png" class="img-fluid mockup-item" alt="Mockup 4"></div>
+                <div class="col-md-4"><img src="../images/ponte_encontro_img/mockup7 (1).png" class="img-fluid mockup-item" alt="Mockup 5"></div>
+                <div class="col-md-4"><img src="../images/ponte_encontro_img/mokcup6 (1).png" class="img-fluid mockup-item" alt="Mockup 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CTA -->
     <section class="cta-section">
         <div class="container text-center py-5">
-            <h2 class="display-4 fw-bold">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
-            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2">Entre em contato</a>
+            <h2 class="display-4 fw-bold" data-i18n="cta_help_title">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
+            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2" data-i18n="cta_contact_btn">Entre em contato</a>
         </div>
     </section>
     
-
     <!---SEÇÃO FOOTER-->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row py-5 gy-4">
-                  <!-- Botão Voltar ao Topo -->
-        <div class="text-end mt-5">
-            <a href="#" class="back-to-top">
-                <i class="bi bi-arrow-up-short"></i>
-            </a>
-        </div>
-            <!-- Sessão Explorar -->
-            <div class="col-md-4 footer-col">
-                <h5 class="footer-title">Explorar</h5>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Contato -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title">Contato</h5>
-                <ul class="footer-links">
-                    <li>
-                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
-                            Let's talk
-                        </a>
-                    </li>
-                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
-                </ul>
-            </div>
-
-            <!-- Sessão Conectar -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title text-md-end">Conectar</h5>
-                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
-                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
-                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row py-5 gy-4">
+                <div class="text-end mt-5">
+                    <a href="#" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
                 </div>
-          
+                <!-- Sessão Explorar -->
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title" data-i18n="footer_explore">Explorar</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="menu_home">Home</a></li>
+                        <li><a href="#projects" data-i18n="menu_projects">Projetos</a></li>
+                        <li><a href="#" data-i18n="menu_about">Sobre</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Contato -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title" data-i18n="footer_contact">Contato</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda..." target="_blank">Let's talk</a>
+                        </li>
+                       <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink" data-i18n="footer_copy_email">Copy email</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sessão Conectar -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title text-md-end" data-i18n="footer_connect">Conectar</h5>
+                    <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                        <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                        <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom border-top-custom py-4 text-center">
+                <p class="mb-0">© <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
             </div>
         </div>
-
-        <!-- Linha do Copyright -->
-        <div class="footer-bottom border-top-custom py-4 text-center">
-            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
-        </div>
-    </div>
-</footer>
-
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scripts.js"></script>
-
-
-
-
     
+    <!-- Script de Tradução -->
+    <script src="/js/translations.js"></script>
 </body>
 </html>
