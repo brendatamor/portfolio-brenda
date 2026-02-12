@@ -364,7 +364,70 @@ const translations = {
 
         'eleveit_mobile_title': 'Wireframe de alta <br> fidelidade: mobile',
         'eleveit_mobile_text_1': 'Como sabemos que o conceito de mobile first hoje é essencial, o foco no design responsivo foi prioridade. No mobile, a interface foi otimizada para navegação com um único polegar, mantendo elementos interativos em zonas de fácil alcance.',
-        'eleveit_mobile_text_2': 'Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.'
+        'eleveit_mobile_text_2': 'Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.',
+
+
+
+
+        // --- PROJETO: JD DIGITAL ---
+        'jd_hero_title': 'Sobre o <br> Projeto',
+        'jd_intro_1': 'O <strong class="text-danger">Juventude Digital</strong> é um programa da Prefeitura de Fortaleza que qualifica jovens para o mercado da tecnologia, lançado em outubro de 2021, como uma política pública permanente da cidade. É coordenado pela <strong>Fundação de Ciência, Tecnologia e Inovação de Fortaleza (Citinova)</strong>, em parceria com o Instituto Juventude Inovação e as secretarias da Juventude e da Educação. É o principal hub de capacitação tecnológica da Prefeitura de Fortaleza. O projeto de <strong>redesign</strong> foi motivado pela necessidade de transformar o portal institucional em uma plataforma educacional de alta performance, focada na jornada do aluno.',
+        'jd_intro_2': '<strong class="text-danger">O JD já capacitou mais de 44 mil jovens, realizou mais de 200 cursos e oficinas e alcançou 48,2 mil pessoas em cerca de 100 eventos.</strong>',
+        'jd_intro_3': 'Atuei no ciclo completo da solução: desde a <strong>análise técnica e testes de usabilidade</strong> da plataforma anterior, identificando bugs e gargalos de fluxo, até a implementação final do <strong>front-end</strong>, garantindo uma interface acessível e preparada para escalar o impacto social do programa.',
+        
+        // Detalhes
+        'jd_client_value': 'JD Digital <br> Fortaleza, CE - BRA',
+        'jd_services_list': '<li>UX/UI Design & Redesign</li><li>Front-end Development</li><li>Platform Analysis & QA Testing</li><li>Interaction Design & Prototyping</li>',
+        'jd_role_value': 'Product Designer & Front-end Developer',
+
+        // Narrativa
+        'jd_challenge_title': 'O desafio',
+        'jd_challenge_text': 'O maior desafio técnico era a fragmentação da informação. O portal legado apresentava barreiras na descoberta de cursos e falta de clareza nos editais acadêmicos, o que resultava em uma baixa retenção de alunos, além e falta de funções específicas que expusessem outras informações, como trilha constante de cursos, galeria de fotos e imagens, e descrições de eventos. A missão da equipe foi estruturar uma arquitetura de informação que unificasse editais, eventos e trilhas de aprendizado em um único ecossistema intuitivo, eliminando a dependência de redes sociais externas para a comunicação de prazos e oportunidades.',
+        
+        'jd_deliverables_title': 'Principais entregáveis',
+        'jd_deliverables_text': 'Foi desenvolvido um ecossistema digital robusto composto por: novas páginas de Editais Acadêmicos com filtros por status, Calendário de Eventos interativo, sistema de Trilhas de Conhecimento (Design, Dados, Dev, IA), Galeria de Eventos imersiva e uma Área do Aluno personalizada para gestão de histórico e certificados. Cada entrega foi validada para garantir que o fluxo entre a descoberta do curso e a inscrição fosse o mais curto possível.',
+        
+        'jd_uxui_title': 'Design de sites (UX/UI)',
+        'jd_uxui_text': 'Foi utilizado a tipografia Montserrat e uma paleta de cores vibrantes para comunicar inovação e energia ao público jovem. A interface foi construída sobre um Design System modular, focado em hierarquia visual clara e acessibilidade. Assim como também, projetado componentes que destacam cursos em alta e simplificam a leitura de documentos densos (editais), transformando um portal burocrático em uma experiência fluida, moderna e visualmente atraente.',
+        
+        'jd_dev_title': 'Desenvolvimento',
+        'jd_dev_text': 'Fui responsável por ajudar a traduzir o redesign em código front-end, priorizando a performance e a fidelidade visual. Minha atuação incluiu uma fase intensa de testes técnicos na plataforma que antecedia o projeto, onde mapeei mecanismos de erro e bugs críticos. Esses dados geraram os insights necessários para a criação de uma interface limpa e resiliente, integrando funcionalidades dinâmicas que permitem à gestão do JD atualizar conteúdos de forma ágil e segura.',
+
+        // Impacto
+        'jd_impact_title': 'IMPACTO & <br>APRENDIZADOS',
+        
+        'jd_metric_1_title': 'Engajamento e Prova Social <br>(A Galeria)',
+        'jd_metric_1_desc': '<strong>Crescimento Orgânico via Storytelling.</strong> A implementação da galeria de eventos com descrições imersivas transformou a percepção visual do programa. O resultado foi um aumento significativo na divulgação espontânea feita pelos próprios alunos em redes sociais, fortalecendo a autoridade da marca JD Digital e atraindo novos talentos sem custo de aquisição.',
+        
+        'jd_metric_2_title': 'Retenção e Segurança <br> (As Trilhas)',
+        'jd_metric_2_desc': '<strong>Redução da Paralisia de Escolha.</strong> A estruturação dos cursos em trilhas temáticas (Design, Dev, Dados, IA) ofereceu o "GPS" que os jovens precisavam. Ao prover um caminho linear e seguro, a plataforma reduziu a evasão e aumentou o índice de conclusão de cursos, garantindo que o aluno saiba exatamente onde está e para onde sua carreira pode ir.',
+        
+        'jd_metric_3_title': 'Experiência e Usabilidade',
+        'jd_metric_3_desc': '<strong>Navegação de Alta Performance.</strong> O redesenho da arquitetura de informação eliminou os gargalos de fluxo da plataforma anterior. A interação tornou-se mais fluida e intuitiva, permitindo que o acesso a editais e inscrições fosse realizado de forma ágil, refletindo diretamente na satisfação do usuário e na credibilidade institucional.',
+        
+        'jd_metric_4_title': 'O Design como Ferramenta de Confiança:',
+        'jd_metric_4_desc': '<strong>Estilo moderno é confiança.</strong> Aprendi que, para um programa público voltado a jovens, a estética moderna é um pré-requisito para a confiança. Um portal que parece "atrasado" afasta o talento digital. O visual premium atraiu o público mais exigente da tecnologia.',
+        
+        'jd_metric_5_title': 'Arquitetura de Informação <br> é Carreira',
+        'jd_metric_5_desc': '<strong>Gestão Estratégica de Ativos.</strong> Organizar mais de 200 cursos não é apenas uma tarefa de rotulagem, é uma tarefa de orientação profissional. Entender a hierarquia das trilhas me ensinou a projetar fluxos que educam enquanto navegam.',
+        
+        'jd_metric_6_title': 'Valor Qualitativo vs. <br> Quantitativo',
+        'jd_metric_6_desc': '<strong>Funcionalidades para além do design UI.</strong> Mesmo sem ferramentas complexas de tracking no início, as entrevistas qualitativas provaram que o design emocional (como a galeria de fotos) é o maior motor de engajamento social de um projeto público.',
+
+        // Seções Extras
+        'jd_user_title': 'O usuário',
+        'jd_user_text': 'O sucesso do redesign do portal JD Digital dependeu diretamente de uma imersão na realidade de seu público-alvo: <strong>jovens talentos de Fortaleza que buscam ascensão na tecnologia</strong>. Através de processos de Product Discovery, consolidamos o perfil do Nathan. Ele representa o estudante autônomo e analítico, cujas dores com a fragmentação de informações nas redes sociais serviram de base para as novas funcionalidades de centralização e gestão de carreira da plataforma.',
+        
+        'jd_structure_title': 'Estrutura do <br> projeto',
+        'jd_structure_text': 'Para unificar um ecossistema complexo com mais de 200 cursos e múltiplos editais, foi projetado uma Arquitetura de Informação modular. O foco foi otimizar a busca por informações, garantindo que o estudante navegue de forma intuitiva entre o aprendizado e as oportunidades. Abaixo alguns destaques da estrutura:',
+        'jd_structure_list': '<li class="project-intro-text mb-4"><strong>Centralização de Oportunidades:</strong> Criação do nav "Pra Você", que atua como um hub dinâmico para Editais e Eventos, separando conteúdos sazonais da grade fixa de cursos.</li><li class="project-intro-text mb-4"><strong>Navegação Orientada a Objetivos:</strong> Categorização clara entre trilhas de aprendizado (foco em carreira) e suporte ao usuário (FAQ e Contato).</li><li class="project-intro-text mb-4"><strong>Fluxo de Conversão:</strong> Uma hierarquia desenhada para reduzir cliques até a inscrição, priorizando a retenção do aluno dentro do portal.</li>',
+
+        'jd_ui_title': 'Design de interface <br> do usuário',
+        'jd_ui_text': 'O veredito para o Style Guide foi a modernização conservadora. Respeitamos os ativos visuais originais, focando na reestruturação técnica dos elementos:',
+        'jd_ui_list': '<li class="project-intro-text mb-4"> <strong>Tipografia:</strong> A família Montserrat foi mantida por sua legibilidade e ar tecnológico, agora com uma hierarquia de pesos (SemiBold) mais rigorosa.</li> <li class="project-intro-text mb-4"> <strong>Cores:</strong> A paleta original foi otimizada para garantir melhores níveis de acessibilidade e contraste, mantendo o vibrante degradê característico.</li> <li class="project-intro-text mb-4"> <strong>Cards & Botões: </strong> Introduzi cantos arredondados e sombras suaves para criar profundidade e um aspecto mais amigável e tátil.</li>',
+
+        'jd_wireframe_hi_title': 'Wireframes: <br> alta fidelidade',
+        'jd_wireframe_hi_text': 'Como a fundação estrutural do portal já estava estabelecida, optei por avançar diretamente para a Alta Fidelidade, concentrando esforços no refinamento da experiência e na criação de um sistema visual dinâmico. O objetivo foi traduzir a densidade de informações, como entre Trilhas de Conhecimento, Editais e Eventos, em uma interface fluida, acessível e visualmente vibrante. Cada tela foi projetada para garantir que o estudante encontre o que precisa em poucos segundos, transformando a complexidade de uma plataforma pública em um ecossistema intuitivo, responsivo e pronto para escala.'
     },
 
     'en': {
@@ -739,7 +802,69 @@ const translations = {
 
         'eleveit_mobile_title': 'High Fidelity: <br> Mobile',
         'eleveit_mobile_text_1': 'As we know the mobile-first concept is essential today, the focus on responsive design was a priority. On mobile, the interface was optimized for single-thumb navigation, keeping interactive elements in easy-reach zones.',
-        'eleveit_mobile_text_2': 'We adapted information density to avoid overload on smaller screens, ensuring the enrollment flow and education contents remain fluid and accessible on any device. The result is a modern, lightweight, and technically scalable interface, ready to provide a frictionless handoff for development.'
+        'eleveit_mobile_text_2': 'We adapted information density to avoid overload on smaller screens, ensuring the enrollment flow and education contents remain fluid and accessible on any device. The result is a modern, lightweight, and technically scalable interface, ready to provide a frictionless handoff for development.',
+
+
+
+        // --- PROJECT: JD DIGITAL ---
+        'jd_hero_title': 'About the <br> Project',
+        'jd_intro_1': '<strong class="text-danger">Juventude Digital</strong> is a program by Fortaleza City Hall qualifying youth for the tech market, launched in October 2021 as a permanent public policy. It is coordinated by the <strong>Foundation for Science, Technology and Innovation of Fortaleza (Citinova)</strong>, in partnership with the Youth Innovation Institute and the Youth and Education secretariats. It is the City Hall\'s main technological training hub. The <strong>redesign</strong> project was motivated by the need to transform the institutional portal into a high-performance educational platform focused on the student journey.',
+        'jd_intro_2': '<strong class="text-danger">JD has already trained over 44,000 young people, held over 200 courses and workshops, and reached 48,200 people in about 100 events.</strong>',
+        'jd_intro_3': 'I worked on the full solution cycle: from <strong>technical analysis and usability testing</strong> of the previous platform, identifying bugs and flow bottlenecks, to the final <strong>front-end</strong> implementation, ensuring an accessible interface prepared to scale the program\'s social impact.',
+        
+        // Details
+        'jd_client_value': 'JD Digital <br> Fortaleza, CE - BRA',
+        'jd_services_list': '<li>UX/UI Design & Redesign</li><li>Front-end Development</li><li>Platform Analysis & QA Testing</li><li>Interaction Design & Prototyping</li>',
+        'jd_role_value': 'Product Designer & Front-end Developer',
+
+        // Narrative
+        'jd_challenge_title': 'The Challenge',
+        'jd_challenge_text': 'The biggest technical challenge was information fragmentation. The legacy portal presented barriers in course discovery and lack of clarity in academic notices, resulting in low student retention, plus a lack of specific functions exposing other info like constant course tracks, photo galleries, and event descriptions. The team\'s mission was to structure an information architecture unifying notices, events, and learning tracks into a single intuitive ecosystem, eliminating dependence on external social networks for communicating deadlines and opportunities.',
+        
+        'jd_deliverables_title': 'Key Deliverables',
+        'jd_deliverables_text': 'A robust digital ecosystem was developed comprising: new Academic Notice pages with status filters, interactive Event Calendar, Knowledge Tracks system (Design, Data, Dev, AI), immersive Event Gallery, and a personalized Student Area for history and certificate management. Each delivery was validated to ensure the flow between course discovery and enrollment was as short as possible.',
+        
+        'jd_uxui_title': 'Site Design (UX/UI)',
+        'jd_uxui_text': 'Montserrat typography and a vibrant color palette were used to communicate innovation and energy to the young audience. The interface was built on a modular Design System focused on clear visual hierarchy and accessibility. Also designed were components highlighting trending courses and simplifying the reading of dense documents, transforming a bureaucratic portal into a fluid, modern, and visually attractive experience.',
+        
+        'jd_dev_title': 'Development',
+        'jd_dev_text': 'I was responsible for helping translate the redesign into front-end code, prioritizing performance and visual fidelity. My role included an intense technical testing phase on the pre-project platform, mapping error mechanisms and critical bugs. These data generated the insights needed to create a clean and resilient interface, integrating dynamic features allowing JD management to update content agilely and securely.',
+
+        // Impact
+        'jd_impact_title': 'IMPACT & <br>LEARNINGS',
+        
+        'jd_metric_1_title': 'Engagement and Social Proof <br>(The Gallery)',
+        'jd_metric_1_desc': '<strong>Organic Growth via Storytelling.</strong> Implementing the event gallery with immersive descriptions transformed the program\'s visual perception. The result was a significant increase in spontaneous sharing by students on social media, strengthening JD Digital\'s brand authority and attracting new talent with zero acquisition cost.',
+        
+        'jd_metric_2_title': 'Retention and Security <br> (The Tracks)',
+        'jd_metric_2_desc': '<strong>Reducing Choice Paralysis.</strong> Structuring courses into thematic tracks (Design, Dev, Data, AI) offered the "GPS" young people needed. By providing a linear and safe path, the platform reduced dropout rates and increased course completion rates, ensuring students know exactly where they are and where their career can go.',
+        
+        'jd_metric_3_title': 'Experience and Usability',
+        'jd_metric_3_desc': '<strong>High-Performance Navigation.</strong> Redesigning the information architecture eliminated previous platform flow bottlenecks. Interaction became more fluid and intuitive, allowing access to notices and enrollments to be performed agilely, reflecting directly on user satisfaction and institutional credibility.',
+        
+        'jd_metric_4_title': 'Design as a Tool for Trust:',
+        'jd_metric_4_desc': '<strong>Modern style is trust.</strong> I learned that for a public program aimed at youth, modern aesthetics is a prerequisite for trust. A portal that looks "outdated" repels digital talent. The premium visual attracted the most demanding tech audience.',
+        
+        'jd_metric_5_title': 'Information Architecture <br> is Career',
+        'jd_metric_5_desc': '<strong>Strategic Asset Management.</strong> Organizing over 200 courses isn\'t just a labeling task, it\'s a career guidance task. Understanding track hierarchy taught me to design flows that educate while navigating.',
+        
+        'jd_metric_6_title': 'Qualitative vs. <br> Quantitative Value',
+        'jd_metric_6_desc': '<strong>Features beyond UI design.</strong> Even without complex tracking tools initially, qualitative interviews proved that emotional design (like the photo gallery) is a public project\'s biggest social engagement driver.',
+
+        // Extra Sections
+        'jd_user_title': 'The User',
+        'jd_user_text': 'The success of the JD Digital portal redesign depended directly on immersing in its target audience\'s reality: <strong>young talents in Fortaleza seeking tech ascension</strong>. Through Product Discovery processes, we consolidated Nathan\'s profile. He represents the autonomous and analytical student whose pains with information fragmentation on social media served as the basis for the platform\'s new centralization and career management features.',
+        
+        'jd_structure_title': 'Project <br> Structure',
+        'jd_structure_text': 'To unify a complex ecosystem with over 200 courses and multiple notices, a modular Information Architecture was designed. The focus was optimizing information search, ensuring the student navigates intuitively between learning and opportunities. Below are some structure highlights:',
+        'jd_structure_list': '<li class="project-intro-text mb-4"><strong>Opportunity Centralization:</strong> Creation of the "For You" nav, acting as a dynamic hub for Notices and Events, separating seasonal content from the fixed course grid.</li><li class="project-intro-text mb-4"><strong>Goal-Oriented Navigation:</strong> Clear categorization between learning tracks (career focus) and user support (FAQ and Contact).</li><li class="project-intro-text mb-4"><strong>Conversion Flow:</strong> A hierarchy designed to reduce clicks to enrollment, prioritizing student retention within the portal.</li>',
+
+        'jd_ui_title': 'User Interface <br> Design',
+        'jd_ui_text': 'The verdict for the Style Guide was conservative modernization. We respected original visual assets, focusing on technical element restructuring:',
+        'jd_ui_list': '<li class="project-intro-text mb-4"> <strong>Typography:</strong> The Montserrat family was kept for its readability and tech vibe, now with a stricter weight hierarchy (SemiBold).</li> <li class="project-intro-text mb-4"> <strong>Colors:</strong> The original palette was optimized to ensure better accessibility and contrast levels, maintaining the characteristic vibrant gradient.</li> <li class="project-intro-text mb-4"> <strong>Cards & Buttons: </strong> I introduced rounded corners and soft shadows to create depth and a friendlier, tactile aspect.</li>',
+
+        'jd_wireframe_hi_title': 'Wireframes: <br> high fidelity',
+        'jd_wireframe_hi_text': 'Since the portal\'s structural foundation was established, I opted to advance directly to High Fidelity, concentrating efforts on refining the experience and creating a dynamic visual system. The goal was to translate information density, like between Knowledge Tracks, Notices, and Events, into a fluid, accessible, and visually vibrant interface. Each screen was designed to ensure the student finds what they need in seconds, transforming a public platform\'s complexity into an intuitive, responsive, and scale-ready ecosystem.'
     },
 
     'es': {
@@ -1198,7 +1323,68 @@ const translations = {
 
         'eleveit_mobile_title': 'Wireframe de Alta <br> Fidelidad: Móvil',
         'eleveit_mobile_text_1': 'Como sabemos que el concepto de mobile first hoy es esencial, el enfoque en el diseño responsivo fue prioridad. En el móvil, la interfaz se optimizó para la navegación con un solo pulgar, manteniendo los elementos interactivos en zonas de fácil alcance.',
-        'eleveit_mobile_text_2': 'Adaptamos la densidad de información para evitar sobrecarga en pantallas más pequeñas, garantizando que el flujo de inscripción y los contenidos de educación permanezcan fluidos y accesibles en cualquier dispositivo. El resultado es una interfaz moderna, ligera y técnicamente escalable, lista para proporcionar un handoff sin fricciones para el desarrollo.'
+        'eleveit_mobile_text_2': 'Adaptamos la densidad de información para evitar sobrecarga en pantallas más pequeñas, garantizando que el flujo de inscripción y los contenidos de educación permanezcan fluidos y accesibles en cualquier dispositivo. El resultado es una interfaz moderna, ligera y técnicamente escalable, lista para proporcionar un handoff sin fricciones para el desarrollo.',
+
+
+        // --- PROYECTO: JD DIGITAL ---
+        'jd_hero_title': 'Sobre el <br> Proyecto',
+        'jd_intro_1': '<strong class="text-danger">Juventude Digital</strong> es un programa del Ayuntamiento de Fortaleza que cualifica jóvenes para el mercado tecnológico, lanzado en octubre de 2021 como política pública permanente. Es coordinado por la <strong>Fundación de Ciencia, Tecnología e Innovación de Fortaleza (Citinova)</strong>, en asociación con el Instituto Juventude Inovação y las secretarías de Juventud y Educación. Es el principal hub de capacitación tecnológica del Ayuntamiento. El proyecto de <strong>rediseño</strong> fue motivado por la necesidad de transformar el portal institucional en una plataforma educativa de alto rendimiento, centrada en la jornada del alumno.',
+        'jd_intro_2': '<strong class="text-danger">JD ya ha capacitado a más de 44 mil jóvenes, realizado más de 200 cursos y talleres y alcanzado a 48,2 mil personas en cerca de 100 eventos.</strong>',
+        'jd_intro_3': 'Actué en el ciclo completo de la solución: desde el <strong>análisis técnico y pruebas de usabilidad</strong> de la plataforma anterior, identificando errores y cuellos de botella, hasta la implementación final del <strong>front-end</strong>, garantizando una interfaz accesible y preparada para escalar el impacto social del programa.',
+        
+        // Detalles
+        'jd_client_value': 'JD Digital <br> Fortaleza, CE - BRA',
+        'jd_services_list': '<li>Diseño y Rediseño UX/UI</li><li>Desarrollo Front-end</li><li>Análisis de Plataforma y QA</li><li>Diseño de Interacción y Prototipado</li>',
+        'jd_role_value': 'Diseñadora de Producto y Desarrolladora Front-end',
+
+        // Narrativa
+        'jd_challenge_title': 'El Desafío',
+        'jd_challenge_text': 'El mayor desafío técnico era la fragmentación de la información. El portal heredado presentaba barreras en el descubrimiento de cursos y falta de claridad en los avisos académicos, resultando en baja retención, además de falta de funciones específicas que expusieran otra información como rutas de cursos, galerías de fotos y descripciones de eventos. La misión fue estructurar una arquitectura de información que unificara avisos, eventos y rutas de aprendizaje en un único ecosistema intuitivo, eliminando la dependencia de redes sociales externas.',
+        
+        'jd_deliverables_title': 'Principales Entregables',
+        'jd_deliverables_text': 'Se desarrolló un ecosistema digital robusto compuesto por: nuevas páginas de Avisos Académicos con filtros, Calendario de Eventos interactivo, sistema de Rutas de Conocimiento (Diseño, Datos, Dev, IA), Galería de Eventos inmersiva y un Área del Alumno personalizada. Cada entrega fue validada para garantizar que el flujo entre el descubrimiento del curso y la inscripción fuera lo más corto posible.',
+        
+        'jd_uxui_title': 'Diseño del Sitio (UX/UI)',
+        'jd_uxui_text': 'Se utilizó la tipografía Montserrat y una paleta de colores vibrantes para comunicar innovación y energía. La interfaz se construyó sobre un Sistema de Diseño modular, enfocado en jerarquía visual clara y accesibilidad. También se diseñaron componentes que destacan cursos en tendencia y simplifican la lectura de documentos densos, transformando un portal burocrático en una experiencia fluida, moderna y visualmente atractiva.',
+        
+        'jd_dev_title': 'Desarrollo',
+        'jd_dev_text': 'Fui responsable de ayudar a traducir el rediseño en código front-end, priorizando el rendimiento y la fidelidad visual. Mi actuación incluyó una fase intensa de pruebas técnicas en la plataforma anterior, mapeando mecanismos de error y bugs críticos. Estos datos generaron los insights necesarios para crear una interfaz limpia y resistente, integrando funcionalidades dinámicas que permiten a la gestión de JD actualizar contenidos de forma ágil y segura.',
+
+        // Impacto
+        'jd_impact_title': 'IMPACTO Y <br>APRENDIZAJES',
+        
+        'jd_metric_1_title': 'Compromiso y Prueba Social <br>(La Galería)',
+        'jd_metric_1_desc': '<strong>Crecimiento Orgánico vía Storytelling.</strong> La implementación de la galería de eventos con descripciones inmersivas transformó la percepción visual del programa. El resultado fue un aumento significativo en la divulgación espontánea hecha por los propios alumnos en redes sociales, fortaleciendo la autoridad de la marca JD Digital y atrayendo nuevos talentos sin costo de adquisición.',
+        
+        'jd_metric_2_title': 'Retención y Seguridad <br> (Las Rutas)',
+        'jd_metric_2_desc': '<strong>Reducción de la Parálisis de Elección.</strong> La estructuración de los cursos en rutas temáticas ofreció el "GPS" que los jóvenes necesitaban. Al proveer un camino lineal y seguro, la plataforma redujo la evasión y aumentó el índice de finalización de cursos, garantizando que el alumno sepa exactamente dónde está y hacia dónde puede ir su carrera.',
+        
+        'jd_metric_3_title': 'Experiencia y Usabilidad',
+        'jd_metric_3_desc': '<strong>Navegación de Alto Rendimiento.</strong> El rediseño de la arquitectura de información eliminó los cuellos de botella de la plataforma anterior. La interacción se volvió más fluida e intuitiva, permitiendo un acceso ágil a avisos e inscripciones, reflejándose directamente en la satisfacción del usuario y la credibilidad institucional.',
+        
+        'jd_metric_4_title': 'El Diseño como Herramienta de Confianza:',
+        'jd_metric_4_desc': '<strong>El estilo moderno es confianza.</strong> Aprendí que, para un programa público dirigido a jóvenes, la estética moderna es un requisito previo para la confianza. Un portal que parece "atrasado" aleja el talento digital. El visual premium atrajo al público tecnológico más exigente.',
+        
+        'jd_metric_5_title': 'Arquitectura de Información <br> es Carrera',
+        'jd_metric_5_desc': '<strong>Gestión Estratégica de Activos.</strong> Organizar más de 200 cursos no es solo una tarea de etiquetado, es una tarea de orientación profesional. Entender la jerarquía de las rutas me enseñó a diseñar flujos que educan mientras navegan.',
+        
+        'jd_metric_6_title': 'Valor Cualitativo vs. <br> Cuantitativo',
+        'jd_metric_6_desc': '<strong>Funcionalidades más allá del diseño UI.</strong> Incluso sin herramientas complejas de seguimiento al principio, las entrevistas cualitativas probaron que el diseño emocional (como la galería de fotos) es el mayor motor de compromiso social de un proyecto público.',
+
+        // Secciones Extras
+        'jd_user_title': 'El Usuario',
+        'jd_user_text': 'El éxito del rediseño del portal JD Digital dependió directamente de una inmersión en la realidad de su público objetivo: <strong>jóvenes talentos de Fortaleza que buscan ascenso en tecnología</strong>. A través de procesos de Product Discovery, consolidamos el perfil de Nathan. Representa al estudiante autónomo y analítico, cuyos dolores con la fragmentación de información en redes sociales sirvieron de base para las nuevas funcionalidades de centralización y gestión de carrera.',
+        
+        'jd_structure_title': 'Estructura del <br> Proyecto',
+        'jd_structure_text': 'Para unificar un ecosistema complejo con más de 200 cursos y múltiples avisos, se diseñó una Arquitectura de Información modular. El enfoque fue optimizar la búsqueda de información, garantizando que el estudiante navegue intuitivamente entre el aprendizaje y las oportunidades. A continuación, destacados de la estructura:',
+        'jd_structure_list': '<li class="project-intro-text mb-4"><strong>Centralización de Oportunidades:</strong> Creación del nav "Para Ti", actuando como hub dinámico para Avisos y Eventos.</li><li class="project-intro-text mb-4"><strong>Navegación Orientada a Objetivos:</strong> Categorización clara entre rutas de aprendizaje y soporte al usuario.</li><li class="project-intro-text mb-4"><strong>Flujo de Conversión:</strong> Jerarquía diseñada para reducir clics hasta la inscripción, priorizando la retención.</li>',
+
+        'jd_ui_title': 'Diseño de Interfaz <br> de Usuario',
+        'jd_ui_text': 'El veredicto para la Guía de Estilo fue la modernización conservadora. Respetamos los activos visuales originales, enfocándonos en la reestructuración técnica:',
+        'jd_ui_list': '<li class="project-intro-text mb-4"> <strong>Tipografía:</strong> La familia Montserrat se mantuvo por su legibilidad, ahora con una jerarquía de pesos más rigurosa.</li> <li class="project-intro-text mb-4"> <strong>Colores:</strong> La paleta original se optimizó para garantizar mejores niveles de accesibilidad y contraste.</li> <li class="project-intro-text mb-4"> <strong>Tarjetas y Botones: </strong> Introduje esquinas redondeadas y sombras suaves para crear profundidad y un aspecto más amigable.</li>',
+
+        'jd_wireframe_hi_title': 'Wireframes: <br> alta fidelidad',
+        'jd_wireframe_hi_text': 'Como la base estructural del portal ya estaba establecida, opté por avanzar directamente a la Alta Fidelidad, concentrando esfuerzos en el refinamiento de la experiencia y la creación de un sistema visual dinámico. El objetivo fue traducir la densidad de información en una interfaz fluida, accesible y visualmente vibrante. Cada pantalla fue diseñada para garantizar que el estudiante encuentre lo que necesita en pocos segundos, transformando la complejidad de una plataforma pública en un ecosistema intuitivo, responsivo y listo para escalar.'
 
     }
 };
