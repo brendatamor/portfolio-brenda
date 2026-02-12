@@ -294,13 +294,13 @@ const translations = {
 
 
         // --- PROJETO: AJDC ---
-        'ajdc_hero_title': 'Sobre o  Projeto',
-        'ajdc_intro': 'O AJDC Clean Energy é um ecossistema de gestão inteligente desenvolvido sob medida para o setor de energia solar. O projeto nasceu com o desafio de centralizar processos administrativos que eram fragmentados, manuais e burocráticos, transformando-os em uma jornada digital fluida e intuitiva. Minha missão foi projetar uma interface que reduzisse a carga cognitiva da equipe financeira, integrando desde o cadastro dinâmico de clientes até a automação de faturas conectadas diretamente aos sistemas bancários. O resultado é uma ferramenta que não apenas organiza dados, mas acelera a geração de receita e oferece visibilidade estratégica em tempo real.',
+        'ajdc_hero_title': 'Sobre o <br> Projeto',
+        'ajdc_intro': 'O <strong class="text-primary">AJDC Clean Energy</strong> é um ecossistema de gestão inteligente desenvolvido sob medida para o setor de energia solar. O projeto nasceu com o desafio de centralizar processos administrativos que eram fragmentados, manuais e burocráticos, transformando-os em uma jornada digital fluida e intuitiva. Minha missão foi projetar uma interface que reduzisse a carga cognitiva da equipe financeira, integrando desde o cadastro dinâmico de clientes até a automação de faturas conectadas diretamente aos sistemas bancários. O resultado é uma ferramenta que não apenas organiza dados, mas acelera a geração de receita e oferece visibilidade estratégica em tempo real.',
         'ajdc_intro_2': 'Atuei desde a fase de Engenharia de Requisitos, mapeando processos internos e fluxos de usuário, até a entrega final do código. A solução centraliza o controle de faturas e boletos através de uma arquitetura baseada em APIs personalizadas, integrando automações via IA (n8n) para uma gestão financeira sem falhas humanas.',
         
         // Detalhes
-        'ajdc_client_value': 'AJDC Clean Energy  Fortaleza, CE - BRA',
-        'ajdc_services_list': 'Product Discovery & StrategyUX/UI Design & PrototypingFront-end DevelopmentAPI Integration & Automation',
+        'ajdc_client_value': 'AJDC Clean Energy <br> Fortaleza, CE - BRA',
+        'ajdc_services_list': '<li>Product Discovery & Strategy</li><li>UX/UI Design & Prototyping</li><li>Front-end Development</li><li>API Integration & Automation</li>',
         'ajdc_role_value': 'Product Designer & Front-end Developer',
 
         // Narrativa
@@ -317,47 +317,116 @@ const translations = {
         'ajdc_dev_text': 'Fui responsável pela implementação completa do front-end utilizando FlutterFlow, garantindo fidelidade absoluta ao design e performance escalável. O diferencial técnico deste projeto foi a integração via APIs REST, onde trabalhei em colaboração direta com o desenvolvedor back-end para o consumo de dados em tempo real. Foi implementada toda a lógica de exibição de faturas e dashboards, além da estrutura da interface para interagir com automações de IA (n8n), entregando um produto funcional e pronto para operação.',
 
         // Impacto
-        'ajdc_impact_title': 'IMPACTO & APRENDIZADOS',
+        'ajdc_impact_title': 'IMPACTO & <br>APRENDIZADOS',
         
         'ajdc_metric_1_title': 'Agilidade Operacional',
-        'ajdc_metric_1_desc': 'Aumento de 300% na eficiência de cadastro. Através da unificação de ferramentas e automação de cálculos matemáticos complexos, o tempo médio para registro de clientes e faturas foi reduzido drasticamente, tornando o fluxo de trabalho 3x mais ágil e prático.',
+        'ajdc_metric_1_desc': '<strong>Aumento de 300% na eficiência de cadastro.</strong> Através da unificação de ferramentas e automação de cálculos matemáticos complexos, o tempo médio para registro de clientes e faturas foi reduzido drasticamente, tornando o fluxo de trabalho 3x mais ágil e prático.',
         
-        'ajdc_metric_2_title': 'Product Discovery & Insights',
-        'ajdc_metric_2_desc': 'Redução de "Gargalos" Invisíveis. As entrevistas qualitativas com colaboradores permitiram mapear dores operacionais que não haviam sido diagnosticadas. O resultado foi a criação de funcionalidades inéditas que resolveram necessidades críticas de gestão antes negligenciadas.',
+        'ajdc_metric_2_title': 'Product Discovery <br>& Insights',
+        'ajdc_metric_2_desc': '<strong>Redução de "Gargalos" Invisíveis.</strong> As entrevistas qualitativas com colaboradores permitiram mapear dores operacionais que não haviam sido diagnosticadas. O resultado foi a criação de funcionalidades inéditas que resolveram necessidades críticas de gestão antes negligenciadas.',
         
-        'ajdc_metric_3_title': 'Satisfação do Usuário  (NPS Qualitativo)',
-        'ajdc_metric_3_desc': '100% de Aprovação Interna. O sistema alcançou um índice de satisfação absoluta entre a equipe operacional e diretoria. A interface eliminou as nuances de erro e a resistência ao uso, sendo reconhecida como uma ferramenta "perfeita" para o dia a dia da empresa.',
+        'ajdc_metric_3_title': 'Satisfação do Usuário <br> (NPS Qualitativo)',
+        'ajdc_metric_3_desc': '<strong>100% de Aprovação Interna.</strong> O sistema alcançou um índice de satisfação absoluta entre a equipe operacional e diretoria. A interface eliminou as nuances de erro e a resistência ao uso, sendo reconhecida como uma ferramenta "perfeita" para o dia a dia da empresa.',
         
-        'ajdc_metric_4_title': 'Escalabilidade de Dados',
-        'ajdc_metric_4_desc': 'Gestão Estratégica de Ativos. O lançamento permitiu um crescimento significativo na manutenção de dados vitais. Agora, a empresa possui visibilidade total sobre o número de clientes, fluxos de pagamentos e métricas financeiras, facilitando a tomada de decisão baseada em dados reais.',
+        'ajdc_metric_4_title': 'Escalabilidade <br>de Dados',
+        'ajdc_metric_4_desc': '<strong>Gestão Estratégica de Ativos.</strong> O lançamento permitiu um crescimento significativo na manutenção de dados vitais. Agora, a empresa possui visibilidade total sobre o número de clientes, fluxos de pagamentos e métricas financeiras, facilitando a tomada de decisão baseada em dados reais.',
         
-        'ajdc_metric_5_title': 'Integridade de Dados',
-        'ajdc_metric_5_desc': 'Zero Erros de Cálculo. Ao anular a necessidade de cálculos manuais e planilhas externas, o sistema garantiu 100% de integridade nas faturas geradas. Isso eliminou prejuízos financeiros causados por falhas humanas e retrabalho da equipe financeira.',
+        'ajdc_metric_5_title': 'Integridade <br>de Dados',
+        'ajdc_metric_5_desc': '<strong>Zero Erros de Cálculo.</strong> Ao anular a necessidade de cálculos manuais e planilhas externas, o sistema garantiu 100% de integridade nas faturas geradas. Isso eliminou prejuízos financeiros causados por falhas humanas e retrabalho da equipe financeira.',
 
         // Seções Extras
         'ajdc_user_title': 'O usuário',
-        'ajdc_user_text': 'Para que o AJDC não fosse apenas mais um software de gestão, utilizei metodologias de Product Discovery para mapear o comportamento real de quem opera o faturamento. Através de Needs Statements e Mapas de Empatia, consolidamos a proto-persona Jeice: o perfil que sintetiza os desafios de escala e automação do setor solar.',
+        'ajdc_user_text': 'Para que o AJDC não fosse apenas mais um software de gestão, utilizei metodologias de <strong>Product Discovery</strong> para mapear o comportamento real de quem opera o faturamento. Através de <strong>Needs Statements e Mapas de Empatia</strong>, consolidamos a proto-persona Jeice: o perfil que sintetiza os desafios de escala e automação do setor solar.',
         
-        'ajdc_structure_title': 'Estrutura do  projeto',
+        'ajdc_structure_title': 'Estrutura do <br> projeto',
         'ajdc_structure_text': 'Para transformar o pedido de automação do cliente em uma ferramenta robusta, projetei a estrutura do sistema focada em modularidade e controle total de dados. A arquitetura foi desenhada para centralizar o ciclo de vida do faturamento solar em um único ambiente, eliminando a dependência de planilhas externas e processos manuais. Foi desenvolvido um Sitemap estratégico que organiza o sistema em cinco pilares fundamentais:',
-        'ajdc_structure_list_items': 'Gestão de Clientes: Fluxos completos de cadastro e consulta de dados sensíveis e endereçamentos.Automação de Faturamento: Módulo core para criação, consulta e geração de remessas bancárias automatizadas.Inteligência de Dados: Dashboard de métricas para visão macro do negócio e status de pagamentos.Consultas Financeiras: Ferramenta de busca avançada com somatórios automáticos de pendências e recebidos.Onboarding e Suporte: Uma seção dedicada de tutoriais interativos para cada funcionalidade, garantindo autonomia plena aos usuários e reduzindo a curva de aprendizado.',
+        'ajdc_structure_list_items': '<li class="project-intro-text mb-4"><strong>Gestão de Clientes:</strong> Fluxos completos de cadastro e consulta de dados sensíveis e endereçamentos.</li><li class="project-intro-text mb-4"><strong>Automação de Faturamento:</strong> Módulo core para criação, consulta e geração de remessas bancárias automatizadas.</li><li class="project-intro-text mb-4"><strong>Inteligência de Dados:</strong> Dashboard de métricas para visão macro do negócio e status de pagamentos.</li><li class="project-intro-text mb-4"><strong>Consultas Financeiras:</strong> Ferramenta de busca avançada com somatórios automáticos de pendências e recebidos.</li><li class="project-intro-text mb-4"><strong>Onboarding e Suporte:</strong> Uma seção dedicada de tutoriais interativos para cada funcionalidade, garantindo autonomia plena aos usuários e reduzindo a curva de aprendizado.</li>',
         'ajdc_structure_footer': 'O resultado é um ecossistema lógico onde o usuário navega com confiança, realizando ações complexas através de caminhos intuitivos e validados por fluxogramas de processos.',
 
-        'ajdc_wireframe_low_title': 'WIREFRAMES &  arquitetura funcional',
+        'ajdc_wireframe_low_title': 'WIREFRAMES & <br> arquitetura funcional',
         'ajdc_wireframe_low_text_1': 'Na etapa de wireframes, meu foco principal foi a organização de dados densos e a validação das regras de negócio do setor de energia solar. Dada a complexidade dos cálculos de faturamento e a diversidade de categorias de clientes, utilizei o design de média fidelidade para estruturar interfaces que priorizam a precisão e a velocidade de operação.',
         'ajdc_wireframe_low_text_2': 'Através de iterações constantes com stakeholders e usuários finais, refinei fluxos críticos como o cadastro de clientes, a geração automática de faturas e a consulta de pagamentos. Cada tela foi projetada para minimizar erros humanos, com elementos visuais que guiam o usuário através de processos complexos de forma intuitiva. O resultado é uma base sólida que sustenta a experiência do usuário, garantindo que cada interação seja eficiente e livre de ambiguidades.',
 
-        'ajdc_ui_title': 'Design de interface  do usuário',
+        'ajdc_ui_title': 'Design de interface <br> do usuário',
         'ajdc_ui_text': 'O design de interface do AJDC foi projetado para equilibrar a robustez de um sistema financeiro com a leveza de uma ferramenta moderna de energia limpa. O objetivo principal do Style Guide foi garantir consistência absoluta entre os módulos, facilitando o aprendizado da equipe e otimizando o fluxo de faturamento.',
-        'ajdc_ui_list': ' Cores e Semântica: A paleta utiliza tons de Azul Petróleo e Teals para transmitir estabilidade e profissionalismo, remetendo diretamente ao setor de energia sustentável. Utilizamos o Verde Esmeralda para estados de sucesso e o Coral Vibrante para alertas críticos, garantindo que o usuário identifique instantaneamente o status das faturas e processos.  Tipografia (Inter):  Escolhi a família Inter por sua versatilidade sistêmica. Sua alta legibilidade em diferentes escalas foi fundamental para organizar tabelas densas e dashboards, mantendo uma hierarquia clara entre dados operacionais e métricas de decisão.  Componentização e Botões:  Desenvolvi uma biblioteca de componentes modulares com estilos Solid e Outline. Essa abordagem não apenas melhora a experiência do usuário através da previsibilidade, mas também garantiu um handoff ágil para o desenvolvimento no FlutterFlow, permitindo a reutilização de elementos e a escalabilidade do sistema.  Iconografia:  Utilizamos ícones minimalistas de traço limpo para auxiliar no reconhecimento cognitivo rápido das funcionalidades, reduzindo o tempo de resposta do administrador durante tarefas repetitivas.',
+        'ajdc_ui_list': '<li class="project-intro-text mb-4"> <strong>Cores e Semântica:</strong> A paleta utiliza tons de Azul Petróleo e Teals para transmitir estabilidade e profissionalismo, remetendo diretamente ao setor de energia sustentável. Utilizamos o Verde Esmeralda para estados de sucesso e o Coral Vibrante para alertas críticos, garantindo que o usuário identifique instantaneamente o status das faturas e processos.</li> <li class="project-intro-text mb-4"> <strong>Tipografia (Inter): </strong> Escolhi a família Inter por sua versatilidade sistêmica. Sua alta legibilidade em diferentes escalas foi fundamental para organizar tabelas densas e dashboards, mantendo uma hierarquia clara entre dados operacionais e métricas de decisão.</li> <li class="project-intro-text mb-4"> <strong>Componentização e Botões: </strong> Desenvolvi uma biblioteca de componentes modulares com estilos Solid e Outline. Essa abordagem não apenas melhora a experiência do usuário através da previsibilidade, mas também garantiu um handoff ágil para o desenvolvimento no FlutterFlow, permitindo a reutilização de elementos e a escalabilidade do sistema.</li> <li class="project-intro-text mb-4"> <strong>Iconografia: </strong> Utilizamos ícones minimalistas de traço limpo para auxiliar no reconhecimento cognitivo rápido das funcionalidades, reduzindo o tempo de resposta do administrador durante tarefas repetitivas.</li>',
 
-        'ajdc_wireframe_hi_title': 'Wireframes:  alta fidelidade',
+        'ajdc_wireframe_hi_title': 'Wireframes: <br> alta fidelidade',
         'ajdc_wireframe_hi_text_1': 'A etapa de alta fidelidade traduziu a complexidade lógica do AJDC em uma interface de alta performance. O foco principal foi a criação de um ecossistema consistente, onde o administrador pode gerenciar centenas de faturas com o mínimo de cliques e esforço cognitivo.',
         'ajdc_wireframe_hi_text_2': 'Cada componente foi desenhado seguindo as diretrizes do Style Guide, garantindo que elementos críticos — como status de pagamento e alertas de vencimento — tenham destaque imediato, reduzindo drasticamente a margem de erro humano no faturamento.',
 
-        'ajdc_mobile_title': 'Wireframe de alta  fidelidade: mobile',
+        'ajdc_mobile_title': 'Wireframe de alta <br> fidelidade: mobile',
         'ajdc_mobile_text_1': 'A versão mobile do AJDC foi projetada para ser a extensão de bolso do administrador. O desafio técnico foi adaptar fluxos densos de dados para telas reduzidas, priorizando a acessibilidade e a rapidez na consulta.',
-        'ajdc_mobile_text_2': 'Através de um design responsivo e adaptativo, implementei o empilhamento inteligente de componentes e a simplificação de formulários extensos. Para garantir a segurança em processos críticos, como a geração de faturas, adotamos a estratégia de restringir certas funcionalidades ao ambiente desktop, enquanto o mobile atua como uma poderosa ferramenta de monitoramento e consulta rápida de status e métricas, permitindo que o gestor tenha o controle da operação na palma da mão, com total clareza visual.'
+        'ajdc_mobile_text_2': 'Através de um design responsivo e adaptativo, implementei o empilhamento inteligente de componentes e a simplificação de formulários extensos. Para garantir a segurança em processos críticos, como a geração de faturas, adotamos a estratégia de restringir certas funcionalidades ao ambiente desktop, enquanto o mobile atua como uma poderosa ferramenta de monitoramento e consulta rápida de status e métricas, permitindo que o gestor tenha o controle da operação na palma da mão, com total clareza visual.',
+
+
+        // --- PROJETO: ELEVEIT ---
+        'eleveit_hero_title': 'Sobre o <br> Projeto',
+        'eleveit_intro_1': 'A <span class="text-green">eleveit</span> transforma a trajetória de jovens, conectando-os a um plano de desenvolvimento que torna seus sonhos realidade. Com a metodologia "Despertando Potenciais", oferecemos matching inteligente com PDI-e, educação financeira, capacitação e acesso a oportunidades de trabalho e empreendedorismo.',
+        'eleveit_intro_2': 'A empresa precisava de um website responsivo que apresentasse sua proposta com clareza e fortalecesse sua presença digital. Como uma marca nova no mercado e voltada para educação e tecnologia, era essencial construir confiança, explicar seus serviços e criar um ponto de contato capaz de atrair e orientar jovens interessados no programa.',
+        
+        // Detalhes
+        'eleveit_client_value': 'Eleveit <br> Fortaleza, CE - BRA',
+        'eleveit_services_list': '<li>UX Research & Strategy</li><li>Arquitetura de Informação</li><li>Interface Design (UI)</li><li>Prototipagem Interativa</li>',
+        'eleveit_role_value': 'Product Designer',
+
+        // Narrativa
+        'eleveit_challenge_title': 'O desafio',
+        'eleveit_challenge_text': 'A Eleveit já possuía uma lógica interna robusta, mas faltava uma camada de experiência (UX) que convertesse o interesse inicial em ação. O desafio técnico era criar uma jornada linear para um público jovem e diverso, eliminando a sobrecarga cognitiva e transformando um ecossistema complexo em uma interface intuitiva e acolhedora.',
+        
+        'eleveit_deliverables_title': 'Principais entregáveis',
+        'eleveit_deliverables_text': 'Como resultado do processo de design, entreguei um ecossistema completo focado em escala: UX Research detalhada, Sitemap e Fluxogramas de navegação, Wireframes de alta fidelidade e um Design System modular. O foco foi garantir que o produto não fosse apenas um site, mas uma ferramenta pronta para crescer junto com o negócio.',
+        
+        'eleveit_uxui_title': 'Design de sites (UX/UI)',
+        'eleveit_uxui_text': 'A interface foi construída sobre os pilares da acessibilidade e modernidade. Utilizei a tipografia Inter por sua alta performance em leitura digital e uma paleta em degradê azul-verde para evocar tecnologia e confiança. A arquitetura de informação foi desenhada para construir autoridade logo nos primeiros segundos, priorizando o valor social da marca antes da conversão direta.',
+        
+        'eleveit_dev_title': 'Desenvolvimento',
+        'eleveit_dev_text': 'Utilizei minha base em Análise de Sistemas para garantir um handoff sem atritos. A implementação foi realizada via FlutterFlow, focando em uma estrutura de código limpa e performance otimizada. Foi desenvolvido uma interface 100% responsiva, garantindo que a experiência fosse idêntica em qualquer dispositivo, integrando componentes dinâmicos que facilitam a gestão de conteúdo pela equipe da Eleveit.',
+
+        // Impacto
+        'eleveit_impact_title': 'IMPACTO',
+        'eleveit_impact_subtitle': 'Tanto o lançamento inicial quanto as versões subsequentes produziram ótimos resultados...',
+        
+        'eleveit_metric_1_title': 'Rentável',
+        'eleveit_metric_1_desc': '<strong>+45% de inscrições.</strong> O lançamento aumentou significativamente as inscrições.',
+        
+        'eleveit_metric_2_title': 'Impacto social',
+        'eleveit_metric_2_desc': '<strong>200+ jovens alcançados.</strong> Projeto conectou pessoas ao programa.',
+        
+        'eleveit_metric_3_title': 'Engajamento',
+        'eleveit_metric_3_desc': '<strong>+60% de tempo na página.</strong> A navegação otimizada aumentou a permanência.',
+        
+        'eleveit_metric_4_title': 'Reconhecimento',
+        'eleveit_metric_4_desc': '<strong>NPS 80+.</strong> Usuários avaliaram positivamente a clareza e empatia.',
+        
+        'eleveit_metric_5_title': 'Conversão',
+        'eleveit_metric_5_desc': '<strong>-35% na taxa de rejeição.</strong> A taxa de saída caiu e o engajamento cresceu.',
+        
+        'eleveit_metric_6_title': 'Crescimento',
+        'eleveit_metric_6_desc': '<strong>+30% de tráfego orgânico.</strong> Boas práticas de SEO aumentaram o alcance.',
+
+        // Seções Extras
+        'eleveit_user_title': 'O usuário',
+        'eleveit_user_text_1': 'Para construir uma solução que realmente resolva problemas de inclusão digital e empregabilidade, o design foi fundamentado em uma fase densa de UX Research. Através de técnicas de benchmark competitivo, entrevistas em profundidade e mapas de empatia, pudemos mergulhar nas barreiras psicológicas e técnicas enfrentadas por jovens em transição de carreira.',
+        'eleveit_user_text_2': 'Esses processos permitiram consolidar padrões de comportamento e necessidades que culminaram na definição de nossa persona principal: o Péricles. Ele representa o perfil acadêmico-analítico que busca clareza e um roteiro linear para ingressar no mercado profissional. Abaixo, detalho como essa jornada de descoberta moldou as diretrizes do produto.',
+        
+        'eleveit_structure_title': 'Estrutura do <br> projeto',
+        'eleveit_structure_text_1': 'Para organizar a navegação da landing page e garantir uma experiência fluida, foi desenvolvido um sitemap que define as principais páginas e o fluxo de interação do usuário. O objetivo foi simplificar o acesso às informações mais relevantes — Quem Somos, Dúvidas Frequentes e Fale Conosco — permitindo que o visitante encontre facilmente o que procura sem sobrecarga de conteúdo.',
+        'eleveit_structure_text_2': 'O fluxograma representa o caminho ideal do usuário desde o acesso à página inicial até a conclusão de sua navegação nas seções principais. A ideia é oferecer uma jornada clara, objetiva e intuitiva, com poucos cliques entre o ponto de entrada e o objetivo final (obter informações ou entrar em contato).',
+        
+        'eleveit_wireframe_low_title': 'WIREFRAMES',
+        'eleveit_wireframe_low_text': 'Na etapa de wireframes de baixa fidelidade, busquei estruturar a hierarquia das informações e validar o fluxo de navegação antes de aplicar a identidade visual da Eleveit. O foco esteve em definir a disposição dos elementos, o comportamento responsivo e a clareza da jornada do usuário entre as seções principais.',
+
+        'eleveit_ui_title': 'Design de interface <br> do usuário',
+        'eleveit_ui_intro': 'O style guide foi desenvolvido com o objetivo de garantir consistência visual e uma identidade moderna para a plataforma Eleveit. A escolha do degradê azul–verde transmite tecnologia e acessibilidade, reforçando a missão do projeto de conectar jovens ao futuro profissional.',
+        'eleveit_ui_list': '<li class="project-intro-text mb-4"> <strong>Tipografia:</strong> A família Inter foi escolhida por seu excelente desempenho em telas digitais, legibilidade e estilo contemporâneo. As variações de peso e tamanho criam uma hierarquia clara entre títulos, subtítulos e textos.</li> <li class="project-intro-text mb-4"> <strong>Botões e Cards: </strong> Foram definidos dois estilos de botão (solid e outline) para criar contraste entre ações primárias e secundárias. Os cards seguem o mesmo padrão visual, utilizando cantos arredondados e sombras sutis para transmitir modernidade e profundidade.</li> <li class="project-intro-text mb-4"> <strong>Iconografia: </strong> Ícones minimalistas e universais reforçam a comunicação visual da interface, priorizando clareza e acessibilidade.</li>',
+
+        'eleveit_wireframe_hi_title': 'Wireframe de alta <br> fidelidade',
+        'eleveit_wireframe_hi_text': 'Nesta etapa, a identidade visual da Eleveit ganhou vida através de um Design System coeso. A escolha da tipografia Inter não foi apenas estética; sua legibilidade excepcional em telas digitais garante que o usuário absorva as informações sem fadiga visual.',
+
+        'eleveit_mobile_title': 'Wireframe de alta <br> fidelidade: mobile',
+        'eleveit_mobile_text_1': 'Como sabemos que o conceito de mobile first hoje é essencial, o foco no design responsivo foi prioridade. No mobile, a interface foi otimizada para navegação com um único polegar, mantendo elementos interativos em zonas de fácil alcance.',
+        'eleveit_mobile_text_2': 'Adaptamos a densidade de informações para evitar sobrecarga em telas menores, garantindo que o fluxo de inscrição e os conteúdos de educação permaneçam fluidos e acessíveis em qualquer dispositivo. O resultado é uma interface moderna, leve e tecnicamente escalável, pronta para proporcionar um handoff sem atritos para o desenvolvimento.'
     },
 
     'en': {
@@ -730,13 +799,13 @@ const translations = {
 
 
         // --- PROJECT: AJDC ---
-        'ajdc_hero_title': 'About the  Project',
-        'ajdc_intro': 'AJDC Clean Energy is an intelligent management ecosystem developed specifically for the solar energy sector. The project was born from the challenge of centralizing administrative processes that were fragmented, manual, and bureaucratic, transforming them into a fluid and intuitive digital journey. My mission was to design an interface that reduced the cognitive load of the finance team, integrating everything from dynamic client registration to invoice automation connected directly to banking systems. The result is a tool that not only organizes data but accelerates revenue generation and offers real-time strategic visibility.',
+        'ajdc_hero_title': 'About the <br> Project',
+        'ajdc_intro': '<strong class="text-primary">AJDC Clean Energy</strong> is an intelligent management ecosystem developed specifically for the solar energy sector. The project was born from the challenge of centralizing administrative processes that were fragmented, manual, and bureaucratic, transforming them into a fluid and intuitive digital journey. My mission was to design an interface that reduced the cognitive load of the finance team, integrating everything from dynamic client registration to invoice automation connected directly to banking systems. The result is a tool that not only organizes data but accelerates revenue generation and offers real-time strategic visibility.',
         'ajdc_intro_2': 'I worked from the Requirements Engineering phase, mapping internal processes and user flows, to the final code delivery. The solution centralizes invoice and billing control through an architecture based on custom APIs, integrating AI automations via n8n for financial management without human errors.',
         
         // Details
-        'ajdc_client_value': 'AJDC Clean Energy  Fortaleza, CE - BRA',
-        'ajdc_services_list': 'Product Discovery & StrategyUX/UI Design & PrototypingFront-end DevelopmentAPI Integration & Automation',
+        'ajdc_client_value': 'AJDC Clean Energy <br> Fortaleza, CE - BRA',
+        'ajdc_services_list': '<li>Product Discovery & Strategy</li><li>UX/UI Design & Prototyping</li><li>Front-end Development</li><li>API Integration & Automation</li>',
         'ajdc_role_value': 'Product Designer & Front-end Developer',
 
         // Narrative
@@ -753,47 +822,116 @@ const translations = {
         'ajdc_dev_text': 'I was responsible for the complete front-end implementation using FlutterFlow, ensuring absolute fidelity to the design and scalable performance. The technical differentiator of this project was the integration via REST APIs, where I worked in direct collaboration with the back-end developer for real-time data consumption. All logic for displaying invoices and dashboards was implemented, as well as the interface structure to interact with AI automations (n8n), delivering a functional and operation-ready product.',
 
         // Impact
-        'ajdc_impact_title': 'IMPACT & LEARNINGS',
+        'ajdc_impact_title': 'IMPACT & <br>LEARNINGS',
         
         'ajdc_metric_1_title': 'Operational Agility',
-        'ajdc_metric_1_desc': '300% increase in registration efficiency. Through tool unification and automation of complex mathematical calculations, the average time for client and invoice registration was drastically reduced, making the workflow 3x more agile and practical.',
+        'ajdc_metric_1_desc': '<strong>300% increase in registration efficiency.</strong> Through tool unification and automation of complex mathematical calculations, the average time for client and invoice registration was drastically reduced, making the workflow 3x more agile and practical.',
         
-        'ajdc_metric_2_title': 'Product Discovery & Insights',
-        'ajdc_metric_2_desc': 'Reduction of Invisible "Bottlenecks". Qualitative interviews with employees allowed mapping operational pains that hadn\'t been diagnosed. The result was the creation of novel features that solved critical management needs previously neglected.',
+        'ajdc_metric_2_title': 'Product Discovery <br>& Insights',
+        'ajdc_metric_2_desc': '<strong>Reduction of Invisible "Bottlenecks".</strong> Qualitative interviews with employees allowed mapping operational pains that hadn\'t been diagnosed. The result was the creation of novel features that solved critical management needs previously neglected.',
         
-        'ajdc_metric_3_title': 'User Satisfaction  (Qualitative NPS)',
-        'ajdc_metric_3_desc': '100% Internal Approval. The system achieved an absolute satisfaction index among the operational team and board. The interface eliminated error nuances and resistance to use, being recognized as a "perfect" tool for the company\'s day-to-day.',
+        'ajdc_metric_3_title': 'User Satisfaction <br> (Qualitative NPS)',
+        'ajdc_metric_3_desc': '<strong>100% Internal Approval.</strong> The system achieved an absolute satisfaction index among the operational team and board. The interface eliminated error nuances and resistance to use, being recognized as a "perfect" tool for the company\'s day-to-day.',
         
-        'ajdc_metric_4_title': 'Data Scalability',
-        'ajdc_metric_4_desc': 'Strategic Asset Management. The launch allowed significant growth in maintaining vital data. Now, the company has total visibility over customer numbers, payment flows, and financial metrics, facilitating data-driven decision-making.',
+        'ajdc_metric_4_title': 'Data <br>Scalability',
+        'ajdc_metric_4_desc': '<strong>Strategic Asset Management.</strong> The launch allowed significant growth in maintaining vital data. Now, the company has total visibility over customer numbers, payment flows, and financial metrics, facilitating data-driven decision-making.',
         
-        'ajdc_metric_5_title': 'Data Integrity',
-        'ajdc_metric_5_desc': 'Zero Calculation Errors. By voiding the need for manual calculations and external spreadsheets, the system ensured 100% integrity in generated invoices. This eliminated financial losses caused by human error and rework by the finance team.',
+        'ajdc_metric_5_title': 'Data <br>Integrity',
+        'ajdc_metric_5_desc': '<strong>Zero Calculation Errors.</strong> By voiding the need for manual calculations and external spreadsheets, the system ensured 100% integrity in generated invoices. This eliminated financial losses caused by human error and rework by the finance team.',
 
         // Extra Sections
         'ajdc_user_title': 'The User',
-        'ajdc_user_text': 'So that AJDC wouldn\'t be just another management software, I used Product Discovery methodologies to map the real behavior of those operating billing. Through Needs Statements and Empathy Maps, we consolidated the proto-persona Jeice: the profile synthesizing the scale and automation challenges of the solar sector.',
+        'ajdc_user_text': 'So that AJDC wouldn\'t be just another management software, I used <strong>Product Discovery</strong> methodologies to map the real behavior of those operating billing. Through <strong>Needs Statements and Empathy Maps</strong>, we consolidated the proto-persona Jeice: the profile synthesizing the scale and automation challenges of the solar sector.',
         
-        'ajdc_structure_title': 'Project  Structure',
+        'ajdc_structure_title': 'Project <br> Structure',
         'ajdc_structure_text': 'To transform the client\'s automation request into a robust tool, I designed the system structure focused on modularity and total data control. The architecture was designed to centralize the solar billing lifecycle in a single environment, eliminating dependence on external spreadsheets and manual processes. A strategic Sitemap was developed organizing the system into five fundamental pillars:',
-        'ajdc_structure_list_items': 'Client Management: Complete flows for registration and consultation of sensitive data and addressing.Billing Automation: Core module for creation, consultation, and generation of automated bank remittances.Data Intelligence: Metrics dashboard for macro business view and payment status.Financial Queries: Advanced search tool with automatic summation of pending and received amounts.Onboarding and Support: A dedicated section of interactive tutorials for each feature, ensuring full user autonomy and reducing the learning curve.',
+        'ajdc_structure_list_items': '<li class="project-intro-text mb-4"><strong>Client Management:</strong> Complete flows for registration and consultation of sensitive data and addressing.</li><li class="project-intro-text mb-4"><strong>Billing Automation:</strong> Core module for creation, consultation, and generation of automated bank remittances.</li><li class="project-intro-text mb-4"><strong>Data Intelligence:</strong> Metrics dashboard for macro business view and payment status.</li><li class="project-intro-text mb-4"><strong>Financial Queries:</strong> Advanced search tool with automatic summation of pending and received amounts.</li><li class="project-intro-text mb-4"><strong>Onboarding and Support:</strong> A dedicated section of interactive tutorials for each feature, ensuring full user autonomy and reducing the learning curve.</li>',
         'ajdc_structure_footer': 'The result is a logical ecosystem where the user navigates with confidence, performing complex actions through intuitive paths validated by process flowcharts.',
 
-        'ajdc_wireframe_low_title': 'WIREFRAMES &  functional architecture',
+        'ajdc_wireframe_low_title': 'WIREFRAMES & <br> functional architecture',
         'ajdc_wireframe_low_text_1': 'In the wireframe stage, my main focus was organizing dense data and validating solar energy sector business rules. Given the complexity of billing calculations and diverse client categories, I used mid-fidelity design to structure interfaces prioritizing precision and operation speed.',
         'ajdc_wireframe_low_text_2': 'Through constant iterations with stakeholders and end-users, I refined critical flows like client registration, automatic invoice generation, and payment consultation. Each screen was designed to minimize human error, with visual elements guiding the user through complex processes intuitively. The result is a solid base supporting user experience, ensuring every interaction is efficient and ambiguity-free.',
 
-        'ajdc_ui_title': 'User Interface  Design',
+        'ajdc_ui_title': 'User Interface <br> Design',
         'ajdc_ui_text': 'AJDC\'s interface design was planned to balance the robustness of a financial system with the lightness of a modern clean energy tool. The main goal of the Style Guide was ensuring absolute consistency between modules, facilitating team learning and optimizing billing flow.',
-        'ajdc_ui_list': ' Colors and Semantics: The palette uses Petroleum Blue and Teal tones to convey stability and professionalism, directly referencing the sustainable energy sector. We used Emerald Green for success states and Vibrant Coral for critical alerts, ensuring the user instantly identifies invoice and process status.  Typography (Inter):  I chose the Inter family for its systemic versatility. Its high legibility at different scales was fundamental for organizing dense tables and dashboards, maintaining a clear hierarchy between operational data and decision metrics.  Componentization and Buttons:  I developed a library of modular components with Solid and Outline styles. This approach not only improves user experience through predictability but also ensured an agile handoff for FlutterFlow development, allowing element reuse and system scalability.  Iconography:  We used minimalist clean-line icons to assist in quick cognitive recognition of features, reducing administrator response time during repetitive tasks.',
+        'ajdc_ui_list': '<li class="project-intro-text mb-4"> <strong>Colors and Semantics:</strong> The palette uses Petroleum Blue and Teal tones to convey stability and professionalism, directly referencing the sustainable energy sector. We used Emerald Green for success states and Vibrant Coral for critical alerts, ensuring the user instantly identifies invoice and process status.</li> <li class="project-intro-text mb-4"> <strong>Typography (Inter): </strong> I chose the Inter family for its systemic versatility. Its high legibility at different scales was fundamental for organizing dense tables and dashboards, maintaining a clear hierarchy between operational data and decision metrics.</li> <li class="project-intro-text mb-4"> <strong>Componentization and Buttons: </strong> I developed a library of modular components with Solid and Outline styles. This approach not only improves user experience through predictability but also ensured an agile handoff for FlutterFlow development, allowing element reuse and system scalability.</li> <li class="project-intro-text mb-4"> <strong>Iconography: </strong> We used minimalist clean-line icons to assist in quick cognitive recognition of features, reducing administrator response time during repetitive tasks.</li>',
 
-        'ajdc_wireframe_hi_title': 'Wireframes:  high fidelity',
+        'ajdc_wireframe_hi_title': 'Wireframes: <br> high fidelity',
         'ajdc_wireframe_hi_text_1': 'The high-fidelity stage translated AJDC\'s logical complexity into a high-performance interface. The main focus was creating a consistent ecosystem where the administrator can manage hundreds of invoices with minimal clicks and cognitive effort.',
         'ajdc_wireframe_hi_text_2': 'Each component was designed following Style Guide guidelines, ensuring critical elements — like payment status and due date alerts — have immediate prominence, drastically reducing human error margin in billing.',
 
-        'ajdc_mobile_title': 'High Fidelity:  Mobile',
+        'ajdc_mobile_title': 'High Fidelity: <br> Mobile',
         'ajdc_mobile_text_1': 'AJDC\'s mobile version was designed to be the administrator\'s pocket extension. The technical challenge was adapting dense data flows for reduced screens, prioritizing accessibility and query speed.',
-        'ajdc_mobile_text_2': 'Through responsive and adaptive design, I implemented intelligent component stacking and simplification of extensive forms. To ensure security in critical processes like invoice generation, we adopted the strategy of restricting certain features to the desktop environment, while mobile acts as a powerful tool for monitoring and quick consultation of status and metrics, allowing the manager to have operation control in the palm of their hand, with total visual clarity.'
+        'ajdc_mobile_text_2': 'Through responsive and adaptive design, I implemented intelligent component stacking and simplification of extensive forms. To ensure security in critical processes like invoice generation, we adopted the strategy of restricting certain features to the desktop environment, while mobile acts as a powerful tool for monitoring and quick consultation of status and metrics, allowing the manager to have operation control in the palm of their hand, with total visual clarity.',
+
+
+        // --- PROJECT: ELEVEIT ---
+        'eleveit_hero_title': 'About the <br> Project',
+        'eleveit_intro_1': '<span class="text-green">eleveit</span> transforms the trajectory of young people, connecting them to a development plan that makes their dreams a reality. With the "Awakening Potentials" methodology, we offer intelligent matching with IEP (Individual Education Plan), financial education, training, and access to job and entrepreneurship opportunities.',
+        'eleveit_intro_2': 'The company needed a responsive website that presented its proposal clearly and strengthened its digital presence. As a new brand in the market focused on education and technology, it was essential to build trust, explain services, and create a touchpoint capable of attracting and guiding young people interested in the program.',
+        
+        // Details
+        'eleveit_client_value': 'Eleveit <br> Fortaleza, CE - BRA',
+        'eleveit_services_list': '<li>UX Research & Strategy</li><li>Information Architecture</li><li>Interface Design (UI)</li><li>Interactive Prototyping</li>',
+        'eleveit_role_value': 'Product Designer',
+
+        // Narrative
+        'eleveit_challenge_title': 'The Challenge',
+        'eleveit_challenge_text': 'Eleveit already had robust internal logic, but lacked an experience layer (UX) that converted initial interest into action. The technical challenge was to create a linear journey for a young and diverse audience, eliminating cognitive overload and transforming a complex ecosystem into an intuitive and welcoming interface.',
+        
+        'eleveit_deliverables_title': 'Key Deliverables',
+        'eleveit_deliverables_text': 'As a result of the design process, I delivered a complete ecosystem focused on scale: detailed UX Research, Sitemap and Navigation Flowcharts, High-fidelity Wireframes, and a modular Design System. The focus was ensuring the product wasn\'t just a site, but a tool ready to grow with the business.',
+        
+        'eleveit_uxui_title': 'Site Design (UX/UI)',
+        'eleveit_uxui_text': 'The interface was built on the pillars of accessibility and modernity. I used Inter typography for its high digital reading performance and a blue-green gradient palette to evoke technology and trust. Information architecture was designed to build authority in the first few seconds, prioritizing the brand\'s social value before direct conversion.',
+        
+        'eleveit_dev_title': 'Development',
+        'eleveit_dev_text': 'I used my background in Systems Analysis to ensure a frictionless handoff. Implementation was done via FlutterFlow, focusing on clean code structure and optimized performance. A 100% responsive interface was developed, ensuring the experience was identical on any device, integrating dynamic components facilitating content management by the Eleveit team.',
+
+        // Impact
+        'eleveit_impact_title': 'IMPACT',
+        'eleveit_impact_subtitle': 'Both the initial launch and subsequent versions produced great results...',
+        
+        'eleveit_metric_1_title': 'Profitable',
+        'eleveit_metric_1_desc': '<strong>+45% in registrations.</strong> The launch significantly increased sign-ups.',
+        
+        'eleveit_metric_2_title': 'Social Impact',
+        'eleveit_metric_2_desc': '<strong>200+ youth reached.</strong> Project connected people to the program.',
+        
+        'eleveit_metric_3_title': 'Engagement',
+        'eleveit_metric_3_desc': '<strong>+60% time on page.</strong> Optimized navigation increased retention.',
+        
+        'eleveit_metric_4_title': 'Recognition',
+        'eleveit_metric_4_desc': '<strong>NPS 80+.</strong> Users positively evaluated clarity and empathy.',
+        
+        'eleveit_metric_5_title': 'Conversion',
+        'eleveit_metric_5_desc': '<strong>-35% bounce rate.</strong> Exit rate dropped and engagement grew.',
+        
+        'eleveit_metric_6_title': 'Growth',
+        'eleveit_metric_6_desc': '<strong>+30% organic traffic.</strong> Good SEO practices increased reach.',
+
+        // Extra Sections
+        'eleveit_user_title': 'The User',
+        'eleveit_user_text_1': 'To build a solution that truly solves digital inclusion and employability problems, the design was grounded in a dense UX Research phase. Through competitive benchmarking techniques, in-depth interviews, and empathy maps, we could dive into the psychological and technical barriers faced by young people in career transition.',
+        'eleveit_user_text_2': 'These processes allowed us to consolidate behavior patterns and needs culminating in the definition of our main persona: Péricles. He represents the academic-analytical profile seeking clarity and a linear roadmap to enter the professional market. Below, I detail how this discovery journey shaped product guidelines.',
+        
+        'eleveit_structure_title': 'Project <br> Structure',
+        'eleveit_structure_text_1': 'To organize the landing page navigation and ensure a fluid experience, a sitemap was developed defining main pages and user interaction flow. The goal was to simplify access to the most relevant information — About Us, FAQ, and Contact — allowing the visitor to easily find what they are looking for without content overload.',
+        'eleveit_structure_text_2': 'The flowchart represents the ideal user path from homepage access to navigation conclusion in main sections. The idea is to offer a clear, objective, and intuitive journey, with few clicks between entry point and final goal (getting info or contacting).',
+        
+        'eleveit_wireframe_low_title': 'WIREFRAMES',
+        'eleveit_wireframe_low_text': 'In the low-fidelity wireframe stage, I sought to structure information hierarchy and validate navigation flow before applying Eleveit\'s visual identity. The focus was on defining element layout, responsive behavior, and clarity of the user journey between main sections.',
+
+        'eleveit_ui_title': 'User Interface <br> Design',
+        'eleveit_ui_intro': 'The style guide was developed with the aim of ensuring visual consistency and a modern identity for the Eleveit platform. The choice of blue-green gradient conveys technology and accessibility, reinforcing the project\'s mission to connect youth to the professional future.',
+        'eleveit_ui_list': '<li class="project-intro-text mb-4"> <strong>Typography:</strong> The Inter family was chosen for its excellent performance on digital screens, readability, and contemporary style. Weight and size variations create a clear hierarchy between titles, subtitles, and text.</li> <li class="project-intro-text mb-4"> <strong>Buttons and Cards: </strong> Two button styles (solid and outline) were defined to create contrast between primary and secondary actions. Cards follow the same visual pattern, using rounded corners and subtle shadows to convey modernity and depth.</li> <li class="project-intro-text mb-4"> <strong>Iconography: </strong> Minimalist and universal icons reinforce visual interface communication, prioritizing clarity and accessibility.</li>',
+
+        'eleveit_wireframe_hi_title': 'High Fidelity <br> Wireframe',
+        'eleveit_wireframe_hi_text': 'In this stage, Eleveit\'s visual identity came to life through a cohesive Design System. The choice of Inter typography was not just aesthetic; its exceptional readability on digital screens ensures the user absorbs information without visual fatigue.',
+
+        'eleveit_mobile_title': 'High Fidelity: <br> Mobile',
+        'eleveit_mobile_text_1': 'As we know the mobile-first concept is essential today, the focus on responsive design was a priority. On mobile, the interface was optimized for single-thumb navigation, keeping interactive elements in easy-reach zones.',
+        'eleveit_mobile_text_2': 'We adapted information density to avoid overload on smaller screens, ensuring the enrollment flow and education contents remain fluid and accessible on any device. The result is a modern, lightweight, and technically scalable interface, ready to provide a frictionless handoff for development.'
     },
 
     'es': {
@@ -1120,13 +1258,13 @@ const translations = {
 
 
         // --- PROYECTO: AJDC ---
-        'ajdc_hero_title': 'Sobre el  Proyecto',
-        'ajdc_intro': 'AJDC Clean Energy es un ecosistema de gestión inteligente desarrollado a medida para el sector de energía solar. El proyecto nació del desafío de centralizar procesos administrativos que eran fragmentados, manuales y burocráticos, transformándolos en una jornada digital fluida e intuitiva. Mi misión fue diseñar una interfaz que redujera la carga cognitiva del equipo financiero, integrando desde el registro dinámico de clientes hasta la automatización de facturas conectadas directamente a los sistemas bancarios. El resultado es una herramienta que no solo organiza datos, sino que acelera la generación de ingresos y ofrece visibilidad estratégica en tiempo real.',
+        'ajdc_hero_title': 'Sobre el <br> Proyecto',
+        'ajdc_intro': '<strong class="text-primary">AJDC Clean Energy</strong> es un ecosistema de gestión inteligente desarrollado a medida para el sector de energía solar. El proyecto nació del desafío de centralizar procesos administrativos que eran fragmentados, manuales y burocráticos, transformándolos en una jornada digital fluida e intuitiva. Mi misión fue diseñar una interfaz que redujera la carga cognitiva del equipo financiero, integrando desde el registro dinámico de clientes hasta la automatización de facturas conectadas directamente a los sistemas bancarios. El resultado es una herramienta que no solo organiza datos, sino que acelera la generación de ingresos y ofrece visibilidad estratégica en tiempo real.',
         'ajdc_intro_2': 'Actué desde la fase de Ingeniería de Requisitos, mapeando procesos internos y flujos de usuario, hasta la entrega final del código. La solución centraliza el control de facturas y boletos a través de una arquitectura basada en APIs personalizadas, integrando automatizaciones vía IA (n8n) para una gestión financiera sin fallos humanos.',
         
         // Detalles
-        'ajdc_client_value': 'AJDC Clean Energy  Fortaleza, CE - BRA',
-        'ajdc_services_list': 'Descubrimiento y Estrategia de ProductoDiseño UX/UI y PrototipadoDesarrollo Front-endIntegración de API y Automatización',
+        'ajdc_client_value': 'AJDC Clean Energy <br> Fortaleza, CE - BRA',
+        'ajdc_services_list': '<li>Descubrimiento y Estrategia de Producto</li><li>Diseño UX/UI y Prototipado</li><li>Desarrollo Front-end</li><li>Integración de API y Automatización</li>',
         'ajdc_role_value': 'Diseñadora de Producto y Desarrolladora Front-end',
 
         // Narrativa
@@ -1143,47 +1281,116 @@ const translations = {
         'ajdc_dev_text': 'Fui responsable de la implementación completa del front-end utilizando FlutterFlow, garantizando fidelidad absoluta al diseño y rendimiento escalable. El diferencial técnico de este proyecto fue la integración vía APIs REST, donde trabajé en colaboración directa con el desarrollador back-end para el consumo de datos en tiempo real. Se implementó toda la lógica de visualización de facturas y dashboards, además de la estructura de la interfaz para interactuar con automatizaciones de IA (n8n), entregando un producto funcional y listo para operar.',
 
         // Impacto
-        'ajdc_impact_title': 'IMPACTO Y APRENDIZAJES',
+        'ajdc_impact_title': 'IMPACTO Y <br>APRENDIZAJES',
         
         'ajdc_metric_1_title': 'Agilidad Operativa',
-        'ajdc_metric_1_desc': 'Aumento del 300% en la eficiencia de registro. A través de la unificación de herramientas y automatización de cálculos matemáticos complejos, el tiempo promedio para el registro de clientes y facturas se redujo drásticamente, haciendo el flujo de trabajo 3 veces más ágil y práctico.',
+        'ajdc_metric_1_desc': '<strong>Aumento del 300% en la eficiencia de registro.</strong> A través de la unificación de herramientas y automatización de cálculos matemáticos complejos, el tiempo promedio para el registro de clientes y facturas se redujo drásticamente, haciendo el flujo de trabajo 3 veces más ágil y práctico.',
         
-        'ajdc_metric_2_title': 'Descubrimiento de Producto e Insights',
-        'ajdc_metric_2_desc': 'Reducción de "Cuellos de Botella" Invisibles. Las entrevistas cualitativas con colaboradores permitieron mapear dolores operativos que no habían sido diagnosticados. El resultado fue la creación de funcionalidades inéditas que resolvieron necesidades críticas de gestión antes ignoradas.',
+        'ajdc_metric_2_title': 'Descubrimiento de Producto <br>e Insights',
+        'ajdc_metric_2_desc': '<strong>Reducción de "Cuellos de Botella" Invisibles.</strong> Las entrevistas cualitativas con colaboradores permitieron mapear dolores operativos que no habían sido diagnosticados. El resultado fue la creación de funcionalidades inéditas que resolvieron necesidades críticas de gestión antes ignoradas.',
         
-        'ajdc_metric_3_title': 'Satisfacción del Usuario  (NPS Cualitativo)',
-        'ajdc_metric_3_desc': '100% de Aprobación Interna. El sistema alcanzó un índice de satisfacción absoluta entre el equipo operativo y la dirección. La interfaz eliminó los matices de error y la resistencia al uso, siendo reconocida como una herramienta "perfecta" para el día a día de la empresa.',
+        'ajdc_metric_3_title': 'Satisfacción del Usuario <br> (NPS Cualitativo)',
+        'ajdc_metric_3_desc': '<strong>100% de Aprobación Interna.</strong> El sistema alcanzó un índice de satisfacción absoluta entre el equipo operativo y la dirección. La interfaz eliminó los matices de error y la resistencia al uso, siendo reconocida como una herramienta "perfecta" para el día a día de la empresa.',
         
-        'ajdc_metric_4_title': 'Escalabilidad de Datos',
-        'ajdc_metric_4_desc': 'Gestión Estratégica de Activos. El lanzamiento permitió un crecimiento significativo en el mantenimiento de datos vitales. Ahora, la empresa posee visibilidad total sobre el número de clientes, flujos de pagos y métricas financieras, facilitando la toma de decisiones basada en datos reales.',
+        'ajdc_metric_4_title': 'Escalabilidad <br>de Datos',
+        'ajdc_metric_4_desc': '<strong>Gestión Estratégica de Activos.</strong> El lanzamiento permitió un crecimiento significativo en el mantenimiento de datos vitales. Ahora, la empresa posee visibilidad total sobre el número de clientes, flujos de pagos y métricas financieras, facilitando la toma de decisiones basada en datos reales.',
         
-        'ajdc_metric_5_title': 'Integridad de Datos',
-        'ajdc_metric_5_desc': 'Cero Errores de Cálculo. Al anular la necesidad de cálculos manuales y hojas de cálculo externas, el sistema garantizó el 100% de integridad en las facturas generadas. Esto eliminó pérdidas financieras causadas por errores humanos y retrabajo del equipo financiero.',
+        'ajdc_metric_5_title': 'Integridad <br>de Datos',
+        'ajdc_metric_5_desc': '<strong>Cero Errores de Cálculo.</strong> Al anular la necesidad de cálculos manuales y hojas de cálculo externas, el sistema garantizó el 100% de integridad en las facturas generadas. Esto eliminó pérdidas financieras causadas por errores humanos y retrabajo del equipo financiero.',
 
         // Secciones Extras
         'ajdc_user_title': 'El Usuario',
-        'ajdc_user_text': 'Para que AJDC no fuera solo otro software de gestión, utilicé metodologías de Product Discovery para mapear el comportamiento real de quien opera la facturación. A través de Declaraciones de Necesidades y Mapas de Empatía, consolidamos la proto-persona Jeice: el perfil que sintetiza los desafíos de escala y automatización del sector solar.',
+        'ajdc_user_text': 'Para que AJDC no fuera solo otro software de gestión, utilicé metodologías de <strong>Product Discovery</strong> para mapear el comportamiento real de quien opera la facturación. A través de <strong>Declaraciones de Necesidades y Mapas de Empatía</strong>, consolidamos la proto-persona Jeice: el perfil que sintetiza los desafíos de escala y automatización del sector solar.',
         
-        'ajdc_structure_title': 'Estructura del  Proyecto',
+        'ajdc_structure_title': 'Estructura del <br> Proyecto',
         'ajdc_structure_text': 'Para transformar el pedido de automatización del cliente en una herramienta robusta, diseñé la estructura del sistema enfocada en modularidad y control total de datos. La arquitectura fue diseñada para centralizar el ciclo de vida de la facturación solar en un entorno único, eliminando la dependencia de hojas de cálculo externas y procesos manuales. Se desarrolló un Sitemap estratégico que organiza el sistema en cinco pilares fundamentales:',
-        'ajdc_structure_list_items': 'Gestión de Clientes: Flujos completos de registro y consulta de datos sensibles y direcciones.Automatización de Facturación: Módulo central para creación, consulta y generación de remesas bancarias automatizadas.Inteligencia de Datos: Dashboard de métricas para visión macro del negocio y estado de pagos.Consultas Financieras: Herramienta de búsqueda avanzada con sumatorios automáticos de pendientes y recibidos.Onboarding y Soporte: Una sección dedicada de tutoriales interactivos para cada funcionalidad, garantizando autonomía plena a los usuarios y reduciendo la curva de aprendizaje.',
+        'ajdc_structure_list_items': '<li class="project-intro-text mb-4"><strong>Gestión de Clientes:</strong> Flujos completos de registro y consulta de datos sensibles y direcciones.</li><li class="project-intro-text mb-4"><strong>Automatización de Facturación:</strong> Módulo central para creación, consulta y generación de remesas bancarias automatizadas.</li><li class="project-intro-text mb-4"><strong>Inteligencia de Datos:</strong> Dashboard de métricas para visión macro del negocio y estado de pagos.</li><li class="project-intro-text mb-4"><strong>Consultas Financieras:</strong> Herramienta de búsqueda avanzada con sumatorios automáticos de pendientes y recibidos.</li><li class="project-intro-text mb-4"><strong>Onboarding y Soporte:</strong> Una sección dedicada de tutoriales interactivos para cada funcionalidad, garantizando autonomía plena a los usuarios y reduciendo la curva de aprendizaje.</li>',
         'ajdc_structure_footer': 'El resultado es un ecosistema lógico donde el usuario navega con confianza, realizando acciones complejas a través de caminos intuitivos y validados por diagramas de flujo de procesos.',
 
-        'ajdc_wireframe_low_title': 'WIREFRAMES y  arquitectura funcional',
+        'ajdc_wireframe_low_title': 'WIREFRAMES y <br> arquitectura funcional',
         'ajdc_wireframe_low_text_1': 'En la etapa de wireframes, mi enfoque principal fue la organización de datos densos y la validación de las reglas de negocio del sector de energía solar. Dada la complejidad de los cálculos de facturación y la diversidad de categorías de clientes, utilicé el diseño de fidelidad media para estructurar interfaces que priorizan la precisión y la velocidad de operación.',
         'ajdc_wireframe_low_text_2': 'A través de iteraciones constantes con stakeholders y usuarios finales, refiné flujos críticos como el registro de clientes, la generación automática de facturas y la consulta de pagos. Cada pantalla fue diseñada para minimizar errores humanos, con elementos visuales que guían al usuario a través de procesos complejos de forma intuitiva. El resultado es una base sólida que sustenta la experiencia del usuario, garantizando que cada interacción sea eficiente y libre de ambigüedades.',
 
-        'ajdc_ui_title': 'Diseño de Interfaz  de Usuario',
+        'ajdc_ui_title': 'Diseño de Interfaz <br> de Usuario',
         'ajdc_ui_text': 'El diseño de interfaz de AJDC fue proyectado para equilibrar la robustez de un sistema financiero con la ligereza de una herramienta moderna de energía limpia. El objetivo principal de la Guía de Estilo fue garantizar consistencia absoluta entre los módulos, facilitando el aprendizaje del equipo y optimizando el flujo de facturación.',
-        'ajdc_ui_list': ' Colores y Semántica: La paleta utiliza tonos de Azul Petróleo y Verde Azulado para transmitir estabilidad y profesionalismo, remitiendo directamente al sector de energía sostenible. Utilizamos el Verde Esmeralda para estados de éxito y el Coral Vibrante para alertas críticas, garantizando que el usuario identifique instantáneamente el estado de las facturas y procesos.  Tipografía (Inter):  Elegí la familia Inter por su versatilidad sistémica. Su alta legibilidad en diferentes escalas fue fundamental para organizar tablas densas y dashboards, manteniendo una jerarquía clara entre datos operativos y métricas de decisión.  Componentización y Botones:  Desarrollé una biblioteca de componentes modulares con estilos Sólido y Contorno. Este enfoque no solo mejora la experiencia del usuario a través de la previsibilidad, sino que también garantizó un handoff ágil para el desarrollo en FlutterFlow, permitiendo la reutilización de elementos y la escalabilidad del sistema.  Iconografía:  Utilizamos íconos minimalistas de trazo limpio para ayudar en el reconocimiento cognitivo rápido de las funcionalidades, reduciendo el tiempo de respuesta del administrador durante tareas repetitivas.',
+        'ajdc_ui_list': '<li class="project-intro-text mb-4"> <strong>Colores y Semántica:</strong> La paleta utiliza tonos de Azul Petróleo y Verde Azulado para transmitir estabilidad y profesionalismo, remitiendo directamente al sector de energía sostenible. Utilizamos el Verde Esmeralda para estados de éxito y el Coral Vibrante para alertas críticas, garantizando que el usuario identifique instantáneamente el estado de las facturas y procesos.</li> <li class="project-intro-text mb-4"> <strong>Tipografía (Inter): </strong> Elegí la familia Inter por su versatilidad sistémica. Su alta legibilidad en diferentes escalas fue fundamental para organizar tablas densas y dashboards, manteniendo una jerarquía clara entre datos operativos y métricas de decisión.</li> <li class="project-intro-text mb-4"> <strong>Componentización y Botones: </strong> Desarrollé una biblioteca de componentes modulares con estilos Sólido y Contorno. Este enfoque no solo mejora la experiencia del usuario a través de la previsibilidad, sino que también garantizó un handoff ágil para el desarrollo en FlutterFlow, permitiendo la reutilización de elementos y la escalabilidad del sistema.</li> <li class="project-intro-text mb-4"> <strong>Iconografía: </strong> Utilizamos íconos minimalistas de trazo limpio para ayudar en el reconocimiento cognitivo rápido de las funcionalidades, reduciendo el tiempo de respuesta del administrador durante tareas repetitivas.</li>',
 
-        'ajdc_wireframe_hi_title': 'Wireframes:  alta fidelidad',
+        'ajdc_wireframe_hi_title': 'Wireframes: <br> alta fidelidad',
         'ajdc_wireframe_hi_text_1': 'La etapa de alta fidelidad tradujo la complejidad lógica de AJDC en una interfaz de alto rendimiento. El enfoque principal fue la creación de un ecosistema consistente, donde el administrador puede gestionar cientos de facturas con el mínimo de clics y esfuerzo cognitivo.',
         'ajdc_wireframe_hi_text_2': 'Cada componente fue diseñado siguiendo las directrices de la Guía de Estilo, garantizando que elementos críticos — como estado de pago y alertas de vencimiento — tengan destaque inmediato, reduciendo drásticamente el margen de error humano en la facturación.',
 
-        'ajdc_mobile_title': 'Wireframe de Alta  Fidelidad: Móvil',
+        'ajdc_mobile_title': 'Wireframe de Alta <br> Fidelidad: Móvil',
         'ajdc_mobile_text_1': 'La versión móvil de AJDC fue diseñada para ser la extensión de bolsillo del administrador. El desafío técnico fue adaptar flujos densos de datos para pantallas reducidas, priorizando la accesibilidad y la rapidez en la consulta.',
-        'ajdc_mobile_text_2': 'A través de un diseño responsivo y adaptativo, implementé el apilamiento inteligente de componentes y la simplificación de formularios extensos. Para garantizar la seguridad en procesos críticos, como la generación de facturas, adoptamos la estrategia de restringir ciertas funcionalidades al entorno de escritorio, mientras que el móvil actúa como una poderosa herramienta de monitoreo y consulta rápida de estados y métricas, permitiendo que el gestor tenga el control de la operación en la palma de la mano, con total claridad visual.'
+        'ajdc_mobile_text_2': 'A través de un diseño responsivo y adaptativo, implementé el apilamiento inteligente de componentes y la simplificación de formularios extensos. Para garantizar la seguridad en procesos críticos, como la generación de facturas, adoptamos la estrategia de restringir ciertas funcionalidades al entorno de escritorio, mientras que el móvil actúa como una poderosa herramienta de monitoreo y consulta rápida de estados y métricas, permitiendo que el gestor tenga el control de la operación en la palma de la mano, con total claridad visual.',
+
+
+        // --- PROYECTO: ELEVEIT ---
+        'eleveit_hero_title': 'Sobre el <br> Proyecto',
+        'eleveit_intro_1': '<span class="text-green">eleveit</span> transforma la trayectoria de los jóvenes, conectándolos a un plan de desarrollo que hace realidad sus sueños. Con la metodología "Despertando Potenciales", ofrecemos emparejamiento inteligente con PDI-e, educación financiera, capacitación y acceso a oportunidades de trabajo y emprendimiento.',
+        'eleveit_intro_2': 'La empresa necesitaba un sitio web responsivo que presentara su propuesta con claridad y fortaleciera su presencia digital. Como una marca nueva en el mercado y enfocada en educación y tecnología, era esencial construir confianza, explicar sus servicios y crear un punto de contacto capaz de atraer y orientar a jóvenes interesados en el programa.',
+        
+        // Detalles
+        'eleveit_client_value': 'Eleveit <br> Fortaleza, CE - BRA',
+        'eleveit_services_list': '<li>Investigación y Estrategia UX</li><li>Arquitectura de la Información</li><li>Diseño de Interfaz (UI)</li><li>Prototipado Interactivo</li>',
+        'eleveit_role_value': 'Diseñadora de Producto',
+
+        // Narrativa
+        'eleveit_challenge_title': 'El Desafío',
+        'eleveit_challenge_text': 'Eleveit ya poseía una lógica interna robusta, pero faltaba una capa de experiencia (UX) que convirtiera el interés inicial en acción. El desafío técnico era crear una jornada lineal para un público joven y diverso, eliminando la sobrecarga cognitiva y transformando un ecosistema complejo en una interfaz intuitiva y acogedora.',
+        
+        'eleveit_deliverables_title': 'Principales Entregables',
+        'eleveit_deliverables_text': 'Como resultado del proceso de diseño, entregué un ecosistema completo enfocado en la escala: Investigación UX detallada, Mapa del sitio y Flujogramas de navegación, Wireframes de alta fidelidad y un Sistema de Diseño modular. El enfoque fue garantizar que el producto no fuera solo un sitio, sino una herramienta lista para crecer junto con el negocio.',
+        
+        'eleveit_uxui_title': 'Diseño del Sitio (UX/UI)',
+        'eleveit_uxui_text': 'La interfaz se construyó sobre los pilares de la accesibilidad y la modernidad. Utilicé la tipografía Inter por su alto rendimiento en lectura digital y una paleta en degradado azul-verde para evocar tecnología y confianza. La arquitectura de la información fue diseñada para construir autoridad desde los primeros segundos, priorizando el valor social de la marca antes de la conversión directa.',
+        
+        'eleveit_dev_title': 'Desarrollo',
+        'eleveit_dev_text': 'Utilicé mi base en Análisis de Sistemas para garantizar un handoff sin fricciones. La implementación se realizó vía FlutterFlow, enfocándose en una estructura de código limpia y rendimiento optimizado. Se desarrolló una interfaz 100% responsiva, garantizando que la experiencia fuera idéntica en cualquier dispositivo, integrando componentes dinámicos que facilitan la gestión de contenido por el equipo de Eleveit.',
+
+        // Impacto
+        'eleveit_impact_title': 'IMPACTO',
+        'eleveit_impact_subtitle': 'Tanto el lanzamiento inicial como las versiones posteriores produjeron grandes resultados...',
+        
+        'eleveit_metric_1_title': 'Rentable',
+        'eleveit_metric_1_desc': '<strong>+45% en inscripciones.</strong> El lanzamiento aumentó significativamente los registros.',
+        
+        'eleveit_metric_2_title': 'Impacto Social',
+        'eleveit_metric_2_desc': '<strong>200+ jóvenes alcanzados.</strong> El proyecto conectó personas al programa.',
+        
+        'eleveit_metric_3_title': 'Compromiso',
+        'eleveit_metric_3_desc': '<strong>+60% tiempo en página.</strong> La navegación optimizada aumentó la permanencia.',
+        
+        'eleveit_metric_4_title': 'Reconocimiento',
+        'eleveit_metric_4_desc': '<strong>NPS 80+.</strong> Los usuarios evaluaron positivamente la claridad y empatía.',
+        
+        'eleveit_metric_5_title': 'Conversión',
+        'eleveit_metric_5_desc': '<strong>-35% en tasa de rebote.</strong> La tasa de salida cayó y el compromiso creció.',
+        
+        'eleveit_metric_6_title': 'Crecimiento',
+        'eleveit_metric_6_desc': '<strong>+30% tráfico orgánico.</strong> Buenas prácticas de SEO aumentaron el alcance.',
+
+        // Secciones Extras
+        'eleveit_user_title': 'El Usuario',
+        'eleveit_user_text_1': 'Para construir una solución que realmente resuelva problemas de inclusión digital y empleabilidad, el diseño se fundamentó en una fase densa de Investigación UX. A través de técnicas de benchmark competitivo, entrevistas en profundidad y mapas de empatía, pudimos sumergirnos en las barreras psicológicas y técnicas enfrentadas por jóvenes en transición de carrera.',
+        'eleveit_user_text_2': 'Estos procesos permitieron consolidar patrones de comportamiento y necesidades que culminaron en la definición de nuestra persona principal: Péricles. Él representa el perfil académico-analítico que busca claridad y una hoja de ruta lineal para ingresar al mercado profesional. A continuación, detallo cómo esta jornada de descubrimiento moldeó las directrices del producto.',
+        
+        'eleveit_structure_title': 'Estructura del <br> Proyecto',
+        'eleveit_structure_text_1': 'Para organizar la navegación de la landing page y garantizar una experiencia fluida, se desarrolló un mapa del sitio que define las páginas principales y el flujo de interacción del usuario. El objetivo fue simplificar el acceso a la información más relevante — Quiénes Somos, Preguntas Frecuentes y Contacto — permitiendo que el visitante encuentre fácilmente lo que busca sin sobrecarga de contenido.',
+        'eleveit_structure_text_2': 'El diagrama de flujo representa el camino ideal del usuario desde el acceso a la página de inicio hasta la conclusión de su navegación en las secciones principales. La idea es ofrecer una jornada clara, objetiva e intuitiva, con pocos clics entre el punto de entrada y el objetivo final (obtener información o contactar).',
+        
+        'eleveit_wireframe_low_title': 'WIREFRAMES',
+        'eleveit_wireframe_low_text': 'En la etapa de wireframes de baja fidelidad, busqué estructurar la jerarquía de la información y validar el flujo de navegación antes de aplicar la identidad visual de Eleveit. El enfoque estuvo en definir la disposición de los elementos, el comportamiento responsivo y la claridad de la jornada del usuario entre las secciones principales.',
+
+        'eleveit_ui_title': 'Diseño de Interfaz <br> de Usuario',
+        'eleveit_ui_intro': 'La guía de estilo se desarrolló con el objetivo de garantizar consistencia visual y una identidad moderna para la plataforma Eleveit. La elección del degradado azul-verde transmite tecnología y accesibilidad, reforzando la misión del proyecto de conectar a los jóvenes con el futuro profesional.',
+        'eleveit_ui_list': '<li class="project-intro-text mb-4"> <strong>Tipografía:</strong> La familia Inter fue elegida por su excelente rendimiento en pantallas digitales, legibilidad y estilo contemporáneo. Las variaciones de peso y tamaño crean una jerarquía clara entre títulos, subtítulos y textos.</li> <li class="project-intro-text mb-4"> <strong>Botones y Tarjetas: </strong> Se definieron dos estilos de botón (sólido y contorno) para crear contraste entre acciones primarias y secundarias. Las tarjetas siguen el mismo patrón visual, utilizando esquinas redondeadas y sombras sutiles para transmitir modernidad y profundidad.</li> <li class="project-intro-text mb-4"> <strong>Iconografía: </strong> Íconos minimalistas y universales refuerzan la comunicación visual de la interfaz, priorizando claridad y accesibilidad.</li>',
+
+        'eleveit_wireframe_hi_title': 'Wireframe de Alta <br> Fidelidad',
+        'eleveit_wireframe_hi_text': 'En esta etapa, la identidad visual de Eleveit cobró vida a través de un Sistema de Diseño cohesivo. La elección de la tipografía Inter no fue solo estética; su legibilidad excepcional en pantallas digitales garantiza que el usuario absorba la información sin fatiga visual.',
+
+        'eleveit_mobile_title': 'Wireframe de Alta <br> Fidelidad: Móvil',
+        'eleveit_mobile_text_1': 'Como sabemos que el concepto de mobile first hoy es esencial, el enfoque en el diseño responsivo fue prioridad. En el móvil, la interfaz se optimizó para la navegación con un solo pulgar, manteniendo los elementos interactivos en zonas de fácil alcance.',
+        'eleveit_mobile_text_2': 'Adaptamos la densidad de información para evitar sobrecarga en pantallas más pequeñas, garantizando que el flujo de inscripción y los contenidos de educación permanezcan fluidos y accesibles en cualquier dispositivo. El resultado es una interfaz moderna, ligera y técnicamente escalable, lista para proporcionar un handoff sin fricciones para el desarrollo.'
 
     }
 };
@@ -1217,7 +1424,7 @@ function changeLanguage(lang) {
                 element.placeholder = translations[lang][key];
             } else {
                 // Se for texto normal
-                element.innerText = translations[lang][key];
+                element.innerHTML = translations[lang][key];
             }
         }
     });
