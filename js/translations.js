@@ -27,18 +27,43 @@ const translations = {
         // --- SERVIÇO 1 (UX) ---
         'serv_1_title': 'UX & Product Design',
         'serv_1_desc': 'Atuo em todo o ciclo do produto, desde a descoberta do problema até a validação da solução, garantindo decisões orientadas ao usuário e aos objetivos do negócio.',
-        
+        // ADICIONE ESTAS LINHAS:
+        'serv_1_item_1': 'UX Research e discovery',
+        'serv_1_item_2': 'Mapeamento de jornadas (onboarding, ativação e retenção)',
+        'serv_1_item_3': 'Arquitetura da informação',
+        'serv_1_item_4': 'Fluxos de usuário',
+        'serv_1_item_5': 'Wireframes e protótipos (baixa → alta fidelidade)',
+        'serv_1_item_6': 'Testes de usabilidade e validação',
+
         // --- SERVIÇO 2 (UI) ---
         'serv_2_title': 'UI & Visual Design',
         'serv_2_desc': 'Crio interfaces funcionais, acessíveis e visualmente consistentes, focadas em usabilidade, clareza e escalabilidade. Trabalho com design systems para garantir eficiência.',
+        // ADICIONE ESTAS LINHAS:
+        'serv_2_item_1': 'UI Design para produtos digitais',
+        'serv_2_item_2': 'Design system (criação ou evolução)',
+        'serv_2_item_3': 'Componentização visual',
+        'serv_2_item_4': 'Design responsivo',
+        'serv_2_item_5': 'Acessibilidade aplicada ao produto',
 
         // --- SERVIÇO 3 (FRONT) ---
         'serv_3_title': 'Front-end & No-Code Development',
         'serv_3_desc': 'Implemento interfaces com fidelidade ao design, unindo código e no-code para entregar soluções funcionais, performáticas e prontas para uso real.',
+        // ADICIONE ESTAS LINHAS:
+        'serv_3_item_1': 'HTML, CSS, JavaScript, SCSS e Bootstrap',
+        'serv_3_item_2': 'Implementação de interfaces responsivas',
+        'serv_3_item_3': 'FlutterFlow (apps e web apps)',
+        'serv_3_item_4': 'Integrações via API (GET / POST)',
+        'serv_3_item_5': 'Ajustes finos entre design e desenvolvimento',
 
         // --- SERVIÇO 4 (WEBSITES) ---
         'serv_4_title': 'Websites & MVPs',
         'serv_4_desc': 'Desenvolvo websites e MVPs rápidos para validar ideias, comunicar propostas de valor e acelerar lançamentos.',
+        // ADICIONE ESTAS LINHAS:
+        'serv_4_item_1': 'Websites em Webflow',
+        'serv_4_item_2': 'Prototipação e MVPs funcionais',
+        'serv_4_item_3': 'Landing pages para validação',
+        'serv_4_item_4': 'Estruturação de conteúdo e UX',
+        'serv_4_item_5': 'SEO técnico essencial e performance',
 
         // --- FAQ ---
         'faq_title': 'FAQ',
