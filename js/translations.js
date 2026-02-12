@@ -75,7 +75,31 @@ const translations = {
         'form_ph_message': 'Quais são os objetivos, requisitos...',
         
         // Botão
-        'btn_send': 'Enviar'
+        'btn_send': 'Enviar',
+
+
+        // --- PÁGINA SOBRE MIM (ABOUT) ---
+        'about_call_me': 'ME CHAME DE',
+        
+        // Bio (Com HTML tags para negrito)
+        'about_bio_p1': 'Olá, eu sou a Brenda. Sou uma Product Designer e Desenvolvedora Front-end que atua na intersecção entre a necessidade do usuário, a estratégia de negócio e a viabilidade técnica. Com formação em Análise e Desenvolvimento de Sistemas, minha abordagem vai além do visual: eu projeto experiências que são, ao mesmo tempo, esteticamente sofisticadas e tecnicamente escaláveis.',
+        'about_bio_p2': 'Participei de projetos de alto impacto, incluindo sistemas premiados de transparência governamental e soluções financeiras que reduziram em 40% o tempo de operação manual de equipes. Tenho vasta experiência no ciclo completo do produto (End-to-End), utilizando metodologias ágeis e tecnologias como FlutterFlow e React para traduzir problemas complexos em produtos funcionais.',
+        'about_bio_p3': 'Vinda de uma família que une criatividade e gestão, acredito que o design de sucesso é aquele que simplifica a vida das pessoas enquanto posiciona marcas como líderes em seus mercados.',
+
+        // Valores
+        'values_title': 'Compromisso destemido é o  fundamento do meu trabalho.',
+        
+        'value_1_title': 'Empatia em primeiro lugar',
+        'value_1_desc': 'Design é a ponte entre necessidades humanas e objetivos de negócio. Meu processo começa ouvindo, não apenas o usuário, mas a essência da empresa. Acredito que a verdadeira empatia nasce de entender o "porquê" antes do "como".',
+        
+        'value_2_title': 'Nossas identidades são diversas, mas nossa visão é compartilhada',
+        'value_2_desc': 'Inovação não acontece em silos. Minha formação técnica me permite falar a mesma língua dos desenvolvedores e stakeholders. Trabalho para que o design não seja apenas um protótipo, mas um roteiro claro e viável.',
+        
+        'value_3_title': 'Debriefing. Aprimoramento. Escala. Expansão',
+        'value_3_desc': 'Um produto nunca está pronto; ele evolui. Utilizo métricas e feedbacks reais para iterar e refinar soluções. Meu foco é criar sistemas de design (Design Systems) que permitam que o produto cresça sem perder a consistência.',
+        
+        'value_4_title': 'Não nos limitamos a projetar. Abrimos caminhos',
+        'value_4_desc': 'Aproveito minha base em análise de sistemas para encarar desafios complexos como oportunidades de simplificação. Onde outros veem barreiras técnicas, eu vejo caminhos para criar soluções lógicas e intuitivas.'
     },
 
     'en': {
@@ -198,7 +222,29 @@ const translations = {
         'form_ph_message': 'What are the goals, requirements...',
         
         // Button
-        'btn_send': 'Send'
+        'btn_send': 'Send',
+
+
+        // --- ABOUT ME PAGE ---
+        'about_call_me': 'CALL ME',
+
+        'about_bio_p1': 'Hi, I\'m Brenda. I am a Product Designer and Front-end Developer working at the intersection of user needs, business strategy, and technical feasibility. With a degree in Systems Analysis and Development, my approach goes beyond visuals: I design experiences that are both aesthetically sophisticated and technically scalable.',
+        'about_bio_p2': 'I have participated in high-impact projects, including award-winning government transparency systems and financial solutions that reduced team manual operation time by 40%. I have extensive experience in the full product cycle (End-to-End), using agile methodologies and technologies like FlutterFlow and React to translate complex problems into functional products.',
+        'about_bio_p3': 'Coming from a family that unites creativity and management, I believe that successful design is one that simplifies people\'s lives while positioning brands as leaders in their markets.',
+
+        'values_title': 'Fearless commitment is the  foundation of my work.',
+        
+        'value_1_title': 'Empathy first',
+        'value_1_desc': 'Design is the bridge between human needs and business goals. My process starts by listening, not just to the user, but to the essence of the company. I believe true empathy comes from understanding the "why" before the "how".',
+        
+        'value_2_title': 'Our identities are diverse, but our vision is shared',
+        'value_2_desc': 'Innovation doesn\'t happen in silos. My technical background allows me to speak the same language as developers and stakeholders. I work to ensure design is not just a prototype, but a clear and viable roadmap.',
+        
+        'value_3_title': 'Debriefing. Improvement. Scale. Expansion',
+        'value_3_desc': 'A product is never finished; it evolves. I use real metrics and feedback to iterate and refine solutions. My focus is on creating Design Systems that allow the product to grow without losing consistency.',
+        
+        'value_4_title': 'We don\'t limit ourselves to designing. We open paths',
+        'value_4_desc': 'I leverage my background in systems analysis to face complex challenges as opportunities for simplification. Where others see technical barriers, I see paths to create logical and intuitive solutions.'
     },
 
     'es': {
@@ -298,7 +344,28 @@ const translations = {
         'form_ph_message': 'Cuáles son los objetivos, requisitos...',
         
         // Button
-        'btn_send': 'Enviar'
+        'btn_send': 'Enviar',
+
+        // --- PÁGINA SOBRE MÍ ---
+        'about_call_me': 'LLÁMAME',
+
+        'about_bio_p1': 'Hola, soy Brenda. Soy una Product Designer y Desarrolladora Front-end que actúa en la intersección entre la necesidad del usuario, la estrategia de negocio y la viabilidad técnica. Con formación en Análisis y Desarrollo de Sistemas, mi enfoque va más allá de lo visual: diseño experiencias que son, al mismo tiempo, estéticamente sofisticadas y técnicamente escalables.',
+        'about_bio_p2': 'He participado en proyectos de alto impacto, incluidos sistemas premiados de transparencia gubernamental y soluciones financieras que redujeron en un 40% el tiempo de operación manual de equipos.Tengo amplia experiencia en el ciclo completo del producto (End-to-End), utilizando metodologías ágiles y tecnologías como FlutterFlow y React para traducir problemas complejos en productos funcionales.',
+        'about_bio_p3': 'Viniendo de una familia que une creatividad y gestión, creo que el diseño exitoso es aquel que simplifica la vida de las personas mientras posiciona a las marcas como líderes en sus mercados.',
+
+        'values_title': 'El compromiso intrépido es el  fundamento de mi trabajo.',
+        
+        'value_1_title': 'Empatía en primer lugar',
+        'value_1_desc': 'El diseño es el puente entre las necesidades humanas y los objetivos comerciales. Mi proceso comienza escuchando, no solo al usuario, sino la esencia de la empresa. Creo que la verdadera empatía nace de entender el "por qué" antes del "cómo".',
+        
+        'value_2_title': 'Nuestras identidades son diversas, pero nuestra visión es compartida',
+        'value_2_desc': 'La innovación no ocurre en silos. Mi formación técnica me permite hablar el mismo idioma que los desarrolladores y stakeholders. Trabajo para que el diseño no sea solo un prototipo, sino una hoja de ruta clara y viable.',
+        
+        'value_3_title': 'Debriefing. Mejora. Escala. Expansión',
+        'value_3_desc': 'Un producto nunca está terminado; evoluciona. Utilizo métricas y feedbacks reales para iterar y refinar soluciones. Mi enfoque es crear sistemas de diseño (Design Systems) que permitan que el producto crezca sin perder consistencia.',
+        
+        'value_4_title': 'No nos limitamos a diseñar. Abrimos caminos',
+        'value_4_desc': 'Aprovecho mi base en análisis de sistemas para enfrentar desafíos complejos como oportunidades de simplificación. Donde otros ven barreras técnicas, yo veo caminos para crear soluciones lógicas e intuitivas.'
     }
 };
 
