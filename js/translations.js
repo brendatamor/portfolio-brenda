@@ -122,7 +122,23 @@ const translations = {
         'form_ph_message': 'What are the goals, requirements...',
         
         // Button
-        'btn_send': 'Send'
+        'btn_send': 'Send',
+
+        // --- PÁGINA TODOS OS PROJETOS ---
+        'work_header_title': 'Meus trabalhos',
+        
+        // Tags dos Projetos (Etiquetas pequenas)
+        'tag_ux_web': 'UX/UI • WEBSITE',
+        'tag_branding_pd_dev': 'BRANDING • PRODUCT DESIGN • DEVELOPMENT',
+        'tag_ux_web_gov': 'UX/UI • WEBSITE • GOVTECH',
+        'tag_branding_pd_gov_dev': 'BRANDING • PRODUCT DESIGN • GOVTECH • DEVELOPMENT',
+        'tag_pd_web_gov': 'PRODUCT DESIGN • WEBSITE • GOVTECH',
+        'tag_web_ux_gov': 'WEBSITE • UX/UI DESIGN • GOVTECH',
+
+        // CTA Final (Parte inferior)
+        // Note o uso de HTML dentro da tradução para manter a cor escura no span
+        'cta_help_title': 'PRECISA DE AJUDA  COM UM PROJETO DE DESIGN?',
+        'cta_contact_btn': 'Entre em contato'
         
     },
 
@@ -244,7 +260,24 @@ const translations = {
         'value_3_desc': 'A product is never finished; it evolves. I use real metrics and feedback to iterate and refine solutions. My focus is on creating Design Systems that allow the product to grow without losing consistency.',
         
         'value_4_title': 'We don\'t limit ourselves to designing. We open paths',
-        'value_4_desc': 'I leverage my background in systems analysis to face complex challenges as opportunities for simplification. Where others see technical barriers, I see paths to create logical and intuitive solutions.'
+        'value_4_desc': 'I leverage my background in systems analysis to face complex challenges as opportunities for simplification. Where others see technical barriers, I see paths to create logical and intuitive solutions.',
+
+        // ... (Mantenha o conteúdo anterior) ...
+
+        // --- ALL PROJECTS PAGE ---
+        'work_header_title': 'My work',
+
+        // Project Tags
+        'tag_ux_web': 'UX/UI • WEBSITE',
+        'tag_branding_pd_dev': 'BRANDING • PRODUCT DESIGN • DEVELOPMENT',
+        'tag_ux_web_gov': 'UX/UI • WEBSITE • GOVTECH',
+        'tag_branding_pd_gov_dev': 'BRANDING • PRODUCT DESIGN • GOVTECH • DEVELOPMENT',
+        'tag_pd_web_gov': 'PRODUCT DESIGN • WEBSITE • GOVTECH',
+        'tag_web_ux_gov': 'WEBSITE • UX/UI DESIGN • GOVTECH',
+
+        // CTA Final
+        'cta_help_title': 'NEED HELP  WITH A DESIGN PROJECT?',
+        'cta_contact_btn': 'Get in touch'
     },
 
     'es': {
@@ -365,7 +398,22 @@ const translations = {
         'value_3_desc': 'Un producto nunca está terminado; evoluciona. Utilizo métricas y feedbacks reales para iterar y refinar soluciones. Mi enfoque es crear sistemas de diseño (Design Systems) que permitan que el producto crezca sin perder consistencia.',
         
         'value_4_title': 'No nos limitamos a diseñar. Abrimos caminos',
-        'value_4_desc': 'Aprovecho mi base en análisis de sistemas para enfrentar desafíos complejos como oportunidades de simplificación. Donde otros ven barreras técnicas, yo veo caminos para crear soluciones lógicas e intuitivas.'
+        'value_4_desc': 'Aprovecho mi base en análisis de sistemas para enfrentar desafíos complejos como oportunidades de simplificación. Donde otros ven barreras técnicas, yo veo caminos para crear soluciones lógicas e intuitivas.',
+
+        // --- PÁGINA TODOS LOS PROYECTOS ---
+        'work_header_title': 'Mis trabajos',
+
+        // Etiquetas de Proyectos
+        'tag_ux_web': 'UX/UI • SITIO WEB',
+        'tag_branding_pd_dev': 'BRANDING • DISEÑO DE PRODUCTO • DESARROLLO',
+        'tag_ux_web_gov': 'UX/UI • SITIO WEB • GOVTECH',
+        'tag_branding_pd_gov_dev': 'BRANDING • DISEÑO DE PRODUCTO • GOVTECH • DESARROLLO',
+        'tag_pd_web_gov': 'DISEÑO DE PRODUCTO • SITIO WEB • GOVTECH',
+        'tag_web_ux_gov': 'SITIO WEB • DISEÑO UX/UI • GOVTECH',
+
+        // CTA Final
+        'cta_help_title': '¿NECESITAS AYUDA  CON UN PROYECTO DE DISEÑO?',
+        'cta_contact_btn': 'Ponte en contacto'
     }
 };
 

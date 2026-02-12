@@ -24,7 +24,8 @@
 <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#" data-i18n="hero_title">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
+            <!-- CORREÇÃO IMPORTANTE: Removi o data-i18n="hero_title" daqui para não apagar sua logo e nome -->
+            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -38,18 +39,24 @@
                                 <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
-                                <li ><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('pt')"><span>🇧🇷</span> Português</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('en')"><span>🇺🇸</span> English</a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" href="#" onclick="changeLanguage('es')"><span>es</span> Español</a></li>
                             </ul>
                         </div>
                     </span>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/about.html">About me</a></li>
+                    
+                    <!-- Links com tradução inserida -->
+                    <li class="nav-item"><a class="nav-link" href="/index.html" data-i18n="menu_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/about.html" data-i18n="menu_about">About me</a></li>
+                    
+                    <!-- Botão Contato (Texto protegido no span) -->
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-outline-dark contact-btn" href="contact.html">Contato <span></span></a>
+                        <a class="btn btn-outline-dark contact-btn" href="contact.html">
+                            <span data-i18n="menu_contact">Contato</span> <span></span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -57,225 +64,223 @@
     </nav>
     
 
- <!-- HEADER DA PÁGINA -->
+  <!-- HEADER DA PÁGINA -->
     <header class="work-header">
-
         <div class="container h-100 d-flex align-items-end pb-5">
-            <h1 class="display-2 fw-black text-uppercase">My work</h1>
+            <h1 class="display-2 fw-black text-uppercase" data-i18n="work_header_title">My work</h1>
         </div>
     </header>
 
     <!-- GRID DE PROJETOS -->
-<section class="projects-grid-section py-5">
-    <div class="container">
-        
-        <div class="row g-4">
+    <section class="projects-grid-section py-5">
+        <div class="container">
             
-            <!-- PROJETO 1: ELEVEIT -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="eleveit.html" class="text-decoration-none">
-                        <div class="work-img-wrapper">
-                            <img src="/images/mockup_eleveit_atual.png" alt="Eleveit">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <img src="/images/logo_eleveit.png" alt="Logo Eleveit">
+            <div class="row g-4">
+                
+                <!-- PROJETO 1: ELEVEIT -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="eleveit.html" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="/images/mockup_eleveit_atual.png" alt="Eleveit">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">ELEVEIT</h5> <!-- Adicionei text-white para garantir contraste -->
-                                <p class="mb-0 small-tag">UX/UI • WEBSITE</p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="/images/logo_eleveit.png" alt="Logo Eleveit">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">ELEVEIT</h5>
+                                    <p class="mb-0 small-tag" data-i18n="tag_ux_web">UX/UI • WEBSITE</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- PROJETO 2: AJDC -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="../pages/ajdc.html" class="text-decoration-none">
-                        <div class="work-img-wrapper">
-                            <img src="/images/mockup_AJDC.png" alt="AJDC">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <img src="/images/logo_AJDC.png" alt="Logo AJDC">
+                <!-- PROJETO 2: AJDC -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="../pages/ajdc.html" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="/images/mockup_AJDC.png" alt="AJDC">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">AJDC</h5>
-                                <p class="mb-0 small-tag">BRANDING • PRODUCT DESIGN • DEVELOPMENT</p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="/images/logo_AJDC.png" alt="Logo AJDC">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">AJDC</h5>
+                                    <p class="mb-0 small-tag" data-i18n="tag_branding_pd_dev">BRANDING • PRODUCT DESIGN • DEVELOPMENT</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- PROJETO 3: JD DIGITAL -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="./jd_digital.html" class="text-decoration-none">
-                        <div class="work-img-wrapper">
-                            <img src="../images/mockup_jd_digital2.png" alt="JD Digital">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <img src="../images/logo_jd_digital.png" alt="Logo JD Digital">
+                <!-- PROJETO 3: JD DIGITAL -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="./jd_digital.html" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="../images/mockup_jd_digital2.png" alt="JD Digital">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">JD DIGITAL</h5>
-                                <p class="mb-0 small-tag">UX/UI • WEBSITE • GOVTECH</p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="../images/logo_jd_digital.png" alt="Logo JD Digital">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">JD DIGITAL</h5>
+                                    <p class="mb-0 small-tag" data-i18n="tag_ux_web_gov">UX/UI • WEBSITE • GOVTECH</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- PROJETO 4: PIICKAN -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="piickan.html" class="text-decoration-none">
-                        <div class="work-img-wrapper">
-                            <img src="../images/piickan_images/mockup4_piickan].png" alt="Piickan">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <img src="../images/logo_piickan.png" alt="Logo Piickan">
+                <!-- PROJETO 4: PIICKAN -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="piickan.html" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="../images/piickan_images/mockup4_piickan].png" alt="Piickan">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">PIICKAN</h5>
-                                <p class="mb-0 small-tag">BRANDING • PRODUCT DESIGN • GOVTECH • DEVELOPMENT</p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="../images/logo_piickan.png" alt="Logo Piickan">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">PIICKAN</h5>
+                                    <p class="mb-0 small-tag" data-i18n="tag_branding_pd_gov_dev">BRANDING • PRODUCT DESIGN • GOVTECH • DEVELOPMENT</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- PROJETO 5: PONTE DE ENCONTRO -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="./ponte_de_encontro.html" class="text-decoration-none">
-                        <div class="work-img-wrapper">
-                            <img src="../images/mockup_ponte.png" alt="Ponte de Encontro">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <img src="../images/logo_ponte.png" alt="Logo Ponte">
+                <!-- PROJETO 5: PONTE DE ENCONTRO -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="./ponte_de_encontro.html" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="../images/mockup_ponte.png" alt="Ponte de Encontro">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">PONTE DE ENCONTRO</h5>
-                                <p class="mb-0 small-tag">PRODUCT DESIGN • WEBSITE • GOVTECH</p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="../images/logo_ponte.png" alt="Logo Ponte">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">PONTE DE ENCONTRO</h5>
+                                    <p class="mb-0 small-tag" data-i18n="tag_pd_web_gov">PRODUCT DESIGN • WEBSITE • GOVTECH</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- PROJETO 6: RECICLO -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="reciclo.html" class="text-decoration-none">
-                        <div class="work-img-wrapper">
-                            <img src="../images/reciclo-mockup-apresent.png" alt="Reciclo">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <img src="../images/reciclo_logo.png" alt="Logo Reciclo">
+                <!-- PROJETO 6: RECICLO -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="reciclo.html" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="../images/reciclo-mockup-apresent.png" alt="Reciclo">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">RECICLO</h5>
-                                <p class="mb-0 small-tag">WEBSITE • UX/UI DESIGN • GOVTECH  </p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="../images/reciclo_logo.png" alt="Logo Reciclo">
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">RECICLO</h5>
+                                    <p class="mb-0 small-tag" data-i18n="tag_web_ux_gov">WEBSITE • UX/UI DESIGN • GOVTECH</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <!-- PROJETO 7: MISSÃO VERDE (Mantive na grid de 2) -->
-            <div class="col-lg-6 col-md-12">
-                <div class="project-card">
-                    <a href="#" class="text-decoration-none"> <!-- Adicione o link correto -->
-                        <div class="work-img-wrapper">
-                            <img src="/images/missaoverde_mockuo.png" alt="Missão Verde">
-                        </div>
-                        <div class="project-footer-work d-flex align-items-center mt-3">
-                            <div class="work-logo-box me-3">
-                                <!-- Coloquei um placeholder se não tiver logo -->
-                                <img src="/images/missao_verde_logo.png" alt="Logo Missão Verde"> 
+                <!-- PROJETO 7: MISSÃO VERDE -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="project-card">
+                        <a href="#" class="text-decoration-none">
+                            <div class="work-img-wrapper">
+                                <img src="/images/missaoverde_mockuo.png" alt="Missão Verde">
                             </div>
-                            <div>
-                                <h5 class="mb-0 text-dark">MISSÃO VERDE</h5>
-                                <p class="mb-0 small-tag">WEBSITE • UX/UI DESIGN • GOVTECH</p>
+                            <div class="project-footer-work d-flex align-items-center mt-3">
+                                <div class="work-logo-box me-3">
+                                    <img src="/images/missao_verde_logo.png" alt="Logo Missão Verde"> 
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-dark">MISSÃO VERDE</h5>
+                                    <!-- Reutilizando a mesma tag do Reciclo pois o conteúdo é igual -->
+                                    <p class="mb-0 small-tag" data-i18n="tag_web_ux_gov">WEBSITE • UX/UI DESIGN • GOVTECH</p>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-            <!-- Caso tenha mais projetos, adicione aqui seguindo o padrão acima -->
-            
-        </div> <!-- Fim da Row -->
-    </div>
-</section>
+                
+            </div> <!-- Fim da Row -->
+        </div>
+    </section>
 
     <!-- SECTION CTA (PRECISA DE AJUDA?) -->
     <section class="cta-section">
         <div class="container text-center py-5">
-            <h2 class="display-4 fw-bold">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
-            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2">Entre em contato</a>
+            <h2 class="display-4 fw-bold" data-i18n="cta_help_title">PRECISA DE AJUDA <br> COM UM <span class="text-dark">PROJETO DE DESIGN?</span></h2>
+            <a href="contact.html" class="btn btn-outline-dark mt-4 px-5 py-2" data-i18n="cta_contact_btn">Entre em contato</a>
         </div>
     </section>
 
     <!---SEÇÃO FOOTER-->
-<footer class="footer-section">
-    <div class="container">
-        <div class="row py-5 gy-4">
-            <!-- Sessão Explorar -->
-            <div class="col-md-4 footer-col">
-                <h5 class="footer-title">Explorar</h5>
-                <ul class="footer-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </div>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row py-5 gy-4">
+                <!-- Sessão Explorar -->
+                <div class="col-md-4 footer-col">
+                    <h5 class="footer-title" data-i18n="footer_explore">Explorar</h5>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="menu_home">Home</a></li>
+                        <li><a href="#projects" data-i18n="menu_projects">Projetos</a></li>
+                        <li><a href="#" data-i18n="menu_about">Sobre</a></li>
+                    </ul>
+                </div>
 
-            <!-- Sessão Contato -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title">Contato</h5>
-                <ul class="footer-links">
-                    <li>
-                        <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
-                            Let's talk
-                        </a>
-                    </li>
-                   <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink">Copy email</a></li>
-                </ul>
-            </div>
+                <!-- Sessão Contato -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title" data-i18n="footer_contact">Contato</h5>
+                    <ul class="footer-links">
+                        <li>
+                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda..." target="_blank">
+                                Let's talk
+                            </a>
+                        </li>
+                       <li><a href="javascript:void(0)" onclick="copyEmail()" id="emailLink" data-i18n="footer_copy_email">Copy email</a></li>
+                    </ul>
+                </div>
 
-            <!-- Sessão Conectar -->
-            <div class="col-md-4 footer-col border-start-custom">
-                <h5 class="footer-title text-md-end">Conectar</h5>
-                <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
-                    <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
-                    <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                <!-- Sessão Conectar -->
+                <div class="col-md-4 footer-col border-start-custom">
+                    <h5 class="footer-title text-md-end" data-i18n="footer_connect">Conectar</h5>
+                    <div class="footer-socials d-flex justify-content-md-end gap-3 mt-3">
+                        <a href="https://www.linkedin.com/in/brenda-moreira-8763a5243/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.behance.net/brendatavares6" target="_blank"><i class="bi bi-behance"></i></a>
+                        <a href="https://github.com/brendatamor" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
                 </div>
             </div>
+
+            <!-- Linha do Copyright -->
+            <div class="footer-bottom border-top-custom py-4 text-center">
+                <p class="mb-0">© <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
+            </div>
         </div>
-
-        <!-- Linha do Copyright -->
-        <div class="footer-bottom border-top-custom py-4 text-center">
-            <p class="mb-0">© <span id="year"></span> Brenda Tavares - Todos os direitos reservados</p>
-        </div>
-    </div>
-</footer>
-
-
+    </footer>
 
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scripts.js"></script>
+    
+    <!-- Script de Tradução -->
+    <script src="../js/translations.js"></script>
 </body>
 </html>
