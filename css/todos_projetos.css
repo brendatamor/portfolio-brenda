@@ -22,7 +22,7 @@ html, body {
 /* Header com BG */
 .work-header {
     height: 40vh;
-    background-image: url('/images/Frame\ 21\ \(3\).png');
+    background-image: url('../images/Frame\ 21\ \(3\).png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -76,7 +76,7 @@ html, body {
 .cta-section {
     background-color: #E6E6E6; /* Tom claro do seu design */
     color: #1a1a1a;
-    background-image: url('/images/Frame\ 22\ \(1\).png');;
+    background-image: url('../images/Frame\ 22\ \(1\).png');;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
