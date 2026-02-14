@@ -211,7 +211,7 @@ html, body {
 .cta-section {
     background-color: #d1d0d0; /* Tom claro do seu design */
     color: #1a1a1a;
-    background-image: url('/images/Frame\ 22\ \(1\).png');;
+    background-image: url('../images/Frame\ 22\ \(1\).png');;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
