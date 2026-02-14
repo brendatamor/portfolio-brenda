@@ -3,42 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brenda Tavares| Product Designer</title>
-    
-    <!-- Bootstrap 5 CSS -->
+    <title>About Me | Brenda Tavares</title>
+    <!-- Reaproveite os mesmos links do Bootstrap e CSS da Home -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Google Fonts: Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
-    <!-- Seu CSS Personalizado -->
-    <link rel="stylesheet" href="/css/contact.css">
-
-    <!-- Link para Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="../images/brenda_branco.png" type="image/x-icon">
- 
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="/images/brenda_branco.png" type="image/x-icon">
 </head>
-<body>
-    
+<body class="about-page text-white">
 
-   <!-- NAVBAR -->
+      <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
         <div class="container">
-            <!-- CORREÇÃO: Removi o data-i18n daqui para manter sua Logo e Nome visíveis -->
-            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="../images/brenda_branco.png" alt=""></a>
+            <!-- Data-i18n removido daqui para proteger a logo -->
+            <a class="navbar-brand fw-bold" href="#">Brenda Tavares <img class="logo_brenda" src="../images/brendaLogo_gray.png" alt="Brenda Tavares"></a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <!-- Dropdown de Idiomas -->
-                    <li class="nav-item me-4"><span class="lang-text">
+                    <li class="nav-item me-4"><span class="lang-text"><!-- Seletor de Idiomas na Navbar -->
                         <div class="dropdown me-3">
                             <button class="btn btn-link dropdown-toggle lang-btn d-flex align-items-center" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <!-- Ícone de Tradução -->
                                 <span id="current-lang" class="bi bi-translate">PT</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end lang-dropdown" aria-labelledby="dropdownMenuButton">
@@ -49,13 +36,9 @@
                         </div>
                     </span>
                     </li>
-
-                    <!-- Links do Menu com Tradução Inserida -->
-                    <li class="nav-item"><a class="nav-link" href="/index.html" data-i18n="menu_home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/pages/about.html" data-i18n="menu_about">About me</a></li>
-                    
-                    <!-- Botão Contato (Texto protegido no span para não perder a animação da seta) -->
+                    <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="menu_home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="menu_about">About me</a></li>
                     <li class="nav-item ms-lg-3">
                         <a class="btn btn-outline-dark contact-btn" href="contact.html">
                             <span data-i18n="menu_contact">Contato</span> <span></span>
@@ -65,17 +48,80 @@
             </div>
         </div>
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
 
-<!-- 4. FORMULÁRIO DE CONTATO -->
+    <!-- 2. HERO ABOUT -->
+    <section class="about-hero py-5 mt-5">
+        <br><br><br><br>
+        <!-- Imagem de fundo decorativa desta seção -->
+     
+        <div class="projects-decor">
+            <img src="/images/bg_s11_about.png" alt="decor">
+        </div>
+    
+        <div class="container">
+            <div class="row align-items-start">
+                <!-- Esquerda: Nome e Foto -->
+                <div class="col-lg-5">
+                    <p class="subtitle-small mb-0" data-i18n="about_call_me">CALL ME</p>
+                    <h1 class="display-4 fw-bold mb-4">BRENDA</h1>
+                    <div class="photo-placeholder">
+                        <img src="/images/brendaLogo_gray.png" alt="Brenda Tavares" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Direita: Texto Bio -->
+                <div class="col-lg-7 pt-lg-5 mt-lg-5">
+                    <div class="bio-text">
+                        <br>
+                        <p data-i18n="about_bio_p1">Olá, eu sou a Brenda.
+                        Sou uma <strong>Product Designer e Desenvolvedora Front-end</strong> que atua na intersecção entre a necessidade do usuário, a estratégia de negócio e a viabilidade técnica. Com formação em <strong>Análise e Desenvolvimento de Sistemas</strong>, minha abordagem vai além do visual: eu projeto experiências que são, ao mesmo tempo, esteticamente sofisticadas e tecnicamente escaláveis.
+                        </p>
+                        
+                        <p data-i18n="about_bio_p2">
+                            Participei de projetos de alto impacto, incluindo sistemas premiados de transparência governamental e soluções financeiras que <strong>reduziram em 40% o tempo de operação manual de equipes.</strong> Tenho vasta experiência no ciclo completo do produto (End-to-End), utilizando metodologias ágeis e tecnologias como FlutterFlow e React para traduzir problemas complexos em produtos funcionais.
+                        </p>
+                       
+                        <p data-i18n="about_bio_p3"> Vinda de uma família que une criatividade e gestão, acredito que o design de sucesso é aquele que simplifica a vida das pessoas enquanto posiciona marcas como líderes em seus mercados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. COMPROMISSO / VALORES -->
+    <section class="values-section py-5">
+        
+        <div class="container border-top-custom pt-5">
+            <h2 class="mb-5 section-title-medium" data-i18n="values_title">Compromisso destemido é o <br> fundamento do meu trabalho.</h2>
+            
+            <div class="row g-5">
+                <div class="col-md-6 value-item">
+                    <h5 data-i18n="value_1_title">Empatia em <strong>primeiro lugar</strong></h5>
+                    <p data-i18n="value_1_desc">Design é a ponte entre necessidades humanas e objetivos de negócio. Meu processo começa ouvindo, não apenas o usuário, mas a essência da empresa. Acredito que a verdadeira empatia nasce de entender o 'porquê' antes do 'como', garantindo que cada funcionalidade resolva uma dor real e gere valor imediato.</p>
+                </div>
+                <div class="col-md-6 value-item">
+                    <h5 data-i18n="value_2_title">Nossas identidades são diversas, mas nossa visão é <strong>compartilhada</strong></h5>
+                    <p data-i18n="value_2_desc">Inovação não acontece em silos. Minha formação técnica me permite falar a mesma língua dos desenvolvedores e stakeholders. Trabalho para que o design não seja apenas um protótipo, mas um roteiro claro e viável. Quando a visão é compartilhada desde o início, o handoff é fluido e o produto final é fiel ao que foi planejado.</p>
+                </div>
+            
+                <div class="col-md-6 value-item">
+                    <h5 data-i18n="value_3_title">Debriefing. Aprimoramento. Escala. <strong>Expansão</strong></h5>
+                    <p data-i18n="value_3_desc">Um produto nunca está pronto; ele evolui. Utilizo métricas e feedbacks reais para iterar e refinar soluções. Meu foco é criar sistemas de design (Design Systems) e fluxos que permitam que o produto cresça e suporte milhares de usuários sem perder a consistência ou a performance, transformando dados em melhoria contínua.</p>
+                </div>
+                <div class="col-md-6 value-item">
+                    <h5 data-i18n="value_4_title">Não nos limitamos a projetar. <strong>Abrimos caminhos</strong></h5>
+                    <p data-i18n="value_4_desc">Aproveito minha base em análise de sistemas para encarar desafios complexos como oportunidades de simplificação. Onde outros veem barreiras técnicas, eu vejo caminhos para criar soluções lógicas e intuitivas. Meu objetivo é desbravar o caos da criatividade e entregá-lo estruturado, funcional e pronto para escalar.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- 4. FORMULÁRIO DE CONTATO (Reutilizando chaves criadas na página Contact) -->
     <section class="contact-form-section py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                
+                 
                     <h3 class="mb-4">
                         <span data-i18n="contact_headline">Estou ansiosa para construir um mundo digital coeso...</span> <br> 
                         <strong data-i18n="contact_subheadline">Deixe seus dados abaixo e veja sua visão ganhar forma.</strong>
@@ -91,15 +137,12 @@
                         
                         <div class="mb-4">
                             <label data-i18n="form_label_name">Seu nome</label>
-                            <!-- O data-i18n aqui vai mudar o placeholder -->
                             <input type="text" name="name" placeholder="Nome completo" class="form-control-custom" required data-i18n="form_ph_name">
                         </div>
-                        
                         <div class="mb-4">
                             <label data-i18n="form_label_email">Seu email</label>
                             <input type="email" name="email" placeholder="Seu endereço de email" class="form-control-custom" required data-i18n="form_ph_email">
                         </div>
-                        
                         <div class="mb-4">
                             <label data-i18n="form_label_prop">Sua proposta</label>
                             <textarea name="message" placeholder="Quais são os objetivos, requisitos..." class="form-control-custom" rows="3" data-i18n="form_ph_message"></textarea>
@@ -109,8 +152,6 @@
                         <div class="mb-5">
                             <label class="d-block mb-3" data-i18n="form_label_services">Serviços de interesse</label>
                             <div class="d-flex gap-2 flex-wrap">
-                                <!-- Os valores dos inputs (value) não mudam para não quebrar o envio do email, apenas os labels visuais mudam se você quiser traduzi-los, mas deixei em inglês técnico padrão -->
-                                
                                 <input type="checkbox" class="btn-check" id="btn_uxui" name="service" value="UI/UX Design">
                                 <label class="btn btn-outline-light rounded-pill chip-btn" for="btn_uxui">UI/UX Design</label>
 
@@ -131,16 +172,17 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-light px-5 py-2">
+                        <button type="submit" class="btn btn-dark px-5 py-2">
                             <strong data-i18n="btn_send">Enviar</strong>
                         </button>
                     </form>
+                    <input type="hidden" name="_next" value="https://brendatamor.github.io/portfolio-brenda/thanks.html">   
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SEÇÃO FOOTER -->
+    <!---SEÇÃO FOOTER-->
     <footer class="footer-section">
         <div class="container">
             <div class="row py-5 gy-4">
@@ -148,9 +190,9 @@
                 <div class="col-md-4 footer-col">
                     <h5 class="footer-title" data-i18n="footer_explore">Explorar</h5>
                     <ul class="footer-links">
-                        <li><a href="#" data-i18n="menu_home">Home</a></li>
-                        <li><a href="#projects" data-i18n="menu_projects">Projetos</a></li>
-                        <li><a href="#" data-i18n="menu_about">Sobre</a></li>
+                        <li><a href="index.html" data-i18n="menu_home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="todos_projetos.html" data-i18n="menu_projects">Projects</a></li>
+                        <li><a href="about.html" data-i18n="menu_about">Sobre</a></li>
                     </ul>
                 </div>
 
@@ -159,7 +201,7 @@
                     <h5 class="footer-title" data-i18n="footer_contact">Contato</h5>
                     <ul class="footer-links">
                         <li>
-                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda..." target="_blank">
+                            <a href="https://wa.me/5585991274771?text=Olá%20Brenda,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!" target="_blank">
                                 Let's talk
                             </a>
                         </li>
@@ -180,21 +222,16 @@
 
             <!-- Linha do Copyright -->
             <div class="footer-bottom border-top-custom py-4 text-center">
-                <p class="mb-0">© <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
+                <p class="mb-0"> <span id="year"></span> <span data-i18n="footer_rights">Brenda Tavares - Todos os direitos reservados</span></p>
             </div>
         </div>
     </footer>
 
-
-
-
-
-
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/scripts.js"></script>
-
+    
+    <!-- Script de Tradução (Crucial) -->
     <script src="../js/translations.js"></script>
 </body>
 </html>
