@@ -782,7 +782,7 @@ body {
 
 /* Background da Seção de Formulário (Seção 3) */
 .contact-form-section {
-    background-image: url('/images/bg3_about.png'); /* Use o nome da sua imagem */
+    background-image: url('../images/bg3_about.png'); /* Use o nome da sua imagem */
     background-repeat: no-repeat;
     background-position: right bottom; /* Posiciona as bolas no canto inferior direito */
     background-size: contain;
