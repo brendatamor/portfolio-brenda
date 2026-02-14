@@ -773,7 +773,7 @@ body {
 
 /* Background da Seção de Valores (Seção 2) */
 .values-section {
-    background-image: url('/images/bg2_about.png'); /* Use o nome da sua imagem */
+    background-image: url('/bg2_about.png'); /* Use o nome da sua imagem */
     background-repeat: no-repeat;
     background-position: left center; /* Posiciona na esquerda conforme o estilo */
     background-size: contain;
