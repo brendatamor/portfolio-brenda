@@ -693,6 +693,74 @@ const translations = {
         'cta_help_title': 'NEED HELP  WITH A DESIGN PROJECT?',
         'cta_contact_btn': 'Get in touch',
 
+        // --- PROJECT: PONTE DE ENCONTRO ---
+        'ponte_hero_title': 'About the <br> Project',
+        'ponte_intro': 'The <span class="text-primary">Ponte de Encontro</span> is a vital platform developed for FUNCI (Foundation for the Child and the Citizen Family) in partnership with Citinova. The project centralizes the specialized social outreach service in Fortaleza, facilitating the identification and sheltering of children and adolescents in vulnerable situations. As my first experience leading a project, I coordinated the entire development cycle, from actively listening to FUNCI\'s needs to the technical delivery of a system that acts as a direct bridge between the citizen and the social assistance network.',
+        
+        // Details
+        'ponte_client_value': 'FUNCI <br> Fortaleza, CE - BRA',
+        'ponte_services_list': '<li>Project Leadership</li><li>UX/UI Design</li><li>Front-end Development</li><li>Admin Experience (AX)</li>',
+        'ponte_role_value': 'Project Lead & Front-end Developer',
+
+        // Narrative
+        'ponte_challenge_title': 'The Challenge',
+        'ponte_challenge_text': 'The biggest challenge was <span class="text-dark">simplifying complexity</span>. Government projects usually have dense and bureaucratic requirements. My mission was to translate these needs into an interface that would stimulate citizen action. We know that the population avoids complex platforms, especially for social actions. Therefore, the technical focus was to remove any cognitive barrier, ensuring that the act of reporting or asking for help was fast, intuitive, and accessible for any level of digital literacy.',
+        
+        'ponte_deliverables_title': 'Key Deliverables',
+        'ponte_deliverables_text': 'We delivered a complete ecosystem focused on <span class="text-dark">agility and transparency</span>: a mobile-first reporting portal with simplified flows, a real-time protocol inquiry tool, and a <span class="text-dark">robust Administrative Panel</span> for managing mobile teams. I developed process flowcharts that ensured no information bottlenecks from the initial click to the child\'s assistance, transforming the system into an agile work tool for social educators.',
+        
+        'ponte_uxui_title': 'Site Design (UX/UI)',
+        'ponte_uxui_text': 'I built an interface based on the goal of having no <span class="text-dark">friction</span> or <span class="text-dark">learning curves</span>. I used a welcoming color palette and legible typography to convey safety and seriousness. Every UI element was validated to ensure speed in data entry. Design here is not just aesthetics, but essentially functional for an intuitive system. The architecture was designed so that the user feels that "doing good is easy," using tactile components and smart forms that reduce completion time.',
+        
+        'ponte_dev_title': 'Development',
+        'ponte_dev_text': 'In this project, I worked intensely on the technical development, using a modern stack composed of <span class="text-dark">Node.js, Webpack, and SCSS</span> to ensure a high-performance and modularized front-end. The structure was built on <span class="text-dark">Bootstrap</span> to ensure full responsiveness, as most interactions occur via mobile on the streets. On the back-end, we used <span class="text-dark">Django</span>, which allowed us to create a customized Administrative interface (Admin) for FUNCI, facilitating the management of complex data with the security that a public project requires.',
+
+        // Impacts
+        'ponte_impact_title': 'IMPACTS & LEARNINGS',
+        
+        'ponte_metric_1_title': 'Outreach Efficiency',
+        'ponte_metric_1_desc': '<strong>Increase in Reporting Agility.</strong> By designing a mobile-first interface focused on low friction, we reduced the average time to complete the report form. This allowed citizens to report in seconds, ensuring the mobile team received data in real-time and acted with greater geographical precision.',
+        
+        'ponte_metric_2_title': 'Social Reach and Visibility',
+        'ponte_metric_2_desc': '<strong>+680 Identifications Performed.</strong> The system acted as a technical facilitator for registering monitored children and adolescents. Visual clarity and ease of protocol inquiry generated greater public trust in the official channel, resulting in a direct increase in the number of documented social assistances.',
+        
+        'ponte_metric_3_title': 'Education and <br>Human Rights',
+        'ponte_metric_3_desc': '<strong>Democratization of Information.</strong> In addition to the reporting tool, the portal became a rights consultation hub. We recorded a high volume of access to informative sections about the Child and Adolescent Statute (ECA) and municipal laws, educating the population about conditions that constitute rights violations.',
+        
+        'ponte_metric_4_title': 'Digitization and Traceability',
+        'ponte_metric_4_desc': '<strong>End of the Data Gap.</strong> Moving from a manual process to the administrative system (Django Admin) we developed allowed full traceability of each case. Now, FUNCI has real metrics to plan public policies based on locations of higher incidence and most frequent types of occurrences.',
+        
+        'ponte_metric_5_title': 'The Importance of the Admin',
+        'ponte_metric_5_desc': 'Designing the administrative side for social educators was as vital as the public portal. Creating simple dashboards for those on the front lines is what truly makes the operation sustainable.',
+        
+        'ponte_metric_6_title': 'Design as Facilitator & Leadership',
+        'ponte_metric_6_desc': 'I learned that in social projects, design serves to build a bridge of trust between the citizen and the government, and leading this project taught me how to manage public stakeholder expectations and ensure proper development.',
+
+        // Extra Sections
+        'ponte_user_title': 'The User',
+        'ponte_user_text_1': 'To design Ponte de Encontro, it was necessary to look at two distinct realities. On one side, <span class="text-dark">the child and the adolescent</span>, the end beneficiary living in a cycle of invisibility and rights deprivation. On the other, the <span class="text-dark">active citizen</span>, represented by Alberto, who feels social discomfort but often does not act for fear of bureaucracy.',
+        'ponte_user_text_2': 'Persona mapping revealed that project success depended on removing <span class="text-dark">exacerbated friction and system learning curves</span>. Alberto needs an instant and secure reporting trigger so the child stops being invisible. The design was conceived to be the shortest and most human link possible between the will to help and public action.',
+        
+        'ponte_structure_title': 'Project <br> Structure',
+        'ponte_structure_text': 'For a social outreach project, information architecture must be the shortest path between perceiving a violation and protective action. I designed a lean and intuitive structure, eliminating noise so the citizen can act at the exact moment of need.',
+        
+        'ponte_wireframe_low_title': 'INITIAL WIREFRAMES',
+        'ponte_wireframe_low_text': 'In the mid-fidelity wireframes stage, my focus as Project Lead was removing cognitive barriers. Designing for social services requires that the citizen doesn\'t need to spend energy thinking "how to use," but rather focusing on the act of helping. I structured the information hierarchy prioritizing the reporting and inquiry flow, validating element placement before applying the visual identity. The technical focus was on:',
+        'ponte_wireframe_low_list': '<li class="project-intro-text mb-4"> <strong>Simplified Forms:</strong> Logical grouping of fields to reduce completion time.</li><li class="project-intro-text mb-4"> <strong>Mobile-First Navigation:</strong> Ensuring all components were tactile and functional for on-the-go use, where most reports occur.</li>',
+
+        'ponte_ui_title': 'User Interface <br> Design',
+        'ponte_ui_text_1': 'The visual challenge of Ponte de Encontro was balancing the seriousness of a public service with the sensitivity required by human rights. I designed a Style Guide focused on high visibility and welcoming, ensuring the interface was both an alert to society and a safe harbor for those seeking help.',
+        'ponte_ui_list': '<li class="project-intro-text mb-4"> <strong>Strategic Colors:</strong> The palette uses Orange (#DF9A14) and Yellow (#FFCC00) to evoke attention and energy. Blue (#2B5FC5) provides institutional trust.</li> <li class="project-intro-text mb-4"> <strong>Dynamic Typography:</strong> Combined Righteous for titles (modern personality) with Roboto for reading texts (accessibility).</li> <li class="project-intro-text mb-4"> <strong>Humanized Iconography:</strong> Illustrated icons facilitate quick identification of causes (child labor, exploitation, etc.), making navigation friendlier.</li>',
+
+        'ponte_wireframe_hi_title': 'High Fidelity <br> Wireframe',
+        'ponte_wireframe_hi_text': 'The high-fidelity stage translated the social commitment into a high-impact interface. I used the Design System to ensure welcoming but functional navigation. Visual hierarchy highlighted the reporting button and child rights info immediately. We implemented native accessibility tools and an info architecture organized from awareness to administrative monitoring via Django.',
+        'ponte_label_desktop_web': 'Wireframes - desktop (Website)',
+        'ponte_label_desktop_admin': 'Wireframes - desktop (Admin)',
+
+        'ponte_mobile_title': 'High Fidelity: <br> Mobile',
+        'ponte_mobile_text_1': 'As most reporting interactions occur on the move, the mobile version was the heart of the project. I focused on a highly tactile and responsive design, optimizing dense forms for quick filling. The goal was to reduce interaction time so rights violation reports happen at the exact moment of observation.',
+        'ponte_mobile_text_2': 'We adapted info density to avoid overload on smaller screens. The result is a modern, lightweight, and technically scalable interface, ready for a frictionless handoff.',
+
         // --- PROJECT: PII CKAN (ADICIONADO AQUI) ---
         'pii_hero_title': 'About the <br> Project',
         'pii_intro': 'The <span class="text-dark">PII CKAN</span> is a data governance and privacy solution developed in partnership with Citinova for Fortaleza\'s Open Data ecosystem. The tool acts as an intelligent scanner that automates the detection of personally identifiable information (PII) in massive datasets. The project was the <strong>winner of the 1st place in the Fortaleza in Control Award</strong> (Transparency category), being recognized for its effectiveness in ensuring that public transparency walks hand in hand with the protection of citizens\' privacy.',
